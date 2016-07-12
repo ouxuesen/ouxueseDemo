@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="10117" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="PictureHeardPullViewControll">
+            <connections>
+                <outlet property="headBgImageView" destination="GdS-tl-HnX" id="A1Q-ft-pHg"/>
+                <outlet property="tableHeardView" destination="Vrs-u1-SrZ" id="85o-iR-x3L"/>
+                <outlet property="tableViewS" destination="LKg-Vr-yrw" id="sdp-D1-2dZ"/>
+                <outlet property="view" destination="xTe-1o-myc" id="cMQ-Bn-Fc1"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="xTe-1o-myc">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="LKg-Vr-yrw">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="CJi-g2-niK"/>
+                        <outlet property="delegate" destination="-1" id="iQW-Qf-8u8"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="LKg-Vr-yrw" secondAttribute="trailing" id="5cG-yg-ne4"/>
+                <constraint firstAttribute="bottom" secondItem="LKg-Vr-yrw" secondAttribute="bottom" id="7OP-4Z-190"/>
+                <constraint firstItem="LKg-Vr-yrw" firstAttribute="leading" secondItem="xTe-1o-myc" secondAttribute="leading" id="VPT-xe-0sn"/>
+                <constraint firstItem="LKg-Vr-yrw" firstAttribute="top" secondItem="xTe-1o-myc" secondAttribute="top" id="uqE-Hc-Gpu"/>
+            </constraints>
+            <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
+            <point key="canvasLocation" x="344" y="336"/>
+        </view>
+        <view contentMode="scaleAspectFill" id="Vrs-u1-SrZ">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ouxuesen.jpg" translatesAutoresizingMaskIntoConstraints="NO" id="GdS-tl-HnX">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="320"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="320" id="7Zx-ta-J37"/>
+                    </constraints>
+                </imageView>
+            </subviews>
+            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="GdS-tl-HnX" firstAttribute="top" secondItem="Vrs-u1-SrZ" secondAttribute="top" id="Gw5-Dw-Hlr"/>
+                <constraint firstItem="GdS-tl-HnX" firstAttribute="leading" secondItem="Vrs-u1-SrZ" secondAttribute="leading" id="HSp-eQ-5X6"/>
+                <constraint firstAttribute="trailing" secondItem="GdS-tl-HnX" secondAttribute="trailing" id="mBz-m9-hwN"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="332" y="849"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="ouxuesen.jpg" width="320" height="320"/>
+    </resources>
+</document>

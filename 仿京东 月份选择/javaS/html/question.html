@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script type="text/javascript">
+         var jsVer = 29;
+         var phoneWidth = parseInt(window.screen.width);
+         var phoneScale = phoneWidth/750;
+
+         var ua = navigator.userAgent;
+         if (/Android (\d+\.\d+)/.test(ua)){
+              var version = parseFloat(RegExp.$1);
+              // andriod 2.3
+              if(version>2.3){
+                   document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+              // andriod 2.3以上
+              }else{
+                   document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+              }
+              // 其他系统
+         } else {
+              document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+         }
+    </script>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>风险评测-题目</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+</head>
+<body style="background-color:#FAFAFA">
+    <!-- content begin -->
+    <div class="content question-content">
+
+        <ul class="question-list">
+           
+           
+        </ul>
+        <a href="javascript:void(0);" class="btn y_btn submit_btn disable_btn">提交</a>
+    </div>
+    <!-- content end -->
+</body>
+<script type="text/template" id="question-list">
+    {{
+        var all_count = it.length;
+    }}
+    {{~it:item:index}}
+    <li class="question-item">
+        <div class="question-top">
+            <div class="item-wrapper flex">
+                <div class="question-index flex-center">{{=index+1}}/{{=all_count}}</div>
+                <p class="question-title flex-1 flex-center">{{=item.title}}</p>
+            </div>
+        </div>
+        <ul class="question-content">
+            {{~item.answer:answer_item:answer_index}}
+            <li class="answer-item" _index="{{=answer_index}}">
+                <div class="item-wrapper flex">
+                    <div class="checkbox flex-center">√</div>
+                    <p class="answer-content flex-1 flex-center">{{=answer_item}}</p>
+                </div>
+            </li>
+            {{~}}
+        </ul>
+    </li>
+    {{~}}
+</script>
+<script type="text/javascript" src="./js/jquery.min.js"></script>
+<script type="text/javascript" src="./js/jquery.cookie.js"></script>
+<script type="text/javascript" src="./js/security.js"></script>
+<script type="text/javascript" src="./js/password.js"></script>
+<script type="text/javascript" src="./js/lefinance.js"></script>
+<!-- <script type="text/javascript" src="./js/zepto.min.js"></script> -->
+<script type="text/javascript" src="./js/doT.min.js"></script>
+<script type="text/javascript" src="./js/question.js"></script>
+<script type="text/javascript">
+$(function(){
+    var $answer_item = $(".answer-item"),
+        $submit_btn = $(".submit_btn");
+    var questionList_temp = doT.template($('#question-list').html());
+    function init(){
+        $(".question-list").append(questionList_temp(question_list));
+
+        $(".question-list").on("click", ".answer-item", function(){
+             $(this).addClass("checked").siblings(".answer-item").removeClass("checked");
+             var $next = $(this).closest(".question-item").next();
+             if($(".checked").length==$(".question-item").length){
+                //已答完
+                $submit_btn.removeClass("disable_btn");
+                setTimeout(function(){$('html,body').animate({"scrollTop":"9999px"});},1000);
+             }else if($next.length>0){
+                //scrollTop往上
+                 $('html,body').animate({"scrollTop":$next.offset().top+"px"});
+             }
+        })
+
+        $submit_btn.on("click", function(){
+
+            if($submit_btn.hasClass("disable_btn") || $(".checked").length<$(".question-item").length){
+                return false;
+            }else{
+                //todo
+                var score = 0,
+                    score_type = null;
+                $.each($(".question-item"), function(index, item){
+                    var check_index = $(item).find(".checked").attr("_index");
+                    score += question_list[index].score[check_index];
+                })
+
+                if(score>=31&&score<=44){
+                    score_type = "L";
+                }else if(score>=45&&score<=57){
+                    score_type = "ML";
+                }else if(score>=58&&score<=80){
+                    score_type = "M";
+                }else if(score>=81&&score<=90){
+                    score_type = "MH";
+                }else if(score>=81&&score<=90){
+                    score_type = "MH";
+                }else if(score>=91&&score<=100){
+                    score_type = "H";
+                }
+                //TODO
+                location.href="./result.html?score_type="+score_type;
+                /*var userinfo = LePlatform.checklogin();
+                $.get("user/getRiskRate")
+                $.ajax({
+                    url:"user/getRiskRate",
+                    type:'GET',
+                    data:{"token":userinfo.userKey, 'score':score_type},
+                    dataType:'json',
+                    success:function(jsonData){
+                        console.log(jsonData);
+                        location.href="./result.html?score_type="+score_type;
+                    }
+                });*/
+            }
+        })
+    }
+    init();
+})
+</script>
+</html>
