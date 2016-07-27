@@ -25,7 +25,7 @@
     [self.view addSubview:navigation.view];
     [self addChildViewController:navigation];
     [ navigation.view setAutoresizingMask:UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin ];
-
+   
 }
 
 -(void)creatView

@@ -14,7 +14,7 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods.xcscheme</key>
+		<key>Pods-仿京东 月份选择.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -32,22 +32,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>093C8A496A3E06B9E7F34716C9710AF7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>410B25DF16EA5C5B3E2698F74F9625FB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>82692DF8C4F0249E665D6BA313EB5D61</key>
+		<key>6DF5EA081362FA25865182F6E01E336F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C58F751E50973EC143155A53F895B1FC</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FACF352598C9F539C13139F3B4AF3614</key>
+		<key>7C58E342EFD032FAA2743F58DF96E75F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
