@@ -30,6 +30,9 @@
 		D7424ECF1CE43266003D4C8A /* MCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7424ECE1CE43266003D4C8A /* MCAlertController.m */; };
 		D75207631CFC1B890075774D /* TextKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75207611CFC1B890075774D /* TextKitViewController.m */; };
 		D75207641CFC1B890075774D /* TextKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75207621CFC1B890075774D /* TextKitViewController.xib */; };
+		D754EB091D757FC90006C6AF /* CoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D754EB081D757FC90006C6AF /* CoreTextLabel.m */; };
+		D754EB0D1D75851D0006C6AF /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D754EB0B1D75851D0006C6AF /* CoreTextViewController.m */; };
+		D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D754EB0C1D75851D0006C6AF /* CoreTextViewController.xib */; };
 		D765307E1CBFCCB000AE3392 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D765307C1CBFCCB000AE3392 /* JSViewController.m */; };
 		D765307F1CBFCCB000AE3392 /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D765307D1CBFCCB000AE3392 /* JSViewController.xib */; };
 		D765315D1CBFDCE300AE3392 /* html in Resources */ = {isa = PBXBuildFile; fileRef = D765315C1CBFDCE300AE3392 /* html */; };
@@ -127,6 +130,11 @@
 		D75207601CFC1B890075774D /* TextKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitViewController.h; sourceTree = "<group>"; };
 		D75207611CFC1B890075774D /* TextKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitViewController.m; sourceTree = "<group>"; };
 		D75207621CFC1B890075774D /* TextKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextKitViewController.xib; sourceTree = "<group>"; };
+		D754EB071D757FC90006C6AF /* CoreTextLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextLabel.h; sourceTree = "<group>"; };
+		D754EB081D757FC90006C6AF /* CoreTextLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextLabel.m; sourceTree = "<group>"; };
+		D754EB0A1D75851D0006C6AF /* CoreTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextViewController.h; sourceTree = "<group>"; };
+		D754EB0B1D75851D0006C6AF /* CoreTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
+		D754EB0C1D75851D0006C6AF /* CoreTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreTextViewController.xib; sourceTree = "<group>"; };
 		D765307B1CBFCCB000AE3392 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		D765307C1CBFCCB000AE3392 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		D765307D1CBFCCB000AE3392 /* JSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSViewController.xib; sourceTree = "<group>"; };
@@ -300,6 +308,18 @@
 			path = texKit;
 			sourceTree = "<group>";
 		};
+		D754EB061D757F850006C6AF /* CoreText */ = {
+			isa = PBXGroup;
+			children = (
+				D754EB071D757FC90006C6AF /* CoreTextLabel.h */,
+				D754EB081D757FC90006C6AF /* CoreTextLabel.m */,
+				D754EB0A1D75851D0006C6AF /* CoreTextViewController.h */,
+				D754EB0B1D75851D0006C6AF /* CoreTextViewController.m */,
+				D754EB0C1D75851D0006C6AF /* CoreTextViewController.xib */,
+			);
+			path = CoreText;
+			sourceTree = "<group>";
+		};
 		D765307A1CBFCC9C00AE3392 /* javaS */ = {
 			isa = PBXGroup;
 			children = (
@@ -411,6 +431,7 @@
 				D772E2E51CB68F4600EE27ED /* 房京东月份选择 */,
 				D72954CA1D0662CC00BB8DF6 /* 时间列表 */,
 				D772E2EC1CB68F4600EE27ED /* 房京东走势图 */,
+				D754EB061D757F850006C6AF /* CoreText */,
 				D78B1BCE1CABA43800E5A834 /* Assets.xcassets */,
 				D752075F1CFC1B020075774D /* texKit */,
 				D78B1BD01CABA43800E5A834 /* LaunchScreen.storyboard */,
@@ -564,6 +585,7 @@
 				D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */,
 				D772E2DF1CB68D0F00EE27ED /* DemoName.plist in Resources */,
 				D7D417A01D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
+				D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */,
 				D772E2D81CB68C9000EE27ED /* CAbasicAbunatuinViewController.xib in Resources */,
 				D772E2F41CB68F4600EE27ED /* MouthCollectionViewCell.xib in Resources */,
 				D7AEF5C31CBF9415001D159E /* ShowNavigationBarViewController.xib in Resources */,
@@ -639,6 +661,7 @@
 				D7AEF5C01CBF8F37001D159E /* ShowNavigationBarViewController.swift in Sources */,
 				D77322FC1CEB2188003D0219 /* CaptureSessionDemoViewController.m in Sources */,
 				D70C38A91CF843A7001E0875 /* DreawLineViewController.m in Sources */,
+				D754EB0D1D75851D0006C6AF /* CoreTextViewController.m in Sources */,
 				D72C33F01CBCC87D0069A866 /* ShowMBprogressViewController.m in Sources */,
 				D700C0501D2DFBC800E957E6 /* ContinerViewController.m in Sources */,
 				D7424ECB1CE4285A003D4C8A /* KeyWindowLevelViewController.m in Sources */,
@@ -651,6 +674,7 @@
 				D7416E901D0173F30093D5CE /* GameConrierView.m in Sources */,
 				D772E2F11CB68F4600EE27ED /* LFDMonthSelectViewController.m in Sources */,
 				D78B1BC41CABA43800E5A834 /* main.m in Sources */,
+				D754EB091D757FC90006C6AF /* CoreTextLabel.m in Sources */,
 				D765307E1CBFCCB000AE3392 /* JSViewController.m in Sources */,
 				D72954D21D06D08100BB8DF6 /* CFGradientLabel.m in Sources */,
 				D77323011CEB22CF003D0219 /* ShowPhoneViewController.m in Sources */,
