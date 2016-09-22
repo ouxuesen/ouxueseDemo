@@ -25,7 +25,10 @@
     [self.view addSubview:navigation.view];
     [self addChildViewController:navigation];
     [ navigation.view setAutoresizingMask:UIViewAutoresizingFlexibleLeftMargin|UIViewAutoresizingFlexibleRightMargin|UIViewAutoresizingFlexibleTopMargin|UIViewAutoresizingFlexibleBottomMargin ];
-   
+    NSString *jsonPath = [[NSBundle mainBundle] pathForResource:@"update" ofType:@"json"];
+    NSError * error = nil;
+    NSDictionary * dic = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:jsonPath] options:kNilOptions error:&error];
+    NSLog(@"dic = %@",dic);
 }
 
 -(void)creatView

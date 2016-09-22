@@ -33,6 +33,8 @@
 		D754EB091D757FC90006C6AF /* CoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D754EB081D757FC90006C6AF /* CoreTextLabel.m */; };
 		D754EB0D1D75851D0006C6AF /* CoreTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D754EB0B1D75851D0006C6AF /* CoreTextViewController.m */; };
 		D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D754EB0C1D75851D0006C6AF /* CoreTextViewController.xib */; };
+		D7628DE01D82AE4900013B81 /* country_code.json in Resources */ = {isa = PBXBuildFile; fileRef = D7628DDF1D82AE4900013B81 /* country_code.json */; };
+		D7628DE41D82B0A000013B81 /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D7628DE31D82B0A000013B81 /* update.json */; };
 		D765307E1CBFCCB000AE3392 /* JSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D765307C1CBFCCB000AE3392 /* JSViewController.m */; };
 		D765307F1CBFCCB000AE3392 /* JSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D765307D1CBFCCB000AE3392 /* JSViewController.xib */; };
 		D765315D1CBFDCE300AE3392 /* html in Resources */ = {isa = PBXBuildFile; fileRef = D765315C1CBFDCE300AE3392 /* html */; };
@@ -135,6 +137,8 @@
 		D754EB0A1D75851D0006C6AF /* CoreTextViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoreTextViewController.h; sourceTree = "<group>"; };
 		D754EB0B1D75851D0006C6AF /* CoreTextViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CoreTextViewController.m; sourceTree = "<group>"; };
 		D754EB0C1D75851D0006C6AF /* CoreTextViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CoreTextViewController.xib; sourceTree = "<group>"; };
+		D7628DDF1D82AE4900013B81 /* country_code.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = country_code.json; sourceTree = "<group>"; };
+		D7628DE31D82B0A000013B81 /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
 		D765307B1CBFCCB000AE3392 /* JSViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSViewController.h; sourceTree = "<group>"; };
 		D765307C1CBFCCB000AE3392 /* JSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSViewController.m; sourceTree = "<group>"; };
 		D765307D1CBFCCB000AE3392 /* JSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = JSViewController.xib; sourceTree = "<group>"; };
@@ -402,7 +406,9 @@
 		D78B1BC11CABA43800E5A834 /* 仿京东 月份选择 */ = {
 			isa = PBXGroup;
 			children = (
+				D7628DDF1D82AE4900013B81 /* country_code.json */,
 				D78B1BC51CABA43800E5A834 /* AppDelegate.h */,
+				D7628DE31D82B0A000013B81 /* update.json */,
 				D78B1BC61CABA43800E5A834 /* AppDelegate.m */,
 				D78B1BC81CABA43800E5A834 /* ViewController.h */,
 				D78B1BC91CABA43800E5A834 /* ViewController.m */,
@@ -573,6 +579,7 @@
 				D772E2E41CB68E4700EE27ED /* MenuViewController.xib in Resources */,
 				D78B1BCD1CABA43800E5A834 /* Main.storyboard in Resources */,
 				D75207641CFC1B890075774D /* TextKitViewController.xib in Resources */,
+				D7628DE41D82B0A000013B81 /* update.json in Resources */,
 				D7424ECC1CE4285A003D4C8A /* KeyWindowLevelViewController.xib in Resources */,
 				D7B3B5811D05677400268A4F /* PresentSubViewController.xib in Resources */,
 				D72C33EC1CBCC8550069A866 /* MBProgressHUDListTableViewController.xib in Resources */,
@@ -592,6 +599,7 @@
 				D7D54BE51CFDB73600B8CE84 /* GradientViewController.xib in Resources */,
 				D7416E8D1D0173DC0093D5CE /* GaMeViewController.xib in Resources */,
 				D77322FD1CEB2188003D0219 /* CaptureSessionDemoViewController.xib in Resources */,
+				D7628DE01D82AE4900013B81 /* country_code.json in Resources */,
 				D70C38A01CF83B5D001E0875 /* ouxuesen@2x.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

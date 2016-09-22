@@ -28,7 +28,7 @@ DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - MBProgressHUD (~> 0.9.2)
   - SVProgressHUD
-  - WebViewJavascriptBridge (~> 5.0)
+  - WebViewJavascriptBridge
 
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
@@ -36,6 +36,6 @@ SPEC CHECKSUMS:
   SVProgressHUD: b0830714205bea1317ea1a2ebc71e5633af334d4
   WebViewJavascriptBridge: a4d502315f1b8d9a51cd6a9174147ed567ec3bc5
 
-PODFILE CHECKSUM: ec1d3ff89b3b6f36cbc7133af0d1b4429e4b754e
+PODFILE CHECKSUM: 02aa7890bfc2009d3dd63c16baac3b578aa5378c
 
 COCOAPODS: 1.0.1
