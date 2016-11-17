@@ -28,6 +28,8 @@
 		D7424ECB1CE4285A003D4C8A /* KeyWindowLevelViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7424EC91CE4285A003D4C8A /* KeyWindowLevelViewController.m */; };
 		D7424ECC1CE4285A003D4C8A /* KeyWindowLevelViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7424ECA1CE4285A003D4C8A /* KeyWindowLevelViewController.xib */; };
 		D7424ECF1CE43266003D4C8A /* MCAlertController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7424ECE1CE43266003D4C8A /* MCAlertController.m */; };
+		D74A69CC1DDDB651000728CD /* AutolayoutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D74A69CA1DDDB651000728CD /* AutolayoutViewController.m */; };
+		D74A69CD1DDDB651000728CD /* AutolayoutViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D74A69CB1DDDB651000728CD /* AutolayoutViewController.xib */; };
 		D75207631CFC1B890075774D /* TextKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75207611CFC1B890075774D /* TextKitViewController.m */; };
 		D75207641CFC1B890075774D /* TextKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75207621CFC1B890075774D /* TextKitViewController.xib */; };
 		D754EB091D757FC90006C6AF /* CoreTextLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D754EB081D757FC90006C6AF /* CoreTextLabel.m */; };
@@ -129,6 +131,9 @@
 		D7424ECA1CE4285A003D4C8A /* KeyWindowLevelViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KeyWindowLevelViewController.xib; sourceTree = "<group>"; };
 		D7424ECD1CE4325C003D4C8A /* MCAlertController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MCAlertController.h; sourceTree = "<group>"; };
 		D7424ECE1CE43266003D4C8A /* MCAlertController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MCAlertController.m; sourceTree = "<group>"; };
+		D74A69C91DDDB651000728CD /* AutolayoutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutolayoutViewController.h; sourceTree = "<group>"; };
+		D74A69CA1DDDB651000728CD /* AutolayoutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutolayoutViewController.m; sourceTree = "<group>"; };
+		D74A69CB1DDDB651000728CD /* AutolayoutViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutolayoutViewController.xib; sourceTree = "<group>"; };
 		D75207601CFC1B890075774D /* TextKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TextKitViewController.h; sourceTree = "<group>"; };
 		D75207611CFC1B890075774D /* TextKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TextKitViewController.m; sourceTree = "<group>"; };
 		D75207621CFC1B890075774D /* TextKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TextKitViewController.xib; sourceTree = "<group>"; };
@@ -300,6 +305,16 @@
 			path = windowLevel;
 			sourceTree = "<group>";
 		};
+		D74A69C81DDDB632000728CD /* autolyout */ = {
+			isa = PBXGroup;
+			children = (
+				D74A69C91DDDB651000728CD /* AutolayoutViewController.h */,
+				D74A69CA1DDDB651000728CD /* AutolayoutViewController.m */,
+				D74A69CB1DDDB651000728CD /* AutolayoutViewController.xib */,
+			);
+			path = autolyout;
+			sourceTree = "<group>";
+		};
 		D752075F1CFC1B020075774D /* texKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -438,6 +453,7 @@
 				D72954CA1D0662CC00BB8DF6 /* 时间列表 */,
 				D772E2EC1CB68F4600EE27ED /* 房京东走势图 */,
 				D754EB061D757F850006C6AF /* CoreText */,
+				D74A69C81DDDB632000728CD /* autolyout */,
 				D78B1BCE1CABA43800E5A834 /* Assets.xcassets */,
 				D752075F1CFC1B020075774D /* texKit */,
 				D78B1BD01CABA43800E5A834 /* LaunchScreen.storyboard */,
@@ -541,6 +557,7 @@
 					D78B1BBE1CABA43800E5A834 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 4B7W4R45RH;
+						LastSwiftMigration = 0810;
 					};
 				};
 			};
@@ -573,6 +590,7 @@
 				D7D4179E1D1250A200E41214 /* 新浪首页.html in Resources */,
 				D72C33F11CBCC87D0069A866 /* ShowMBprogressViewController.xib in Resources */,
 				D700C0511D2DFBC800E957E6 /* ContinerViewController.xib in Resources */,
+				D74A69CD1DDDB651000728CD /* AutolayoutViewController.xib in Resources */,
 				D78B1BD21CABA43800E5A834 /* LaunchScreen.storyboard in Resources */,
 				D7B3B57C1D05675900268A4F /* PresentVCViewController.xib in Resources */,
 				D78B1BCF1CABA43800E5A834 /* Assets.xcassets in Resources */,
@@ -686,6 +704,7 @@
 				D765307E1CBFCCB000AE3392 /* JSViewController.m in Sources */,
 				D72954D21D06D08100BB8DF6 /* CFGradientLabel.m in Sources */,
 				D77323011CEB22CF003D0219 /* ShowPhoneViewController.m in Sources */,
+				D74A69CC1DDDB651000728CD /* AutolayoutViewController.m in Sources */,
 				D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */,
 				D772E2E31CB68E4700EE27ED /* MenuViewController.m in Sources */,
 				D7FD2DFF1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m in Sources */,
@@ -826,6 +845,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "仿京东 月份选择/仿京东 月份选择-Bridging-Header.h/";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
@@ -853,6 +873,7 @@
 				PRODUCT_MODULE_NAME = "$(PRODUCT_NAME:c99extidentifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "仿京东 月份选择/仿京东 月份选择-Bridging-Header.h/";
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};

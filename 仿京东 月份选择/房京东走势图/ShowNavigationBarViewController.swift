@@ -28,7 +28,7 @@ class ShowNavigationBarViewController: UIViewController {
         self.navigationController?.setNavigationBarHidden(fag, animated: true)
         let control = UIControl(frame: CGRectMake(0, 0, 300, 300))
         control.backgroundColor = UIColor.blueColor()
-        control.addTarget(self, action: Selector("touchBtnCLick"), forControlEvents: UIControlEvents.TouchUpInside)
+        control.addTarget(self, action: #selector(ShowNavigationBarViewController.touchBtnCLick), forControlEvents: UIControlEvents.TouchUpInside)
         self.view.addSubview(control)
         
         // Do any additional setup after loading the view.
