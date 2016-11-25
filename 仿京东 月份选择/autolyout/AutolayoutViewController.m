@@ -49,8 +49,21 @@
     UILabel * lable_4 =tempArray[3];
     NSLayoutConstraint * left_1 = [NSLayoutConstraint constraintWithItem:lable_1 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:continerView attribute:NSLayoutAttributeLeft multiplier:1 constant:0];
     [continerView addConstraint:left_1];
-    NSLayoutConstraint * right_1 = [NSLayoutConstraint constraintWithItem:lable_1 attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:continerView attribute:NSLayoutAttributeLeft multiplier:1 constant:0];
-    [continerView addConstraint:left_1];
+    NSLayoutConstraint * left_2 = [NSLayoutConstraint constraintWithItem:lable_2 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:lable_1 attribute:NSLayoutAttributeRight multiplier:1 constant:5];
+    [lable_2 addConstraint:left_2];
+    NSLayoutConstraint * left_3 = [NSLayoutConstraint constraintWithItem:lable_3 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:lable_2 attribute:NSLayoutAttributeRight multiplier:1 constant:5];
+    [lable_3 addConstraint:left_3];
+    NSLayoutConstraint * left_4 = [NSLayoutConstraint constraintWithItem:lable_4 attribute:NSLayoutAttributeLeft relatedBy:NSLayoutRelationEqual toItem:lable_3 attribute:NSLayoutAttributeRight multiplier:1 constant:5];
+    [lable_4 addConstraint:left_4];
+    NSLayoutConstraint * right_1 = [NSLayoutConstraint constraintWithItem:lable_4 attribute:NSLayoutAttributeRight relatedBy:NSLayoutRelationEqual toItem:lable_3 attribute:NSLayoutAttributeRight multiplier:1 constant:0];
+    [continerView addConstraint:right_1];
+    
+    NSLayoutConstraint * width_1 = [NSLayoutConstraint constraintWithItem:lable_2 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:lable_1 attribute:NSLayoutAttributeWidth multiplier:1 constant:0];
+    [lable_2 addConstraint:width_1];
+    NSLayoutConstraint * width_2 = [NSLayoutConstraint constraintWithItem:lable_3 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:lable_1 attribute:NSLayoutAttributeWidth multiplier:1 constant:0];
+    [lable_3 addConstraint:width_2];
+    NSLayoutConstraint * width_3 = [NSLayoutConstraint constraintWithItem:lable_4 attribute:NSLayoutAttributeWidth relatedBy:NSLayoutRelationEqual toItem:lable_1 attribute:NSLayoutAttributeWidth multiplier:1 constant:0];
+    [lable_4 addConstraint:width_3];
 }
 
 - (void)didReceiveMemoryWarning {
