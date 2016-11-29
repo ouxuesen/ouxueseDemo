@@ -15,6 +15,9 @@
 		D70C38A01CF83B5D001E0875 /* ouxuesen@2x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = D70C389F1CF83B5D001E0875 /* ouxuesen@2x.jpg */; };
 		D70C38A91CF843A7001E0875 /* DreawLineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D70C38A71CF843A7001E0875 /* DreawLineViewController.m */; };
 		D70C38AA1CF843A7001E0875 /* DreawLineViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D70C38A81CF843A7001E0875 /* DreawLineViewController.xib */; };
+		D711BD141DE8621F002DDB70 /* ShowRuntimeObjc.m in Sources */ = {isa = PBXBuildFile; fileRef = D711BD131DE8621F002DDB70 /* ShowRuntimeObjc.m */; };
+		D711BD181DE86236002DDB70 /* RuntimeDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D711BD161DE86236002DDB70 /* RuntimeDemoViewController.m */; };
+		D711BD191DE86236002DDB70 /* RuntimeDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D711BD171DE86236002DDB70 /* RuntimeDemoViewController.xib */; };
 		D72954CE1D06631A00BB8DF6 /* TimeListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D72954CD1D06631A00BB8DF6 /* TimeListViewController.swift */; };
 		D72954D21D06D08100BB8DF6 /* CFGradientLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D72954D11D06D08100BB8DF6 /* CFGradientLabel.m */; };
 		D72C33EB1CBCC8550069A866 /* MBProgressHUDListTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72C33E91CBCC8550069A866 /* MBProgressHUDListTableViewController.m */; };
@@ -109,6 +112,11 @@
 		D70C38A61CF843A7001E0875 /* DreawLineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DreawLineViewController.h; sourceTree = "<group>"; };
 		D70C38A71CF843A7001E0875 /* DreawLineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DreawLineViewController.m; sourceTree = "<group>"; };
 		D70C38A81CF843A7001E0875 /* DreawLineViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DreawLineViewController.xib; sourceTree = "<group>"; };
+		D711BD121DE8621F002DDB70 /* ShowRuntimeObjc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowRuntimeObjc.h; sourceTree = "<group>"; };
+		D711BD131DE8621F002DDB70 /* ShowRuntimeObjc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowRuntimeObjc.m; sourceTree = "<group>"; };
+		D711BD151DE86236002DDB70 /* RuntimeDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RuntimeDemoViewController.h; sourceTree = "<group>"; };
+		D711BD161DE86236002DDB70 /* RuntimeDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RuntimeDemoViewController.m; sourceTree = "<group>"; };
+		D711BD171DE86236002DDB70 /* RuntimeDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RuntimeDemoViewController.xib; sourceTree = "<group>"; };
 		D72954CD1D06631A00BB8DF6 /* TimeListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TimeListViewController.swift; sourceTree = "<group>"; };
 		D72954CF1D066BF100BB8DF6 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
 		D72954D01D06D08100BB8DF6 /* CFGradientLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CFGradientLabel.h; sourceTree = "<group>"; };
@@ -256,6 +264,18 @@
 				D70C38A81CF843A7001E0875 /* DreawLineViewController.xib */,
 			);
 			path = "画虚线";
+			sourceTree = "<group>";
+		};
+		D711BD111DE861F5002DDB70 /* runtime */ = {
+			isa = PBXGroup;
+			children = (
+				D711BD121DE8621F002DDB70 /* ShowRuntimeObjc.h */,
+				D711BD131DE8621F002DDB70 /* ShowRuntimeObjc.m */,
+				D711BD151DE86236002DDB70 /* RuntimeDemoViewController.h */,
+				D711BD161DE86236002DDB70 /* RuntimeDemoViewController.m */,
+				D711BD171DE86236002DDB70 /* RuntimeDemoViewController.xib */,
+			);
+			path = runtime;
 			sourceTree = "<group>";
 		};
 		D72954CA1D0662CC00BB8DF6 /* 时间列表 */ = {
@@ -455,6 +475,7 @@
 				D754EB061D757F850006C6AF /* CoreText */,
 				D74A69C81DDDB632000728CD /* autolyout */,
 				D78B1BCE1CABA43800E5A834 /* Assets.xcassets */,
+				D711BD111DE861F5002DDB70 /* runtime */,
 				D752075F1CFC1B020075774D /* texKit */,
 				D78B1BD01CABA43800E5A834 /* LaunchScreen.storyboard */,
 				D78B1BD31CABA43800E5A834 /* Info.plist */,
@@ -590,6 +611,7 @@
 				D7D4179E1D1250A200E41214 /* 新浪首页.html in Resources */,
 				D72C33F11CBCC87D0069A866 /* ShowMBprogressViewController.xib in Resources */,
 				D700C0511D2DFBC800E957E6 /* ContinerViewController.xib in Resources */,
+				D711BD191DE86236002DDB70 /* RuntimeDemoViewController.xib in Resources */,
 				D74A69CD1DDDB651000728CD /* AutolayoutViewController.xib in Resources */,
 				D78B1BD21CABA43800E5A834 /* LaunchScreen.storyboard in Resources */,
 				D7B3B57C1D05675900268A4F /* PresentVCViewController.xib in Resources */,
@@ -684,6 +706,7 @@
 				D7B3B5801D05677400268A4F /* PresentSubViewController.m in Sources */,
 				D7FD2DFA1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.m in Sources */,
 				D7416E931D0174140093D5CE /* CreatCellView.m in Sources */,
+				D711BD141DE8621F002DDB70 /* ShowRuntimeObjc.m in Sources */,
 				D7AEF5C01CBF8F37001D159E /* ShowNavigationBarViewController.swift in Sources */,
 				D77322FC1CEB2188003D0219 /* CaptureSessionDemoViewController.m in Sources */,
 				D70C38A91CF843A7001E0875 /* DreawLineViewController.m in Sources */,
@@ -712,6 +735,7 @@
 				D75207631CFC1B890075774D /* TextKitViewController.m in Sources */,
 				D72C33EB1CBCC8550069A866 /* MBProgressHUDListTableViewController.m in Sources */,
 				D772E2F51CB68F4600EE27ED /* CAShapeLayer+Animation.m in Sources */,
+				D711BD181DE86236002DDB70 /* RuntimeDemoViewController.m in Sources */,
 				D772E2F61CB68F4600EE27ED /* LFDCoordinateView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
