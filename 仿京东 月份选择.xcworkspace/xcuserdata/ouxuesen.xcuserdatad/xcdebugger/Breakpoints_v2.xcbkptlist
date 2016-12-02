@@ -9,12 +9,12 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "&#x4eff;&#x4eac;&#x4e1c; &#x6708;&#x4efd;&#x9009;&#x62e9;/zxing/ZxingDemoViewController.m"
-            timestampString = "502342665.998107"
+            filePath = "&#x4eff;&#x4eac;&#x4e1c; &#x6708;&#x4efd;&#x9009;&#x62e9;/&#x539f;&#x58f0;&#x4e8c;&#x7ef4;&#x7801;&#x5904;&#x7406;/SystemQRViewController.m"
+            timestampString = "502365194.068308"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "71"
-            endingLineNumber = "71"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
             landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>

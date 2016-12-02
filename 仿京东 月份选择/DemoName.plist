@@ -154,5 +154,13 @@
 		<key>type</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>原生二维码</string>
+		<key>vc</key>
+		<string>SystemQRViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
 </array>
 </plist>

@@ -60,6 +60,10 @@
 		D77322FD1CEB2188003D0219 /* CaptureSessionDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77322FB1CEB2188003D0219 /* CaptureSessionDemoViewController.xib */; };
 		D77323011CEB22CF003D0219 /* ShowPhoneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77322FF1CEB22CF003D0219 /* ShowPhoneViewController.m */; };
 		D77323021CEB22CF003D0219 /* ShowPhoneViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77323001CEB22CF003D0219 /* ShowPhoneViewController.xib */; };
+		D77469131DF172D500918553 /* SystemQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77469111DF172D500918553 /* SystemQRViewController.m */; };
+		D77469141DF172D500918553 /* SystemQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77469121DF172D500918553 /* SystemQRViewController.xib */; };
+		D77469171DF1731300918553 /* LFDRQDealManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D77469161DF1731300918553 /* LFDRQDealManger.m */; };
+		D77469191DF17BC300918553 /* appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D77469181DF17BC300918553 /* appIcon@2x.png */; };
 		D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78908451CBE31F500CB62FF /* NetworkViewController.m */; };
 		D78908481CBE31F500CB62FF /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78908461CBE31F500CB62FF /* NetworkViewController.xib */; };
 		D78B1BC41CABA43800E5A834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78B1BC31CABA43800E5A834 /* main.m */; };
@@ -184,6 +188,12 @@
 		D77322FE1CEB22CF003D0219 /* ShowPhoneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowPhoneViewController.h; sourceTree = "<group>"; };
 		D77322FF1CEB22CF003D0219 /* ShowPhoneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowPhoneViewController.m; sourceTree = "<group>"; };
 		D77323001CEB22CF003D0219 /* ShowPhoneViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShowPhoneViewController.xib; sourceTree = "<group>"; };
+		D77469101DF172D500918553 /* SystemQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SystemQRViewController.h; sourceTree = "<group>"; };
+		D77469111DF172D500918553 /* SystemQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SystemQRViewController.m; sourceTree = "<group>"; };
+		D77469121DF172D500918553 /* SystemQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SystemQRViewController.xib; sourceTree = "<group>"; };
+		D77469151DF1731300918553 /* LFDRQDealManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDRQDealManger.h; sourceTree = "<group>"; };
+		D77469161DF1731300918553 /* LFDRQDealManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDRQDealManger.m; sourceTree = "<group>"; };
+		D77469181DF17BC300918553 /* appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@2x.png"; sourceTree = "<group>"; };
 		D78908441CBE31F500CB62FF /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
 		D78908451CBE31F500CB62FF /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
 		D78908461CBE31F500CB62FF /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
@@ -416,6 +426,18 @@
 			path = "自定义相机";
 			sourceTree = "<group>";
 		};
+		D774690F1DF172BE00918553 /* 原声二维码处理 */ = {
+			isa = PBXGroup;
+			children = (
+				D77469101DF172D500918553 /* SystemQRViewController.h */,
+				D77469111DF172D500918553 /* SystemQRViewController.m */,
+				D77469121DF172D500918553 /* SystemQRViewController.xib */,
+				D77469151DF1731300918553 /* LFDRQDealManger.h */,
+				D77469161DF1731300918553 /* LFDRQDealManger.m */,
+			);
+			path = "原声二维码处理";
+			sourceTree = "<group>";
+		};
 		D78908431CBE31DF00CB62FF /* 网络 */ = {
 			isa = PBXGroup;
 			children = (
@@ -458,6 +480,7 @@
 				D772E2E01CB68E4700EE27ED /* MenuViewController.h */,
 				D772E2E11CB68E4700EE27ED /* MenuViewController.m */,
 				D772E32A1CB8FE6700EE27ED /* ViewController.swift */,
+				D77469181DF17BC300918553 /* appIcon@2x.png */,
 				D772E32B1CB8FE6700EE27ED /* ViewController.xib */,
 				D772E2E21CB68E4700EE27ED /* MenuViewController.xib */,
 				D772E2D41CB68C9000EE27ED /* CAbasicAbunatuinViewController.h */,
@@ -479,6 +502,7 @@
 				D772E2E51CB68F4600EE27ED /* 房京东月份选择 */,
 				D7EE64CF1DF10E6000E53C0A /* zxing */,
 				D72954CA1D0662CC00BB8DF6 /* 时间列表 */,
+				D774690F1DF172BE00918553 /* 原声二维码处理 */,
 				D772E2EC1CB68F4600EE27ED /* 房京东走势图 */,
 				D754EB061D757F850006C6AF /* CoreText */,
 				D74A69C81DDDB632000728CD /* autolyout */,
@@ -639,6 +663,7 @@
 				D78B1BD21CABA43800E5A834 /* LaunchScreen.storyboard in Resources */,
 				D7B3B57C1D05675900268A4F /* PresentVCViewController.xib in Resources */,
 				D78B1BCF1CABA43800E5A834 /* Assets.xcassets in Resources */,
+				D77469191DF17BC300918553 /* appIcon@2x.png in Resources */,
 				D772E2E41CB68E4700EE27ED /* MenuViewController.xib in Resources */,
 				D78B1BCD1CABA43800E5A834 /* Main.storyboard in Resources */,
 				D75207641CFC1B890075774D /* TextKitViewController.xib in Resources */,
@@ -660,6 +685,7 @@
 				D772E2D81CB68C9000EE27ED /* CAbasicAbunatuinViewController.xib in Resources */,
 				D772E2F41CB68F4600EE27ED /* MouthCollectionViewCell.xib in Resources */,
 				D7AEF5C31CBF9415001D159E /* ShowNavigationBarViewController.xib in Resources */,
+				D77469141DF172D500918553 /* SystemQRViewController.xib in Resources */,
 				D7D54BE51CFDB73600B8CE84 /* GradientViewController.xib in Resources */,
 				D7416E8D1D0173DC0093D5CE /* GaMeViewController.xib in Resources */,
 				D77322FD1CEB2188003D0219 /* CaptureSessionDemoViewController.xib in Resources */,
@@ -733,6 +759,7 @@
 				D711BD141DE8621F002DDB70 /* ShowRuntimeObjc.m in Sources */,
 				D7AEF5C01CBF8F37001D159E /* ShowNavigationBarViewController.swift in Sources */,
 				D77322FC1CEB2188003D0219 /* CaptureSessionDemoViewController.m in Sources */,
+				D77469131DF172D500918553 /* SystemQRViewController.m in Sources */,
 				D70C38A91CF843A7001E0875 /* DreawLineViewController.m in Sources */,
 				D754EB0D1D75851D0006C6AF /* CoreTextViewController.m in Sources */,
 				D72C33F01CBCC87D0069A866 /* ShowMBprogressViewController.m in Sources */,
@@ -754,6 +781,7 @@
 				D74A69CC1DDDB651000728CD /* AutolayoutViewController.m in Sources */,
 				D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */,
 				D772E2E31CB68E4700EE27ED /* MenuViewController.m in Sources */,
+				D77469171DF1731300918553 /* LFDRQDealManger.m in Sources */,
 				D7EE64D31DF10E7400E53C0A /* ZxingDemoViewController.m in Sources */,
 				D7FD2DFF1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m in Sources */,
 				D7416E8C1D0173DC0093D5CE /* GaMeViewController.m in Sources */,

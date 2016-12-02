@@ -49,34 +49,7 @@
         NSString *errorMessage = [error localizedDescription];
         NSLog(@"errorMessage = %@",errorMessage);
     }
-    //接二维码
-//    CGImageRef imageToDecode;  // Given a CGImage in which we are looking for barcodes
-    
-    ZXLuminanceSource *source = [[ZXCGImageLuminanceSource alloc] initWithCGImage:imageToDecode] ;
-    ZXBinaryBitmap *bitmap = [ZXBinaryBitmap binaryBitmapWithBinarizer:[ZXHybridBinarizer binarizerWithSource:source]];
-    
-
-    
-    // There are a number of hints we can give to the reader, including
-    // possible formats, allowed lengths, and the string encoding.
-    ZXDecodeHints *hints = [ZXDecodeHints hints];
-    
-    ZXMultiFormatReader *reader = [ZXMultiFormatReader reader];
-    ZXResult *resultTemp = [reader decode:bitmap error:&error];
-   
-    if (resultTemp) {
-        // The coded result as a string. The raw data can be accessed with
-        // result.rawBytes and result.length.
-        NSString *contents = resultTemp.text;
-        
-        // The barcode format, such as a QR code or UPC-A
-        ZXBarcodeFormat format = resultTemp.barcodeFormat;
-    } else {
-        // Use error to determine why we didn't get a result, such as a barcode
-        // not being found, an invalid checksum, or a format inconsistency.
-    }
-    
-}
+  }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
