@@ -78,6 +78,8 @@
 		D7D417A01D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */ = {isa = PBXBuildFile; fileRef = D7D4179F1D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html */; };
 		D7D54BE41CFDB73600B8CE84 /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D54BE21CFDB73600B8CE84 /* GradientViewController.m */; };
 		D7D54BE51CFDB73600B8CE84 /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D54BE31CFDB73600B8CE84 /* GradientViewController.xib */; };
+		D7EE64D31DF10E7400E53C0A /* ZxingDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7EE64D11DF10E7400E53C0A /* ZxingDemoViewController.m */; };
+		D7EE64D41DF10E7400E53C0A /* ZxingDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7EE64D21DF10E7400E53C0A /* ZxingDemoViewController.xib */; };
 		D7FD2DFA1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD2DF81CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.m */; };
 		D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FD2DF91CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib */; };
 		D7FD2DFF1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD2DFD1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m */; };
@@ -208,6 +210,10 @@
 		D7D54BE11CFDB73600B8CE84 /* GradientViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GradientViewController.h; sourceTree = "<group>"; };
 		D7D54BE21CFDB73600B8CE84 /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		D7D54BE31CFDB73600B8CE84 /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
+		D7EE64D01DF10E7400E53C0A /* ZxingDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZxingDemoViewController.h; sourceTree = "<group>"; };
+		D7EE64D11DF10E7400E53C0A /* ZxingDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZxingDemoViewController.m; sourceTree = "<group>"; };
+		D7EE64D21DF10E7400E53C0A /* ZxingDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ZxingDemoViewController.xib; sourceTree = "<group>"; };
+		D7EE64D51DF144B200E53C0A /* 仿京东 月份选择.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "仿京东 月份选择.entitlements"; sourceTree = "<group>"; };
 		D7FD2DF71CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutCellHeightViewController.h; sourceTree = "<group>"; };
 		D7FD2DF81CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutCellHeightViewController.m; sourceTree = "<group>"; };
 		D7FD2DF91CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutCellHeightViewController.xib; sourceTree = "<group>"; };
@@ -441,6 +447,7 @@
 		D78B1BC11CABA43800E5A834 /* 仿京东 月份选择 */ = {
 			isa = PBXGroup;
 			children = (
+				D7EE64D51DF144B200E53C0A /* 仿京东 月份选择.entitlements */,
 				D7628DDF1D82AE4900013B81 /* country_code.json */,
 				D78B1BC51CABA43800E5A834 /* AppDelegate.h */,
 				D7628DE31D82B0A000013B81 /* update.json */,
@@ -470,6 +477,7 @@
 				D70C38991CF83987001E0875 /* 拉伸头 */,
 				D7FD2DF61CF3F779004A53A8 /* 自动适配cell高度 */,
 				D772E2E51CB68F4600EE27ED /* 房京东月份选择 */,
+				D7EE64CF1DF10E6000E53C0A /* zxing */,
 				D72954CA1D0662CC00BB8DF6 /* 时间列表 */,
 				D772E2EC1CB68F4600EE27ED /* 房京东走势图 */,
 				D754EB061D757F850006C6AF /* CoreText */,
@@ -529,6 +537,16 @@
 			path = "渐变色";
 			sourceTree = "<group>";
 		};
+		D7EE64CF1DF10E6000E53C0A /* zxing */ = {
+			isa = PBXGroup;
+			children = (
+				D7EE64D01DF10E7400E53C0A /* ZxingDemoViewController.h */,
+				D7EE64D11DF10E7400E53C0A /* ZxingDemoViewController.m */,
+				D7EE64D21DF10E7400E53C0A /* ZxingDemoViewController.xib */,
+			);
+			path = zxing;
+			sourceTree = "<group>";
+		};
 		D7FD2DF61CF3F779004A53A8 /* 自动适配cell高度 */ = {
 			isa = PBXGroup;
 			children = (
@@ -579,6 +597,11 @@
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = 4B7W4R45RH;
 						LastSwiftMigration = 0810;
+						SystemCapabilities = {
+							com.apple.SafariKeychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -630,6 +653,7 @@
 				D70C38AA1CF843A7001E0875 /* DreawLineViewController.xib in Resources */,
 				D765307F1CBFCCB000AE3392 /* JSViewController.xib in Resources */,
 				D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */,
+				D7EE64D41DF10E7400E53C0A /* ZxingDemoViewController.xib in Resources */,
 				D772E2DF1CB68D0F00EE27ED /* DemoName.plist in Resources */,
 				D7D417A01D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
 				D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */,
@@ -689,7 +713,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -730,6 +754,7 @@
 				D74A69CC1DDDB651000728CD /* AutolayoutViewController.m in Sources */,
 				D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */,
 				D772E2E31CB68E4700EE27ED /* MenuViewController.m in Sources */,
+				D7EE64D31DF10E7400E53C0A /* ZxingDemoViewController.m in Sources */,
 				D7FD2DFF1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m in Sources */,
 				D7416E8C1D0173DC0093D5CE /* GaMeViewController.m in Sources */,
 				D75207631CFC1B890075774D /* TextKitViewController.m in Sources */,
@@ -850,6 +875,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "仿京东 月份选择/仿京东 月份选择.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
@@ -879,6 +905,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = "仿京东 月份选择/仿京东 月份选择.entitlements";
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				DEFINES_MODULE = YES;
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;

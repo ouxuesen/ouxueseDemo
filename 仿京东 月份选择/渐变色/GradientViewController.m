@@ -16,11 +16,13 @@
     self = [super initWithFrame:frame];
     if (self) {
         CAShapeLayer * shapLayer = [CAShapeLayer layer];
-        UIBezierPath * path = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(1, 1, frame.size.width, frame.size.height)];
+        frame.origin.x = 0;
+        frame.origin.y = 0;
+        UIBezierPath * path = [UIBezierPath bezierPathWithRect:frame];
         [shapLayer addAnimationTwoOnduration:2.0];
         shapLayer.path = path.CGPath;
         shapLayer.lineWidth = 2.1f;
-        shapLayer.fillColor = [UIColor clearColor].CGColor;
+        shapLayer.fillColor = [UIColor whiteColor].CGColor;
         shapLayer.strokeColor = [UIColor redColor].CGColor;
        
         CAGradientLayer * layerColor = [CAGradientLayer layer];
@@ -101,7 +103,40 @@
     
     // layer
     [self addGradientLayerWithColors:gradientColors];
+   
+//    UIBezierPath * path = [UIBezierPath bezierPath];
+//    [path moveToPoint:CGPointMake(200, 100)];
+//    [path addLineToPoint:CGPointMake(270, 100)];
+//      UIBezierPath * path = [UIBezierPath bezierPathWithRect:CGRectMake(200, 100, 70, 70)];
+//    CAShapeLayer * sharlayer = [CAShapeLayer layer];
+//    sharlayer.path = path.CGPath;
+//    sharlayer.fillColor = [UIColor redColor].CGColor;
+////    sharlayer.lineWidth = 70;
+//    [self.view.layer addSublayer:sharlayer];
+////    [sharlayer addAnimationOneduration:3];
+//    [self addAnimationTwoOnLayer:sharlayer duration:3 rectStar:CGRectZero rectEnd:CGRectZero];
+    
+    //
+//    UIView * baleKview = [[UIView alloc]initWithFrame:CGRectMake(200, 100, 70, 70)];
+//    [self.view.layer addSublayer:baleKview.layer];
+//    baleKview.backgroundColor = [UIColor redColor];
+//    [self addAnimationTwoOnLayer:baleKview.layer duration:3 rectStar:CGRectZero rectEnd:CGRectZero];
+    
 
+}
+- (void)addAnimationTwoOnLayer:(CALayer *)layer duration:(CFTimeInterval)duration rectStar:(CGRect)rectStar rectEnd:(CGRect)rectEnd
+{
+//layer.bounds.size.width
+    CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position.x"];//strokeStart ,strokeEnd
+    animation.fromValue = @(200);
+    animation.toValue =@(200);
+    animation.duration = duration;
+    [layer addAnimation:animation forKey:nil];
+    CABasicAnimation *animation_1 = [CABasicAnimation animationWithKeyPath:@"bounds"];//strokeStart ,strokeEnd
+    animation_1.fromValue = [NSValue valueWithCGRect:CGRectMake(200, 100, 0, 70)];
+    animation_1.toValue =[NSValue valueWithCGRect:CGRectMake(200, 100, 70, 70)];
+    animation_1.duration = duration;
+    [layer addAnimation:animation_1 forKey:nil];
 }
 - (void)addGradientLabelWithColors:(NSArray *)colors
 {
