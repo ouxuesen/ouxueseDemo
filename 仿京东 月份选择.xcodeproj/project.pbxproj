@@ -65,7 +65,7 @@
 		D77469171DF1731300918553 /* LFDRQDealManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D77469161DF1731300918553 /* LFDRQDealManger.m */; };
 		D77469191DF17BC300918553 /* appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D77469181DF17BC300918553 /* appIcon@2x.png */; };
 		D77AF2211DF5113C00E09DCB /* LFDCaptureRQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */; };
-		D77AF2241DF5539F00E09DCB /* LFDCaotureRQView.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */; };
+		D77AF2241DF5539F00E09DCB /* LFDCaptureRQView.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2231DF5539F00E09DCB /* LFDCaptureRQView.m */; };
 		D77AF2281DF554E500E09DCB /* ScanCaptureQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */; };
 		D77AF2291DF554E500E09DCB /* ScanCaptureQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */; };
 		D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78908451CBE31F500CB62FF /* NetworkViewController.m */; };
@@ -200,8 +200,8 @@
 		D77469181DF17BC300918553 /* appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@2x.png"; sourceTree = "<group>"; };
 		D77AF21F1DF5113C00E09DCB /* LFDCaptureRQImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCaptureRQImage.h; sourceTree = "<group>"; };
 		D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCaptureRQImage.m; sourceTree = "<group>"; };
-		D77AF2221DF5539F00E09DCB /* LFDCaotureRQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCaotureRQView.h; sourceTree = "<group>"; };
-		D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCaotureRQView.m; sourceTree = "<group>"; };
+		D77AF2221DF5539F00E09DCB /* LFDCaptureRQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCaptureRQView.h; sourceTree = "<group>"; };
+		D77AF2231DF5539F00E09DCB /* LFDCaptureRQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCaptureRQView.m; sourceTree = "<group>"; };
 		D77AF2251DF554E500E09DCB /* ScanCaptureQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCaptureQRViewController.h; sourceTree = "<group>"; };
 		D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCaptureQRViewController.m; sourceTree = "<group>"; };
 		D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCaptureQRViewController.xib; sourceTree = "<group>"; };
@@ -447,8 +447,8 @@
 				D77469161DF1731300918553 /* LFDRQDealManger.m */,
 				D77AF21F1DF5113C00E09DCB /* LFDCaptureRQImage.h */,
 				D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */,
-				D77AF2221DF5539F00E09DCB /* LFDCaotureRQView.h */,
-				D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */,
+				D77AF2221DF5539F00E09DCB /* LFDCaptureRQView.h */,
+				D77AF2231DF5539F00E09DCB /* LFDCaptureRQView.m */,
 				D77AF2251DF554E500E09DCB /* ScanCaptureQRViewController.h */,
 				D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */,
 				D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */,
@@ -809,7 +809,7 @@
 				D72C33EB1CBCC8550069A866 /* MBProgressHUDListTableViewController.m in Sources */,
 				D77AF2281DF554E500E09DCB /* ScanCaptureQRViewController.m in Sources */,
 				D772E2F51CB68F4600EE27ED /* CAShapeLayer+Animation.m in Sources */,
-				D77AF2241DF5539F00E09DCB /* LFDCaotureRQView.m in Sources */,
+				D77AF2241DF5539F00E09DCB /* LFDCaptureRQView.m in Sources */,
 				D711BD181DE86236002DDB70 /* RuntimeDemoViewController.m in Sources */,
 				D772E2F61CB68F4600EE27ED /* LFDCoordinateView.m in Sources */,
 			);

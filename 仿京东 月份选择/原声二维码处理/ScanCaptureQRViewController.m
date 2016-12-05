@@ -7,12 +7,13 @@
 //
 
 #import "ScanCaptureQRViewController.h"
-#import "LFDCaotureRQView.h"
+#import "LFDCaptureRQView.h"
+#import "MCAlertController.h"
 @interface ScanCaptureQRViewController ()
 {
     BOOL OFFOn;
 }
-@property (weak, nonatomic) IBOutlet LFDCaotureRQView *scanView;
+@property (weak, nonatomic) IBOutlet LFDCaptureRQView *scanView;
 @end
 
 @implementation ScanCaptureQRViewController
@@ -23,6 +24,12 @@
     UIBarButtonItem * bbi = [[UIBarButtonItem alloc]initWithTitle:@"闪光灯" style:UIBarButtonItemStylePlain target:self action:@selector(btnCLik:)];
     self.navigationItem.rightBarButtonItem = bbi;
     OFFOn = YES;
+    [_scanView scanningBegianWithMyBlockCompletion:^(NSString *strValue) {
+        MCAlertView * alertview = [MCAlertView initWithTitle:@"二维码结果" message:strValue cancelButtonTitle:@"确定"];
+        [alertview showWithCompletionBlock:nil];
+    } myBlockFailure:^(NSString *message) {
+        [MCAlertView showWithMessage:message];
+    }];
 }
 -(void)btnCLik:(UIBarButtonItem*)bbi
 {

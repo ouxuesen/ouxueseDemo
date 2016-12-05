@@ -97,6 +97,7 @@
         AVMetadataMachineReadableCodeObject * metadataObject = [metadataObjects objectAtIndex:0];
         NSString *svalue = metadataObject.stringValue;
         _blockCompletion?_blockCompletion(svalue):nil;
+        [self closeQRCodeScan];
     }
     
 }

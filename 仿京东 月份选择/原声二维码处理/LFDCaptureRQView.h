@@ -7,7 +7,8 @@
 //
 
 #import <UIKit/UIKit.h>
-
-@interface LFDCaotureRQView : UIView
+#import "LFDCaptureRQImage.h"
+@interface LFDCaptureRQView : UIView
+-(void)scanningBegianWithMyBlockCompletion:(MyBlockCompletion)blockCompletion myBlockFailure:(MyBlockFailure)blockFailure;
 -(void)systemLightSwitch:(BOOL)open;
 @end
