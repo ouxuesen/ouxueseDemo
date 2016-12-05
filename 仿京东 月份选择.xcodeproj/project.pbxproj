@@ -64,6 +64,10 @@
 		D77469141DF172D500918553 /* SystemQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77469121DF172D500918553 /* SystemQRViewController.xib */; };
 		D77469171DF1731300918553 /* LFDRQDealManger.m in Sources */ = {isa = PBXBuildFile; fileRef = D77469161DF1731300918553 /* LFDRQDealManger.m */; };
 		D77469191DF17BC300918553 /* appIcon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D77469181DF17BC300918553 /* appIcon@2x.png */; };
+		D77AF2211DF5113C00E09DCB /* LFDCaptureRQImage.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */; };
+		D77AF2241DF5539F00E09DCB /* LFDCaotureRQView.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */; };
+		D77AF2281DF554E500E09DCB /* ScanCaptureQRViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */; };
+		D77AF2291DF554E500E09DCB /* ScanCaptureQRViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */; };
 		D78908471CBE31F500CB62FF /* NetworkViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78908451CBE31F500CB62FF /* NetworkViewController.m */; };
 		D78908481CBE31F500CB62FF /* NetworkViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78908461CBE31F500CB62FF /* NetworkViewController.xib */; };
 		D78B1BC41CABA43800E5A834 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D78B1BC31CABA43800E5A834 /* main.m */; };
@@ -194,6 +198,13 @@
 		D77469151DF1731300918553 /* LFDRQDealManger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDRQDealManger.h; sourceTree = "<group>"; };
 		D77469161DF1731300918553 /* LFDRQDealManger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDRQDealManger.m; sourceTree = "<group>"; };
 		D77469181DF17BC300918553 /* appIcon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appIcon@2x.png"; sourceTree = "<group>"; };
+		D77AF21F1DF5113C00E09DCB /* LFDCaptureRQImage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCaptureRQImage.h; sourceTree = "<group>"; };
+		D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCaptureRQImage.m; sourceTree = "<group>"; };
+		D77AF2221DF5539F00E09DCB /* LFDCaotureRQView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCaotureRQView.h; sourceTree = "<group>"; };
+		D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCaotureRQView.m; sourceTree = "<group>"; };
+		D77AF2251DF554E500E09DCB /* ScanCaptureQRViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScanCaptureQRViewController.h; sourceTree = "<group>"; };
+		D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScanCaptureQRViewController.m; sourceTree = "<group>"; };
+		D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ScanCaptureQRViewController.xib; sourceTree = "<group>"; };
 		D78908441CBE31F500CB62FF /* NetworkViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetworkViewController.h; sourceTree = "<group>"; };
 		D78908451CBE31F500CB62FF /* NetworkViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetworkViewController.m; sourceTree = "<group>"; };
 		D78908461CBE31F500CB62FF /* NetworkViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NetworkViewController.xib; sourceTree = "<group>"; };
@@ -434,6 +445,13 @@
 				D77469121DF172D500918553 /* SystemQRViewController.xib */,
 				D77469151DF1731300918553 /* LFDRQDealManger.h */,
 				D77469161DF1731300918553 /* LFDRQDealManger.m */,
+				D77AF21F1DF5113C00E09DCB /* LFDCaptureRQImage.h */,
+				D77AF2201DF5113C00E09DCB /* LFDCaptureRQImage.m */,
+				D77AF2221DF5539F00E09DCB /* LFDCaotureRQView.h */,
+				D77AF2231DF5539F00E09DCB /* LFDCaotureRQView.m */,
+				D77AF2251DF554E500E09DCB /* ScanCaptureQRViewController.h */,
+				D77AF2261DF554E500E09DCB /* ScanCaptureQRViewController.m */,
+				D77AF2271DF554E500E09DCB /* ScanCaptureQRViewController.xib */,
 			);
 			path = "原声二维码处理";
 			sourceTree = "<group>";
@@ -679,6 +697,7 @@
 				D765307F1CBFCCB000AE3392 /* JSViewController.xib in Resources */,
 				D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */,
 				D7EE64D41DF10E7400E53C0A /* ZxingDemoViewController.xib in Resources */,
+				D77AF2291DF554E500E09DCB /* ScanCaptureQRViewController.xib in Resources */,
 				D772E2DF1CB68D0F00EE27ED /* DemoName.plist in Resources */,
 				D7D417A01D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
 				D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */,
@@ -769,6 +788,7 @@
 				D78B1BC71CABA43800E5A834 /* AppDelegate.m in Sources */,
 				D7D54BE41CFDB73600B8CE84 /* GradientViewController.m in Sources */,
 				D772E32C1CB8FE6700EE27ED /* ViewController.swift in Sources */,
+				D77AF2211DF5113C00E09DCB /* LFDCaptureRQImage.m in Sources */,
 				D772E2D71CB68C9000EE27ED /* CAbasicAbunatuinViewController.m in Sources */,
 				D70C389C1CF839B9001E0875 /* PictureHeardPullViewControll.m in Sources */,
 				D7416E901D0173F30093D5CE /* GameConrierView.m in Sources */,
@@ -787,7 +807,9 @@
 				D7416E8C1D0173DC0093D5CE /* GaMeViewController.m in Sources */,
 				D75207631CFC1B890075774D /* TextKitViewController.m in Sources */,
 				D72C33EB1CBCC8550069A866 /* MBProgressHUDListTableViewController.m in Sources */,
+				D77AF2281DF554E500E09DCB /* ScanCaptureQRViewController.m in Sources */,
 				D772E2F51CB68F4600EE27ED /* CAShapeLayer+Animation.m in Sources */,
+				D77AF2241DF5539F00E09DCB /* LFDCaotureRQView.m in Sources */,
 				D711BD181DE86236002DDB70 /* RuntimeDemoViewController.m in Sources */,
 				D772E2F61CB68F4600EE27ED /* LFDCoordinateView.m in Sources */,
 			);
@@ -915,7 +937,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/仿京东 月份选择/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿京东 月份选择/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
@@ -945,7 +967,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/仿京东 月份选择/PrefixHeader.pch";
 				INFOPLIST_FILE = "仿京东 月份选择/Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				OTHER_SWIFT_FLAGS = "";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
