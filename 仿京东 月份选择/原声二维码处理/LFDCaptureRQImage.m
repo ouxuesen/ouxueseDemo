@@ -74,16 +74,16 @@
 //        self.captureRectArea = rect;
         
         //Specific scanning size area
-        //        CGFloat screenHeight = self.view.frame.size.height;
-        //        CGFloat screenWidth = self.view.frame.size.width;
-        //        CGRect rectInterest = CGRectMake(rect.origin.x / screenWidth, rect.origin.y / screenHeight, rect.size.width / screenWidth, rect.size.height / screenHeight);
-        //        [output setRectOfInterest:rectInterest];
+        
         
         //Starting Capture
     }
 }
 -(void)setCaptureArea:(CGRect)rectInterest
 {
+    CGFloat screenHeight = WINDOW_HEIGHT;
+    CGFloat screenWidth = WINDOW_WIDTH;
+     rectInterest = CGRectMake(rectInterest.origin.y / screenHeight, rectInterest.origin.x / screenWidth, rectInterest.size.height / screenHeight, rectInterest.size.width / screenWidth);
    [_output setRectOfInterest:rectInterest];
 }
 
@@ -122,5 +122,7 @@
     }
     return YES;
 }
-
+-(void)dealloc{
+    
+}
 @end

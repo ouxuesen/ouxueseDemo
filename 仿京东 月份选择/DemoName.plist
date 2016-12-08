@@ -170,5 +170,13 @@
 		<key>type</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>短连接</string>
+		<key>vc</key>
+		<string>SchemesViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
 </array>
 </plist>

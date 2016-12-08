@@ -92,6 +92,10 @@
 		D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FD2DF91CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib */; };
 		D7FD2DFF1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FD2DFD1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m */; };
 		D7FD2E001CF3F8D4004A53A8 /* AutoLayoutTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FD2DFE1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.xib */; };
+		D7FFC7891DF813F600CB625E /* SchemesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7FFC7871DF813F600CB625E /* SchemesViewController.m */; };
+		D7FFC78A1DF813F600CB625E /* SchemesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7FFC7881DF813F600CB625E /* SchemesViewController.xib */; };
+		D7FFC78C1DF8F9A500CB625E /* ZR_ScanFrame@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FFC78B1DF8F9A500CB625E /* ZR_ScanFrame@2x.png */; };
+		D7FFC78E1DF8F9B400CB625E /* ZR_ScanFrame@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7FFC78D1DF8F9B400CB625E /* ZR_ScanFrame@3x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -241,6 +245,11 @@
 		D7FD2DFC1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoLayoutTableViewCell.h; sourceTree = "<group>"; };
 		D7FD2DFD1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoLayoutTableViewCell.m; sourceTree = "<group>"; };
 		D7FD2DFE1CF3F8D4004A53A8 /* AutoLayoutTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AutoLayoutTableViewCell.xib; sourceTree = "<group>"; };
+		D7FFC7861DF813F600CB625E /* SchemesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchemesViewController.h; sourceTree = "<group>"; };
+		D7FFC7871DF813F600CB625E /* SchemesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchemesViewController.m; sourceTree = "<group>"; };
+		D7FFC7881DF813F600CB625E /* SchemesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SchemesViewController.xib; sourceTree = "<group>"; };
+		D7FFC78B1DF8F9A500CB625E /* ZR_ScanFrame@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZR_ScanFrame@2x.png"; sourceTree = "<group>"; };
+		D7FFC78D1DF8F9B400CB625E /* ZR_ScanFrame@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ZR_ScanFrame@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -440,6 +449,8 @@
 		D774690F1DF172BE00918553 /* 原声二维码处理 */ = {
 			isa = PBXGroup;
 			children = (
+				D7FFC78B1DF8F9A500CB625E /* ZR_ScanFrame@2x.png */,
+				D7FFC78D1DF8F9B400CB625E /* ZR_ScanFrame@3x.png */,
 				D77469101DF172D500918553 /* SystemQRViewController.h */,
 				D77469111DF172D500918553 /* SystemQRViewController.m */,
 				D77469121DF172D500918553 /* SystemQRViewController.xib */,
@@ -523,6 +534,7 @@
 				D774690F1DF172BE00918553 /* 原声二维码处理 */,
 				D772E2EC1CB68F4600EE27ED /* 房京东走势图 */,
 				D754EB061D757F850006C6AF /* CoreText */,
+				D7FFC7811DF8129500CB625E /* URL Schemes */,
 				D74A69C81DDDB632000728CD /* autolyout */,
 				D78B1BCE1CABA43800E5A834 /* Assets.xcassets */,
 				D711BD111DE861F5002DDB70 /* runtime */,
@@ -602,6 +614,16 @@
 			path = "自动适配cell高度";
 			sourceTree = "<group>";
 		};
+		D7FFC7811DF8129500CB625E /* URL Schemes */ = {
+			isa = PBXGroup;
+			children = (
+				D7FFC7861DF813F600CB625E /* SchemesViewController.h */,
+				D7FFC7871DF813F600CB625E /* SchemesViewController.m */,
+				D7FFC7881DF813F600CB625E /* SchemesViewController.xib */,
+			);
+			path = "URL Schemes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -671,6 +693,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D77323021CEB22CF003D0219 /* ShowPhoneViewController.xib in Resources */,
+				D7FFC78A1DF813F600CB625E /* SchemesViewController.xib in Resources */,
 				D772E32D1CB8FE6700EE27ED /* ViewController.xib in Resources */,
 				D772E2F21CB68F4600EE27ED /* LFDMonthSelectViewController.xib in Resources */,
 				D7D4179E1D1250A200E41214 /* 新浪首页.html in Resources */,
@@ -696,12 +719,14 @@
 				D70C38AA1CF843A7001E0875 /* DreawLineViewController.xib in Resources */,
 				D765307F1CBFCCB000AE3392 /* JSViewController.xib in Resources */,
 				D7FD2DFB1CF3F7B6004A53A8 /* AutoLayoutCellHeightViewController.xib in Resources */,
+				D7FFC78C1DF8F9A500CB625E /* ZR_ScanFrame@2x.png in Resources */,
 				D7EE64D41DF10E7400E53C0A /* ZxingDemoViewController.xib in Resources */,
 				D77AF2291DF554E500E09DCB /* ScanCaptureQRViewController.xib in Resources */,
 				D772E2DF1CB68D0F00EE27ED /* DemoName.plist in Resources */,
 				D7D417A01D1277D600E41214 /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
 				D754EB0E1D75851D0006C6AF /* CoreTextViewController.xib in Resources */,
 				D772E2D81CB68C9000EE27ED /* CAbasicAbunatuinViewController.xib in Resources */,
+				D7FFC78E1DF8F9B400CB625E /* ZR_ScanFrame@3x.png in Resources */,
 				D772E2F41CB68F4600EE27ED /* MouthCollectionViewCell.xib in Resources */,
 				D7AEF5C31CBF9415001D159E /* ShowNavigationBarViewController.xib in Resources */,
 				D77469141DF172D500918553 /* SystemQRViewController.xib in Resources */,
@@ -784,6 +809,7 @@
 				D72C33F01CBCC87D0069A866 /* ShowMBprogressViewController.m in Sources */,
 				D700C0501D2DFBC800E957E6 /* ContinerViewController.m in Sources */,
 				D7424ECB1CE4285A003D4C8A /* KeyWindowLevelViewController.m in Sources */,
+				D7FFC7891DF813F600CB625E /* SchemesViewController.m in Sources */,
 				D78B1BCA1CABA43800E5A834 /* ViewController.m in Sources */,
 				D78B1BC71CABA43800E5A834 /* AppDelegate.m in Sources */,
 				D7D54BE41CFDB73600B8CE84 /* GradientViewController.m in Sources */,
