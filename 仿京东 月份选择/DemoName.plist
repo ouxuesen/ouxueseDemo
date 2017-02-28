@@ -174,7 +174,23 @@
 		<key>name</key>
 		<string>短连接</string>
 		<key>vc</key>
-		<string>SchemesViewController</string>
+		<string>PhotoViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>app跳转</string>
+		<key>vc</key>
+		<string>JumpAppstoreViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>Cookie</string>
+		<key>vc</key>
+		<string>WebViewController</string>
 		<key>type</key>
 		<string>1</string>
 	</dict>

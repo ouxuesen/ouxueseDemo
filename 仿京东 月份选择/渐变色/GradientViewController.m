@@ -9,6 +9,7 @@
 #import "GradientViewController.h"
 #import "CFGradientLabel.h"
 #import "CAShapeLayer+Animation.h"
+#import <WebKit/WebKit.h>
 @implementation CicleView
 
 -(instancetype)initWithFrame:(CGRect)frame
@@ -73,9 +74,35 @@
 @end
 
 @implementation GradientViewController
++ (void)_resetWKWebViewUserAgent {
+  __block  WKWebView *webView = [[WKWebView alloc] initWithFrame:CGRectZero];
+//    [KeyWindow addSubview:webView];
+    
+    [webView evaluateJavaScript:@"navigator.userAgent" completionHandler:^(id result, NSError *error) {
+        if (result) {
+            NSString *oldUserAgent = result;
+            NSString *customUserAgent = [NSString stringWithFormat:@"%@ %@/%@", oldUserAgent, @"123", @"23233"];
+            [[NSUserDefaults standardUserDefaults] registerDefaults:@{@"UserAgent": customUserAgent}];
+        }
+        NSLog(@"%@",webView);
+    }];
+}
+
+-(NSArray*)containSting:(NSString*)sting contenStr:(NSString*)contenStr
+{
+    NSRegularExpression*regular=[[NSRegularExpression alloc]initWithPattern:sting options:NSRegularExpressionDotMatchesLineSeparators|NSRegularExpressionCaseInsensitive error:nil];
+    NSArray* array=[regular matchesInString:contenStr options:0 range:NSMakeRange(0, [contenStr length])];
+    NSMutableArray *rangArray  = [NSMutableArray new];
+    for( NSTextCheckingResult * result in array){
+        NSRange range = NSMakeRange(result.range.location,result.range.length);
+        [rangArray addObject:NSStringFromRange(range)];
+    }
+    return  rangArray;
+}
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+ 
     // Do any additional setup after loading the view from its nib.
 //    CAGradientLayer * layerColor = [CAGradientLayer layer];
 //    layerColor.frame = self.view.bounds;
@@ -94,6 +121,7 @@
 //    layerColor.endPoint = CGPointMake(0.5, 1);
 //    [self.view.layer addSublayer:layerColor];
     
+    
     CicleView *cicleVIew= [[CicleView alloc]initWithFrame:CGRectMake(100, 100, 70, 70)];
     [self.view addSubview:cicleVIew];
     
@@ -103,7 +131,23 @@
     
     // layer
     [self addGradientLayerWithColors:gradientColors];
-   
+    NSString * titleStr = @"G23季春23校服男G1款春夏季春校服男东款春夏季春校服男东款春夏季春校服男东款";
+    UILabel * lable = [[UILabel alloc]initWithFrame:CGRectMake(0, 200, 100, 70)];
+ 
+
+    [self.view addSubview:lable];
+    NSMutableAttributedString * attributedStr = [[NSMutableAttributedString alloc]initWithString:titleStr attributes:@{NSForegroundColorAttributeName:[UIColor blackColor],NSFontAttributeName:[UIFont systemFontOfSize:12]}];
+    NSArray * arrayColor = @[@"春",@"夏",@"秋",@"东"];
+   // NSString * containStr = [arrayColor componentsJoinedByString:@"|"];
+    NSString * containStr = @"G\\d{1,4}";
+    NSArray * tempRange = [self containSting:containStr contenStr:titleStr];
+    if (tempRange.count) {
+        for (NSString * rangeStr in tempRange) {
+            [attributedStr addAttribute:NSForegroundColorAttributeName value:[UIColor redColor] range:NSRangeFromString(rangeStr)];
+        }
+    }
+    lable.attributedText = attributedStr;
+     [lable sizeToFit];
 //    UIBezierPath * path = [UIBezierPath bezierPath];
 //    [path moveToPoint:CGPointMake(200, 100)];
 //    [path addLineToPoint:CGPointMake(270, 100)];
@@ -124,6 +168,8 @@
     
 
 }
+
+
 - (void)addAnimationTwoOnLayer:(CALayer *)layer duration:(CFTimeInterval)duration rectStar:(CGRect)rectStar rectEnd:(CGRect)rectEnd
 {
 //layer.bounds.size.width
@@ -137,6 +183,7 @@
     animation_1.toValue =[NSValue valueWithCGRect:CGRectMake(200, 100, 70, 70)];
     animation_1.duration = duration;
     [layer addAnimation:animation_1 forKey:nil];
+ 
 }
 - (void)addGradientLabelWithColors:(NSArray *)colors
 {

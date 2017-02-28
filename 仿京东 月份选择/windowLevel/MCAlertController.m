@@ -2,8 +2,8 @@
 //  MCAlertController.m
 //  MCFriends
 //
-//  Created by marujun on 14-9-22.
-//  Copyright (c) 2014年 marujun. All rights reserved.
+//  Created by oxs on 14-9-22.
+//  Copyright (c) 2014年 oxs. All rights reserved.
 //
 
 #import "MCAlertController.h"

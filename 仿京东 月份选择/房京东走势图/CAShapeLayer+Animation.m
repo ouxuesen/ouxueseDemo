@@ -33,7 +33,7 @@
     animation2.fromValue = @(0.5);
     animation2.toValue = @(1);
     animation2.duration = duration;
-    
+   
     [self addAnimation:animation1 forKey:nil];
     [self addAnimation:animation2 forKey:nil];
 }

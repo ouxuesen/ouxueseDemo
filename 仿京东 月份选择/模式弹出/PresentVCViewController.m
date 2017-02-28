@@ -7,7 +7,8 @@
 //
 
 #import "PresentVCViewController.h"
-#import "PresentSubViewController.h"
+#import "LFDWTransitionContainerViewController.h"
+#import "LFDWFirstTransitionView.h"
 
 @interface PresentVCViewController ()
 
@@ -39,11 +40,17 @@
 */
 
 - (IBAction)nextBtn:(id)sender {
-    PresentSubViewController * pushVCs = [[PresentSubViewController alloc]initWithNibName:@"PresentSubViewController" bundle:nil];
-    __weak PresentVCViewController * weekSelf = self;
-    pushVCs.btnClick = ^(){
-        [weekSelf.navigationController.presentedViewController dismissViewControllerAnimated:YES completion:nil];
-    };
-    [self.navigationController presentViewController:pushVCs animated:YES completion:nil];
+    
+    LFDWFirstTransitionView * fistView = [[NSBundle mainBundle]loadNibNamed:@"LFDWFirstTransitionView" owner:self options:nil][0];
+    fistView.edgeInset = UIEdgeInsetsMake(300, 0, 0, 0);
+    LFDWTransitionContainerViewController * pushVCs = [[LFDWTransitionContainerViewController alloc]initWithNibName:@"LFDWTransitionContainerViewController" bundle:nil];
+    pushVCs.defailtView = fistView;
+     UINavigationController * naviVC = [[UINavigationController alloc]initWithRootViewController:pushVCs];
+    naviVC.view.backgroundColor = [UIColor colorWithWhite:0.0 alpha:0.3];
+    naviVC.modalPresentationStyle = UIModalPresentationCustom;
+    naviVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+
+    [self.navigationController presentViewController:naviVC animated:YES completion:nil];
+    
 }
 @end

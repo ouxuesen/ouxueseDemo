@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iR8-lN-PJn" customClass="LFDWFirstTransitionView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zcZ-Ly-sQV">
+                    <rect key="frame" x="75.5" y="318.5" width="224" height="30"/>
+                    <color key="backgroundColor" red="0.0" green="0.56929153203964233" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="224" id="O2K-62-lLB"/>
+                        <constraint firstAttribute="height" constant="30" id="Z5S-zX-oRx"/>
+                    </constraints>
+                    <state key="normal" title="下一站">
+                        <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClick:" destination="iR8-lN-PJn" eventType="touchUpInside" id="Ayg-pg-bIs"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="第一个页面" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PbO-Ja-4kd">
+                    <rect key="frame" x="144" y="10" width="87" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="zcZ-Ly-sQV" firstAttribute="centerX" secondItem="iR8-lN-PJn" secondAttribute="centerX" id="FHh-q6-1xV"/>
+                <constraint firstItem="PbO-Ja-4kd" firstAttribute="centerX" secondItem="iR8-lN-PJn" secondAttribute="centerX" id="Phl-7W-eyb"/>
+                <constraint firstItem="zcZ-Ly-sQV" firstAttribute="centerY" secondItem="iR8-lN-PJn" secondAttribute="centerY" id="QPp-gy-9lZ"/>
+                <constraint firstItem="PbO-Ja-4kd" firstAttribute="top" secondItem="iR8-lN-PJn" secondAttribute="top" constant="10" id="yd2-Mj-uY8"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="40.5" y="117.5"/>
+        </view>
+    </objects>
+</document>

@@ -61,6 +61,13 @@
             ReferencedContainer = "container:&#x4eff;&#x4eac;&#x4e1c; &#x6708;&#x4efd;&#x9009;&#x62e9;.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
+      <EnvironmentVariables>
+         <EnvironmentVariable
+            key = "NSZombieEnabled"
+            value = "YES"
+            isEnabled = "YES">
+         </EnvironmentVariable>
+      </EnvironmentVariables>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>

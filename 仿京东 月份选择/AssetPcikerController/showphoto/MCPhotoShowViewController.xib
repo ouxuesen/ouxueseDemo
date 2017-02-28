@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2555" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="MCPhotoShowViewController">
+            <connections>
+                <outlet property="colloctionView" destination="JWt-NR-Orm" id="kyi-6f-Xhv"/>
+                <outlet property="countLabel" destination="SFG-jn-GUr" id="XLp-Ez-FA6"/>
+                <outlet property="ensureButton" destination="4sr-Mk-uwO" id="afF-Yx-uXA"/>
+                <outlet property="tabBar" destination="XJ9-t6-ABf" id="3hM-Ss-Xgk"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clipsSubviews="YES" clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" pagingEnabled="YES" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" dataMode="none" translatesAutoresizingMaskIntoConstraints="NO" id="JWt-NR-Orm">
+                    <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <collectionViewFlowLayout key="collectionViewLayout" scrollDirection="horizontal" minimumLineSpacing="0.0" minimumInteritemSpacing="0.0" id="BlT-aQ-Ubp">
+                        <size key="itemSize" width="50" height="50"/>
+                        <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                        <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                        <inset key="sectionInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                    </collectionViewFlowLayout>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="gm6-Ri-Djk"/>
+                        <outlet property="delegate" destination="-1" id="XZ5-LY-RlZ"/>
+                    </connections>
+                </collectionView>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XJ9-t6-ABf">
+                    <rect key="frame" x="0.0" y="519" width="320" height="49"/>
+                    <subviews>
+                        <button opaque="NO" tag="1002" contentMode="scaleToFill" selected="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="4sr-Mk-uwO">
+                            <rect key="frame" x="262" y="12" width="48" height="26"/>
+                            <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="26" id="14Z-eT-0i0"/>
+                                <constraint firstAttribute="width" constant="48" id="lNv-4p-AqC"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="13"/>
+                            <state key="normal" image="image_picker_send_light.png">
+                                <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </state>
+                            <state key="selected" image="image_picker_send.png"/>
+                            <connections>
+                                <action selector="ensureButtonAction:" destination="-1" eventType="touchUpInside" id="H8j-bd-JF5"/>
+                            </connections>
+                        </button>
+                        <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="8" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SFG-jn-GUr">
+                            <rect key="frame" x="252" y="5" width="20" height="20"/>
+                            <color key="backgroundColor" red="0.0" green="1" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="20" id="dlt-cq-RMh"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                            <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                    </subviews>
+                    <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="4sr-Mk-uwO" secondAttribute="trailing" constant="10" id="4yc-d2-RHg"/>
+                        <constraint firstItem="SFG-jn-GUr" firstAttribute="top" secondItem="XJ9-t6-ABf" secondAttribute="top" constant="5" id="DaW-w3-cgA"/>
+                        <constraint firstAttribute="trailing" secondItem="SFG-jn-GUr" secondAttribute="trailing" constant="48" id="F6Z-5a-eoX"/>
+                        <constraint firstItem="4sr-Mk-uwO" firstAttribute="centerY" secondItem="XJ9-t6-ABf" secondAttribute="centerY" id="S2N-Gm-T0H"/>
+                        <constraint firstItem="4sr-Mk-uwO" firstAttribute="top" secondItem="XJ9-t6-ABf" secondAttribute="top" constant="12" id="bpf-GD-zI9"/>
+                        <constraint firstAttribute="bottom" secondItem="SFG-jn-GUr" secondAttribute="bottom" constant="24" id="qsj-So-HeR"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="JWt-NR-Orm" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="2vx-va-dR4"/>
+                <constraint firstAttribute="bottom" secondItem="JWt-NR-Orm" secondAttribute="bottom" id="3zB-3v-VDL"/>
+                <constraint firstItem="XJ9-t6-ABf" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="CYt-Eu-iFN"/>
+                <constraint firstAttribute="bottom" secondItem="XJ9-t6-ABf" secondAttribute="bottom" id="EXx-ds-pof"/>
+                <constraint firstAttribute="trailing" secondItem="XJ9-t6-ABf" secondAttribute="trailing" id="Q08-59-iOD"/>
+                <constraint firstItem="JWt-NR-Orm" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="sCb-LX-TJ9"/>
+                <constraint firstAttribute="trailing" secondItem="JWt-NR-Orm" secondAttribute="trailing" id="v8h-HM-Hs6"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="image_picker_send.png" width="48" height="26"/>
+        <image name="image_picker_send_light.png" width="48" height="26"/>
+    </resources>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedStatusBarMetrics key="statusBar"/>
+        <simulatedOrientationMetrics key="orientation"/>
+        <simulatedScreenMetrics key="destination" type="retina4_7.fullscreen"/>
+    </simulatedMetricsContainer>
+</document>

@@ -10,7 +10,7 @@
 #import "LFDCaptureRQView.h"
 #import "MCAlertController.h"
 #import "LFDRQDealManger.h"
-
+#import <WebKit/WebKit.h>
 @interface ScanCaptureQRViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate>
 {
     BOOL OFFOn;
@@ -22,6 +22,18 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    __block WKWebView *webView = [[WKWebView alloc] initWithFrame:CGRectZero];
+    [webView evaluateJavaScript:@"navigator.userAgent" completionHandler:^(id result, NSError *error) {
+        if (result) {
+//            NSString *oldUserAgent = result;
+//            NSString *customUserAgent = [NSString stringWithFormat:@"%@ %@/%@", oldUserAgent, APP_REPORT_NAME, [Functions appShortVersion]];
+//            [[NSUserDefaults standardUserDefaults] registerDefaults:@{@"UserAgent": customUserAgent}];
+        }
+        dispatch_async(dispatch_get_main_queue(), ^{
+            webView = nil;
+        });
+        //
+    }];
     // Do any additional setup after loading the view from its nib.
     UIBarButtonItem * bbi = [[UIBarButtonItem alloc]initWithTitle:@"闪光灯" style:UIBarButtonItemStylePlain target:self action:@selector(btnCLik:)];
        UIBarButtonItem * bbi_1 = [[UIBarButtonItem alloc]initWithTitle:@"相册" style:UIBarButtonItemStylePlain target:self action:@selector(photoAlbum:)];
