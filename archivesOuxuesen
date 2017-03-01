@@ -1,0 +1,43 @@
+#!/bin/bash
+
+#工程名字 
+targetName="仿京东_月份选择"
+targetBundID="com.letv.aa"
+certificateName="iPhone Developer: lexindev@le.com (BY9TARTHA5)"
+targetPROFILE="aa58611b-a96c-4f15-96c5-aa5883e4a490"
+targetConfig="Debug"
+
+targetUserKey = ""
+targetApikey  =""
+
+cd `dirname $0`
+if test -e ./archives 
+then 
+  echo "archives已经存在"
+else
+	mkdir archives
+fi 
+cd archives
+if test -e ./debug 
+	then
+	echo "debug文件已经存在"
+	else
+		mkdir debug
+fi
+cd debug
+a=`date +%Y-%m-%d`
+echo "a === $a"
+if test -e ./$a
+	then
+	echo "$a 文件已存在"
+	else
+		mkdir $a
+fi
+
+ cd `dirname $0`
+b=`date +"%Y-%m-%d_%H_%M_%S"`
+echo "-------$targetName $targetBundID"
+xcodebuild archive -workspace ./$targetName.xcworkspace -scheme $targetName -configuration $targetConfig -archivePath ./archives/debug/$a/$b.xcarchive 
+#cd `dirname $0`
+#xcodebuild -exportArchive -exportFormat IPA -archivePath ./archives/debug/$a/$b.xcarchive -exportPath ./archives/debug/$a/$b.ipa  -exportProvisioningProfile $targetPROFILE
+#

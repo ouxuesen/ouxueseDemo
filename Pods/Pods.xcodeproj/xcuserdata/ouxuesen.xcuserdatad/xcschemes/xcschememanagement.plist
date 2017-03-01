@@ -14,7 +14,12 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-仿京东 月份选择.xcscheme</key>
+		<key>Pods-OXSFunctionDemo.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-OXSFunctionDemoUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -42,17 +47,17 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>962B4015B34D9D8346D39C4E4427ED1A</key>
+		<key>33C51B90767F0A06A6EB0B2CCE7B9508</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>98CE6E7313882FC841EA6ED499622FD4</key>
+		<key>5A14009F7DF9525F3DF97F481F8E81AE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A58DD1F9C822979E90D5BAC9BF97FE64</key>
+		<key>6C210B7C8D6AB61FCFCE9D4CA8F9A98F</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -62,7 +67,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F8AED8A80A6B0B037418E049A6D4D127</key>
+		<key>CFFD1AAEF7380DDB8D46415E7FAC3FC6</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D83DC5D0BF406F4C7946FD79A9CB748B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
