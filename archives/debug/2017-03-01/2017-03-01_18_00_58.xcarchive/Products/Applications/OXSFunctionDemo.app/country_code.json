@@ -1,0 +1,1549 @@
+[
+    [
+        {
+            "country_code": "AL",
+            "sms_code": "355",
+            "name_us": "Albania",
+            "PinYin": "a er ba ni ya",
+            "name_cn": "阿尔巴尼亚"
+        },
+        {
+            "country_code": "DZ",
+            "sms_code": "213",
+            "name_us": "Algeria",
+            "PinYin": "a er ji li ya",
+            "name_cn": "阿尔及利亚"
+        },
+        {
+            "country_code": "AF",
+            "sms_code": "93",
+            "name_us": "Afghanistan",
+            "PinYin": "a fu han",
+            "name_cn": "阿富汗"
+        },
+        {
+            "country_code": "AR",
+            "sms_code": "54",
+            "name_us": "Argentina",
+            "PinYin": "a gen ting",
+            "name_cn": "阿根廷"
+        },
+        {
+            "country_code": "AE",
+            "sms_code": "971",
+            "name_us": "United Arab Emirates",
+            "PinYin": "a la bo lian he qiu zhang guo",
+            "name_cn": "阿拉伯联合酋长国"
+        },
+        {
+            "country_code": "SY",
+            "sms_code": "963",
+            "name_us": "Syrian Arab Republic",
+            "PinYin": "a la bo xu li ya gong he guo",
+            "name_cn": "阿拉伯叙利亚共和国"
+        },
+        {
+            "country_code": "ABW",
+            "sms_code": "297",
+            "name_us": "Aruba",
+            "PinYin": "a lu ba",
+            "name_cn": "阿鲁巴"
+        },
+        {
+            "country_code": "OM",
+            "sms_code": "968",
+            "name_us": "Oman",
+            "PinYin": "a man",
+            "name_cn": "阿曼"
+        },
+        {
+            "country_code": "AZ",
+            "sms_code": "994",
+            "name_us": "Azerbaijan",
+            "PinYin": "a sai bai jiang",
+            "name_cn": "阿塞拜疆"
+        },
+        {
+            "country_code": "IE",
+            "sms_code": "353",
+            "name_us": "Ireland",
+            "PinYin": "ai er lan",
+            "name_cn": "爱尔兰"
+        },
+        {
+            "country_code": "EG",
+            "sms_code": "20",
+            "name_us": "Egypt",
+            "PinYin": "ai ji",
+            "name_cn": "埃及"
+        },
+        {
+            "country_code": "ET",
+            "sms_code": "251",
+            "name_us": "Ethiopia",
+            "PinYin": "ai sai e bi ya",
+            "name_cn": "埃塞俄比亚"
+        },
+        {
+            "country_code": "EE",
+            "sms_code": "372",
+            "name_us": "Estonia",
+            "PinYin": "ai sha ni ya",
+            "name_cn": "爱沙尼亚"
+        },
+        {
+            "country_code": "AD",
+            "sms_code": "376",
+            "name_us": "Andorra",
+            "PinYin": "an dao er",
+            "name_cn": "安道尔"
+        },
+        {
+            "country_code": "AO",
+            "sms_code": "244",
+            "name_us": "Angola",
+            "PinYin": "an ge la",
+            "name_cn": "安哥拉"
+        },
+        {
+            "country_code": "AI",
+            "sms_code": "1264",
+            "name_us": "Anguilla",
+            "PinYin": "an gui la dao",
+            "name_cn": "安圭拉岛"
+        },
+        {
+            "country_code": "AG",
+            "sms_code": "1268",
+            "name_us": "Antigua and Barbuda",
+            "PinYin": "an ti gua he ba bu da",
+            "name_cn": "安提瓜和巴布达"
+        },
+        {
+            "country_code": "AU",
+            "sms_code": "61",
+            "name_us": "Australia",
+            "PinYin": "ao da li ya",
+            "name_cn": "澳大利亚"
+        },
+        {
+            "country_code": "AT",
+            "sms_code": "43",
+            "name_us": "Austria",
+            "PinYin": "ao de li",
+            "name_cn": "奥地利"
+        }
+    ],
+    [
+        {
+            "country_code": "BB",
+            "sms_code": "1246",
+            "name_us": "Barbados",
+            "PinYin": "ba ba duo si",
+            "name_cn": "巴巴多斯"
+        },
+        {
+            "country_code": "PG",
+            "sms_code": "675",
+            "name_us": "Papua New Guinea",
+            "PinYin": "ba bu ya xin ji nei ya",
+            "name_cn": "巴布亚新几内亚"
+        },
+        {
+            "country_code": "BS",
+            "sms_code": "1242",
+            "name_us": "Bahamas",
+            "PinYin": "ba ha ma qun dao",
+            "name_cn": "巴哈马群岛"
+        },
+        {
+            "country_code": "PK",
+            "sms_code": "92",
+            "name_us": "Pakistan",
+            "PinYin": "ba ji si tan",
+            "name_cn": "巴基斯坦"
+        },
+        {
+            "country_code": "PY",
+            "sms_code": "595",
+            "name_us": "Paraguay",
+            "PinYin": "ba la gui",
+            "name_cn": "巴拉圭"
+        },
+        {
+            "country_code": "BH",
+            "sms_code": "973",
+            "name_us": "Bahrain",
+            "PinYin": "ba lin",
+            "name_cn": "巴林"
+        },
+        {
+            "country_code": "PA",
+            "sms_code": "507",
+            "name_us": "Panama",
+            "PinYin": "ba na ma",
+            "name_cn": "巴拿马"
+        },
+        {
+            "country_code": "BR",
+            "sms_code": "55",
+            "name_us": "Brazil",
+            "PinYin": "ba xi",
+            "name_cn": "巴西"
+        },
+        {
+            "country_code": "BY",
+            "sms_code": "375",
+            "name_us": "Belarus",
+            "PinYin": "bai e luo si",
+            "name_cn": "白俄罗斯"
+        },
+        {
+            "country_code": "BM",
+            "sms_code": "1441",
+            "name_us": "Bermuda",
+            "PinYin": "bai mu da qun dao",
+            "name_cn": "百慕大群岛"
+        },
+        {
+            "country_code": "BG",
+            "sms_code": "359",
+            "name_us": "Bulgaria",
+            "PinYin": "bao jia li ya",
+            "name_cn": "保加利亚"
+        },
+        {
+            "country_code": "BJ",
+            "sms_code": "229",
+            "name_us": "Benin",
+            "PinYin": "bei ning",
+            "name_cn": "贝宁"
+        },
+        {
+            "country_code": "BE",
+            "sms_code": "32",
+            "name_us": "Belgium",
+            "PinYin": "bi li shi",
+            "name_cn": "比利时"
+        },
+        {
+            "country_code": "IS",
+            "sms_code": "354",
+            "name_us": "Iceland",
+            "PinYin": "bing dao",
+            "name_cn": "冰岛"
+        },
+        {
+            "country_code": "BW",
+            "sms_code": "267",
+            "name_us": "Botswana",
+            "PinYin": "bo ci wa na",
+            "name_cn": "博茨瓦纳"
+        },
+        {
+            "country_code": "PR",
+            "sms_code": "1787",
+            "name_us": "Puerto Rico",
+            "PinYin": "bo duo li ge",
+            "name_cn": "波多黎各"
+        },
+        {
+            "country_code": "BA",
+            "sms_code": "387",
+            "name_us": "Bosnia and Herzegovina",
+            "PinYin": "bo hei (bo si ni ya he hei sai ge wei na)",
+            "name_cn": "波黑(波斯尼亚和黑塞哥维那)"
+        },
+        {
+            "country_code": "PL",
+            "sms_code": "48",
+            "name_us": "Poland",
+            "PinYin": "bo lan",
+            "name_cn": "波兰"
+        },
+        {
+            "country_code": "BO",
+            "sms_code": "591",
+            "name_us": "Bolivia",
+            "PinYin": "bo li wei ya",
+            "name_cn": "玻利维亚"
+        },
+        {
+            "country_code": "BZ",
+            "sms_code": "501",
+            "name_us": "Belize",
+            "PinYin": "bo li zi",
+            "name_cn": "伯利兹"
+        },
+        {
+            "country_code": "BT",
+            "sms_code": "975",
+            "name_us": "Bhutan",
+            "PinYin": "bu dan",
+            "name_cn": "不丹"
+        },
+        {
+            "country_code":"BF",
+            "sms_code": "226",
+            "name_us": "Burkina Faso",
+            "PinYin": "bu ji na fa suo",
+            "name_cn": "布基纳法索"
+        },
+        {
+            "country_code": "BI",
+            "sms_code": "257",
+            "name_us": "Burundi",
+            "PinYin": "bu long di",
+            "name_cn": "布隆迪"
+        }
+    ],
+    [
+        {
+            "country_code": "KP",
+            "sms_code": "850",
+            "name_us": "Korea Democratic People's Republic",
+            "PinYin": "chao xian",
+            "name_cn": "朝鲜"
+        },
+        {
+            "country_code": "GQ",
+            "sms_code": "240",
+            "name_us": "Equatorial Guinea",
+            "PinYin": "chi dao ji nei ya",
+            "name_cn": "赤道几内亚"
+        }
+    ],
+    [
+        {
+            "country_code": "DK",
+            "sms_code": "45",
+            "name_us": "Denmark",
+            "PinYin": "dan mai",
+            "name_cn": "丹麦"
+        },
+        {
+            "country_code": "DE",
+            "sms_code": "49",
+            "name_us": "Germany",
+            "PinYin": "de guo",
+            "name_cn": "德国"
+        },
+        {
+            "country_code": "TL",
+            "sms_code": "670",
+            "name_us": "Timor-Leste",
+            "PinYin": "dong di wen",
+            "name_cn": "东帝汶"
+        },
+        {
+            "country_code": "TG",
+            "sms_code": "228",
+            "name_us": "Togo",
+            "PinYin": "duo ge",
+            "name_cn": "多哥"
+        },
+        {
+            "country_code": "DO",
+            "sms_code": "1890",
+            "name_us": "Dominican Republic",
+            "PinYin": "duo mi ni jia gong he guo",
+            "name_cn": "多米尼加共和国"
+        },
+        {
+            "country_code": "DM",
+            "sms_code": "1767",
+            "name_us": "Dominica",
+            "PinYin": "duo mi ni ke",
+            "name_cn": "多米尼克"
+        }
+    ],
+    [
+        {
+            "country_code": "EC",
+            "sms_code": "593",
+            "name_us": "Ecuador",
+            "PinYin": "e gua duo er",
+            "name_cn": "厄瓜多尔"
+        },
+        {
+            "country_code": "ER",
+            "sms_code": "291",
+            "name_us": "Eritrea",
+            "PinYin": "e li te li ya",
+            "name_cn": "厄立特里亚"
+        },
+        {
+            "country_code": "RU",
+            "sms_code": "7",
+            "name_us": "Russian",
+            "PinYin": "e luo si",
+            "name_cn": "俄罗斯"
+        }
+    ],
+    [
+        {
+            "country_code": "FR",
+            "sms_code": "33",
+            "name_us": "France",
+            "PinYin": "fa guo",
+            "name_cn": "法国"
+        },
+        {
+            "country_code": "FO",
+            "sms_code": "298",
+            "name_us": "Faroe Islands",
+            "PinYin": "fa luo qun dao",
+            "name_cn": "法罗群岛"
+        },
+        {
+            "country_code": "PF",
+            "sms_code": "689",
+            "name_us": "French Polynesia",
+            "PinYin": "fa shu bo li ni xi ya",
+            "name_cn": "法属玻利尼西亚"
+        },
+        {
+            "country_code": "GF",
+            "sms_code": "594",
+            "name_us": "French Guiana",
+            "PinYin": "fa shu gui ya na",
+            "name_cn": "法属圭亚那"
+        },
+        {
+            "country_code": "FJ",
+            "sms_code": "679",
+            "name_us": "Fiji",
+            "PinYin": "fei ji",
+            "name_cn": "斐济"
+        },
+        {
+            "country_code": "PH",
+            "sms_code": "63",
+            "name_us": "Philippines",
+            "PinYin": "fei lu bin",
+            "name_cn": "菲律宾"
+        },
+        {
+            "country_code": "FR",
+            "sms_code": "358",
+            "name_us": "Finland",
+            "PinYin": "fen lan",
+            "name_cn": "芬兰"
+        },
+        {
+            "country_code": "CV",
+            "sms_code": "238",
+            "name_us": "Cape Verde",
+            "PinYin": "fu de jiao",
+            "name_cn": "佛得角"
+        },
+        {
+            "country_code": "FK",
+            "sms_code": "500",
+            "name_us": "Falkland Islands (Malvinas)",
+            "PinYin": "fu ke lan qun dao",
+            "name_cn": "福克兰群岛"
+        }
+    ],
+    [
+        {
+            "country_code": "GM",
+            "sms_code": "220",
+            "name_us": "Gambia",
+            "PinYin": "gang bi ya",
+            "name_cn": "冈比亚"
+        },
+        {
+            "country_code": "CG",
+            "sms_code": "242",
+            "name_us": "Congo",
+            "PinYin": "gang guo",
+            "name_cn": "刚果"
+        },
+        {
+            "country_code": "ZR",
+            "sms_code": "243",
+            "name_us": "Congo The Democratic Republic",
+            "PinYin": "gang guo min zhu gong he guo",
+            "name_cn": "刚果民主共和国"
+        },
+        {
+            "country_code": "GD",
+            "sms_code": "1809",
+            "name_us": "Grenada",
+            "PinYin": "ge lin na da",
+            "name_cn": "格林纳达"
+        },
+        {
+            "country_code": "GL",
+            "sms_code": "299",
+            "name_us": "Greenland",
+            "PinYin": "ge ling lan dao",
+            "name_cn": "格陵兰岛"
+        },
+        {
+            "country_code": "GE",
+            "sms_code": "995",
+            "name_us": "Georgia",
+            "PinYin": "ge lu ji ya",
+            "name_cn": "格鲁吉亚"
+        },
+        {
+            "country_code": "CO",
+            "sms_code": "57",
+            "name_us": "Colombia",
+            "PinYin": "ge lun bi ya",
+            "name_cn": "哥伦比亚"
+        },
+        {
+            "country_code": "CR",
+            "sms_code": "506",
+            "name_us": "Costa Rica",
+            "PinYin": "ge si da li jia",
+            "name_cn": "哥斯达黎加"
+        },
+        {
+            "country_code": "GG",
+            "sms_code": "44",
+            "name_us": "Guernsey",
+            "PinYin": "gen xi",
+            "name_cn": "根西"
+        },
+        {
+            "country_code": "CU",
+            "sms_code": "53",
+            "name_us": "Cuba",
+            "PinYin": "gu ba",
+            "name_cn": "古巴"
+        },
+        {
+            "country_code": "GP",
+            "sms_code": "590",
+            "name_us": "Guadeloupe",
+            "PinYin": "gua de luo pu",
+            "name_cn": "瓜德罗普"
+        },
+        {
+            "country_code": "GU",
+            "sms_code": "671",
+            "name_us": "Guam",
+            "PinYin": "guan dao",
+            "name_cn": "关岛"
+        },
+        {
+            "country_code": "GY",
+            "sms_code": "592",
+            "name_us": "Guyana",
+            "PinYin": "gui ya na",
+            "name_cn": "圭亚那"
+        }
+    ],
+    [
+        {
+            "country_code": "KZ",
+            "sms_code": "7",
+            "name_us": "Kazakhstan",
+            "PinYin": "ha sa ke si tan",
+            "name_cn": "哈萨克斯坦"
+        },
+        {
+            "country_code": "HT",
+            "sms_code": "509",
+            "name_us": "Haiti",
+            "PinYin": "hai de",
+            "name_cn": "海地"
+        },
+        {
+            "country_code": "KR",
+            "sms_code": "82",
+            "name_us": "Korea Republic",
+            "PinYin": "han guo",
+            "name_cn": "韩国"
+        },
+        {
+            "country_code": "NL",
+            "sms_code": "31",
+            "name_us": "Netherlands",
+            "PinYin": "he lan",
+            "name_cn": "荷兰"
+        },
+        {
+            "country_code": "NL",
+            "sms_code": "599",
+            "name_us": "Netherlands Antilles",
+            "PinYin": "he shu an de lie si qun dao",
+            "name_cn": "荷属安的列斯群岛"
+        },
+        {
+            "country_code": "ME",
+            "sms_code": "382",
+            "name_us": "Montenegro",
+            "PinYin": "hei shan gong he guo",
+            "name_cn": "黑山共和国"
+        },
+        {
+            "country_code": "HN",
+            "sms_code": "504",
+            "name_us": "Honduras",
+            "PinYin": "hong dou la si",
+            "name_cn": "洪都拉斯"
+        }
+    ],
+    [
+        {
+            "country_code": "DJ",
+            "sms_code": "253",
+            "name_us": "Djibouti",
+            "PinYin": "ji bu ti",
+            "name_cn": "吉布提"
+        },
+        {
+            "country_code": "KG",
+            "sms_code": "996",
+            "name_us": "Kyrgyzstan",
+            "PinYin": "ji er ji si si tan",
+            "name_cn": "吉尔吉斯斯坦"
+        },
+        {
+            "country_code": "GN",
+            "sms_code": "675",
+            "name_us": "Guinea",
+            "PinYin": "ji nei ya",
+            "name_cn": "几内亚"
+        },
+        {
+            "country_code": "GW",
+            "sms_code": "245",
+            "name_us": "Guinea-Bissau",
+            "PinYin": "ji nei ya bi shao gong he guo",
+            "name_cn": "几内亚比绍共和国"
+        },
+        {
+            "country_code": "GH",
+            "sms_code": "233",
+            "name_us": "Ghana",
+            "PinYin": "jia na",
+            "name_cn": "加纳"
+        },
+        {
+            "country_code": "CA",
+            "sms_code": "1",
+            "name_us": "Canada",
+            "PinYin": "jia na da",
+            "name_cn": "加拿大"
+        },
+        {
+            "country_code": "GA",
+            "sms_code": "241",
+            "name_us": "Gabon",
+            "PinYin": "jia peng",
+            "name_cn": "加蓬"
+        },
+        {
+            "country_code": "KH",
+            "sms_code": "855",
+            "name_us": "Cambodia",
+            "PinYin": "jian bu zhai",
+            "name_cn": "柬埔寨"
+        },
+        {
+            "country_code": "CZ",
+            "sms_code": "420",
+            "name_us": "Czech Republic",
+            "PinYin": "jie ke gong he guo",
+            "name_cn": "捷克共和国"
+        },
+        {
+            "country_code": "ZW",
+            "sms_code": "263",
+            "name_us": "Zimbabwe",
+            "PinYin": "jin ba bu wei",
+            "name_cn": "津巴布韦"
+        }
+    ],
+    [
+        {
+            "country_code": "CM",
+            "sms_code": "237",
+            "name_us": "Cameroon",
+            "PinYin": "ka mai long",
+            "name_cn": "喀麦隆"
+        },
+        {
+            "country_code": "QA",
+            "sms_code": "974",
+            "name_us": "Qatar",
+            "PinYin": "ka ta er",
+            "name_cn": "卡塔尔"
+        },
+        {
+            "country_code": "KY",
+            "sms_code": "1345",
+            "name_us": "Cayman Islands",
+            "PinYin": "kai man qun dao",
+            "name_cn": "开曼群岛"
+        },
+        {
+            "country_code": "HR",
+            "sms_code": "385",
+            "name_us": "Croatia",
+            "PinYin": "ke luo de ya",
+            "name_cn": "克罗地亚"
+        },
+        {
+            "country_code": "CMR",
+            "sms_code": "269",
+            "name_us": "Comoros",
+            "PinYin": "ke mo luo",
+            "name_cn": "科摩罗"
+        },
+        {
+            "country_code": "YU",
+            "sms_code": "381",
+            "name_us": "Kosovo",
+            "PinYin": "ke suo wo",
+            "name_cn": "科索沃"
+        },
+        {
+            "country_code": "KT",
+            "sms_code": "225",
+            "name_us": "Cote D'ivoire",
+            "PinYin": "ke te di wa",
+            "name_cn": "科特迪瓦"
+        },
+        {
+            "country_code": "KW",
+            "sms_code": "965",
+            "name_us": "Kuwait",
+            "PinYin": "ke wei te",
+            "name_cn": "科威特"
+        },
+        {
+            "country_code": "KE",
+            "sms_code": "254",
+            "name_us": "Kenya",
+            "PinYin": "ken ni ya",
+            "name_cn": "肯尼亚"
+        },
+        {
+            "country_code": "CK",
+            "sms_code": "682",
+            "name_us": "Cook Islands",
+            "PinYin": "ku ke qun dao",
+            "name_cn": "库克群岛"
+        }
+    ],
+    [
+        {
+            "country_code": "LV",
+            "sms_code": "371",
+            "name_us": "Latvia",
+            "PinYin": "la tuo wei ya",
+            "name_cn": "拉脱维亚"
+        },
+        {
+            "country_code": "LS",
+            "sms_code": "266",
+            "name_us": "Lesotho",
+            "PinYin": "lai suo tuo",
+            "name_cn": "莱索托"
+        },
+        {
+            "country_code": "LA",
+            "sms_code": "856",
+            "name_us": "Lao People's Democratic Republic",
+            "PinYin": "lao wo ren min min zhu gong he guo",
+            "name_cn": "老挝人民民主共和国"
+        },
+        {
+            "country_code": "LB",
+            "sms_code": "961",
+            "name_us": "Lebanon",
+            "PinYin": "li ba nen",
+            "name_cn": "黎巴嫩"
+        },
+        {
+            "country_code": "LR",
+            "sms_code": "231",
+            "name_us": "Liberia",
+            "PinYin": "li bi li ya",
+            "name_cn": "利比里亚"
+        },
+        {
+            "country_code": "LY",
+            "sms_code": "218",
+            "name_us": "Libyan Arab Jamahiriya",
+            "PinYin": "li bi ya",
+            "name_cn": "利比亚"
+        },
+        {
+            "country_code": "LT",
+            "sms_code": "370",
+            "name_us": "Lithuania",
+            "PinYin": "li tao wan",
+            "name_cn": "立陶宛"
+        },
+        {
+            "country_code": "LI",
+            "sms_code": "423",
+            "name_us": "Liechtenstein",
+            "PinYin": "lie zhi dun si deng",
+            "name_cn": "列支敦斯登"
+        },
+        {
+            "country_code": "FR",
+            "sms_code": "262",
+            "name_us": "Reunion",
+            "PinYin": "liu ni wang",
+            "name_cn": "留尼旺"
+        },
+        {
+            "country_code": "LU",
+            "sms_code": "352",
+            "name_us": "Luxembourg",
+            "PinYin": "lu sen bao",
+            "name_cn": "卢森堡"
+        },
+        {
+            "country_code": "RW",
+            "sms_code": "250",
+            "name_us": "Rwanda",
+            "PinYin": "lu wang da",
+            "name_cn": "卢旺达"
+        },
+        {
+            "country_code": "RO",
+            "sms_code": "40",
+            "name_us": "Romania",
+            "PinYin": "luo ma ni ya",
+            "name_cn": "罗马尼亚"
+        }
+    ],
+    [
+        {
+            "country_code": "MG",
+            "sms_code": "261",
+            "name_us": "Madagascar",
+            "PinYin": "ma da jia si jia",
+            "name_cn": "马达加斯加"
+        },
+        {
+            "country_code": "IM",
+            "sms_code": "44",
+            "name_us": "Isle of Man",
+            "PinYin": "ma en",
+            "name_cn": "马恩"
+        },
+        {
+            "country_code": "MV",
+            "sms_code": "960",
+            "name_us": "Maldives",
+            "PinYin": "ma er dai fu",
+            "name_cn": "马尔代夫"
+        },
+        {
+            "country_code": "MT",
+            "sms_code": "356",
+            "name_us": "Malta",
+            "PinYin": "ma er ta",
+            "name_cn": "马耳他"
+        },
+        {
+            "country_code": "MW",
+            "sms_code": "265",
+            "name_us": "Malawi",
+            "PinYin": "ma la wei",
+            "name_cn": "马拉维"
+        },
+        {
+            "country_code": "MY",
+            "sms_code": "60",
+            "name_us": "Malaysia",
+            "PinYin": "ma lai xi ya",
+            "name_cn": "马来西亚"
+        },
+        {
+            "country_code": "ML",
+            "sms_code": "223",
+            "name_us": "Mali",
+            "PinYin": "ma li",
+            "name_cn": "马里"
+        },
+        {
+            "country_code": "MK",
+            "sms_code": "389",
+            "name_us": "Macedonia",
+            "PinYin": "ma qi dun wang guo",
+            "name_cn": "马其顿共和国"
+        },
+        {
+            "country_code": "FR",
+            "sms_code": "596",
+            "name_us": "Martinique",
+            "PinYin": "ma ti ni ke",
+            "name_cn": "马提尼克"
+        },
+        {
+            "country_code": "MU",
+            "sms_code": "230",
+            "name_us": "Mauritius",
+            "PinYin": "mao li qiu si",
+            "name_cn": "毛里求斯"
+        },
+        {
+            "country_code": "MR",
+            "sms_code": "222",
+            "name_us": "Mauritania",
+            "PinYin": "mao li ta ni ya",
+            "name_cn": "毛里塔尼亚"
+        },
+        {
+            "country_code": "US",
+            "sms_code": "1",
+            "name_us": "United States",
+            "PinYin": "mei guo",
+            "name_cn": "美国"
+        },
+        {
+            "country_code": "US",
+            "sms_code": "684",
+            "name_us": "American Samoa",
+            "PinYin": "mei shu sa mo ya",
+            "name_cn": "美属萨摩亚"
+        },
+        {
+            "country_code": "MN",
+            "sms_code": "976",
+            "name_us": "Mongolia",
+            "PinYin": "meng gu",
+            "name_cn": "蒙古"
+        },
+        {
+            "country_code": "BD",
+            "sms_code": "880",
+            "name_us": "Bangladesh",
+            "PinYin": "meng jia la gong he guo",
+            "name_cn": "孟加拉共和国"
+        },
+        {
+            "country_code": "MS",
+            "sms_code": "1664",
+            "name_us": "Montserrat",
+            "PinYin": "meng te sai la te dao",
+            "name_cn": "蒙特塞拉特岛"
+        },
+        {
+            "country_code": "PE",
+            "sms_code": "51",
+            "name_us": "Peru",
+            "PinYin": "mi lu",
+            "name_cn": "秘鲁"
+        },
+        {
+            "country_code": "MM",
+            "sms_code": "95",
+            "name_us": "Myanmar",
+            "PinYin": "mian dian",
+            "name_cn": "缅甸"
+        },
+        {
+            "country_code": "MD",
+            "sms_code": "373",
+            "name_us": "Moldova",
+            "PinYin": "mo er duo wa",
+            "name_cn": "摩尔多瓦"
+        },
+        {
+            "country_code": "MA",
+            "sms_code": "212",
+            "name_us": "Morocco",
+            "PinYin": "mo luo ge",
+            "name_cn": "摩洛哥"
+        },
+        {
+            "country_code": "MC",
+            "sms_code": "377",
+            "name_us": "Monaco",
+            "PinYin": "mo na ge",
+            "name_cn": "摩纳哥"
+        },
+        {
+            "country_code": "MZ",
+            "sms_code": "258",
+            "name_us": "Mozambique",
+            "PinYin": "mo sang bi ke",
+            "name_cn": "莫桑比克"
+        },
+        {
+            "country_code": "MX",
+            "sms_code": "52",
+            "name_us": "Mexico",
+            "PinYin": "mo xi ge",
+            "name_cn": "墨西哥"
+        }
+    ],
+    [
+        {
+            "country_code": "NA",
+            "sms_code": "264",
+            "name_us": "Namibia",
+            "PinYin": "na mi bi ya",
+            "name_cn": "纳米比亚"
+        },
+        {
+            "country_code": "ZA",
+            "sms_code": "27",
+            "name_us": "South Africa",
+            "PinYin": "nan fei",
+            "name_cn": "南非"
+        },
+        {
+            "country_code": "SS",
+            "sms_code": "211",
+            "name_us": "South Sudan",
+            "PinYin": "nan su dan",
+            "name_cn": "南苏丹"
+        },
+        {
+            "country_code": "NI",
+            "sms_code": "505",
+            "name_us": "Nicaragua",
+            "PinYin": "ni jia la gua",
+            "name_cn": "尼加拉瓜"
+        },
+        {
+            "country_code": "NP",
+            "sms_code": "977",
+            "name_us": "Nepal",
+            "PinYin": "ni po er",
+            "name_cn": "尼泊尔"
+        },
+        {
+            "country_code": "NE",
+            "sms_code": "227",
+            "name_us": "Niger",
+            "PinYin": "ni ri er",
+            "name_cn": "尼日尔"
+        },
+        {
+            "country_code": "NG",
+            "sms_code": "234",
+            "name_us": "Nigeria",
+            "PinYin": "ni ri li ya",
+            "name_cn": "尼日利亚"
+        },
+        {
+            "country_code": "NO",
+            "sms_code": "47",
+            "name_us": "Norway",
+            "PinYin": "nuo wei",
+            "name_cn": "挪威"
+        }
+    ],
+    [
+        {
+            "country_code": "PW",
+            "sms_code": "680",
+            "name_us": "Palau",
+            "PinYin": "pa lao",
+            "name_cn": "帕劳"
+        },
+        {
+            "country_code": "PT",
+            "sms_code": "351",
+            "name_us": "Portugal",
+            "PinYin": "pu tao ya",
+            "name_cn": "葡萄牙"
+        }
+    ],
+    [
+        {
+            "country_code": "JP",
+            "sms_code": "81",
+            "name_us": "Japan",
+            "PinYin": "ri ben",
+            "name_cn": "日本"
+        },
+        {
+            "country_code": "SE",
+            "sms_code": "46",
+            "name_us": "Sweden",
+            "PinYin": "rui dian",
+            "name_cn": "瑞典"
+        },
+        {
+            "country_code": "CH",
+            "sms_code": "41",
+            "name_us": "Switzerland",
+            "PinYin": "rui shi",
+            "name_cn": "瑞士"
+        }
+    ],
+    [
+        {
+            "country_code": "SV",
+            "sms_code": "503",
+            "name_us": "El Salvador",
+            "PinYin": "sa er wa duo",
+            "name_cn": "萨尔瓦多"
+        },
+        {
+            "country_code": "US",
+            "sms_code": "684",
+            "name_us": "Samoa",
+            "PinYin": "sa mo ya qun dao",
+            "name_cn": "萨摩亚群岛"
+        },
+        {
+            "country_code": "RS",
+            "sms_code": "381",
+            "name_us": "Serbia",
+            "PinYin": "sai er wei ya",
+            "name_cn": "塞尔维亚"
+        },
+        {
+            "country_code": "SL",
+            "sms_code": "232",
+            "name_us": "Sierra Leone",
+            "PinYin": "sai la li ang",
+            "name_cn": "塞拉利昂"
+        },
+        {
+            "country_code": "SN",
+            "sms_code": "221",
+            "name_us": "Senegal",
+            "PinYin": "sai nei jia er",
+            "name_cn": "塞内加尔"
+        },
+        {
+            "country_code": "CY",
+            "sms_code": "357",
+            "name_us": "Cyprus",
+            "PinYin": "sai pu lu si",
+            "name_cn": "塞浦路斯"
+        },
+        {
+            "country_code": "SC",
+            "sms_code": "248",
+            "name_us": "Seychelles",
+            "PinYin": "sai she er",
+            "name_cn": "塞舌尔"
+        },
+        {
+            "country_code": "SA",
+            "sms_code": "966",
+            "name_us": "Saudi Arabia",
+            "PinYin": "sha te a la bo",
+            "name_cn": "沙特阿拉伯"
+        },
+        {
+            "country_code": "KN",
+            "sms_code": "1869",
+            "name_us": "Saint Kitts and Nevis",
+            "PinYin": "sheng ji ci he ni wei si",
+            "name_cn": "圣基茨和尼维斯"
+        },
+        {
+            "country_code": "LC",
+            "sms_code": "1758",
+            "name_us": "Saint Lucia",
+            "PinYin": "sheng lu xi ya dao",
+            "name_cn": "圣卢西亚岛"
+        },
+        {
+            "country_code": "SM",
+            "sms_code": "378",
+            "name_us": "San Marino",
+            "PinYin": "sheng ma li nuo",
+            "name_cn": "圣马力诺"
+        },
+        {
+            "country_code": "VC",
+            "sms_code": "1784",
+            "name_us": "Saint Vincent and the Grenadines",
+            "PinYin": "sheng wen sen te he ge lin na ding si",
+            "name_cn": "圣文森特和格林纳丁斯"
+        },
+        {
+            "country_code": "LK",
+            "sms_code": "94",
+            "name_us": "Sri Lanka",
+            "PinYin": "si li lan ka",
+            "name_cn": "斯里兰卡"
+        },
+        {
+            "country_code": "SK",
+            "sms_code": "421",
+            "name_us": "Slovakia",
+            "PinYin": "si luo fa ke",
+            "name_cn": "斯洛伐克"
+        },
+        {
+            "country_code": "SI",
+            "sms_code": "386",
+            "name_us": "Slovenia",
+            "PinYin": "si luo wen ni ya",
+            "name_cn": "斯洛文尼亚"
+        },
+        {
+            "country_code": "SZ",
+            "sms_code": "268",
+            "name_us": "Swaziland",
+            "PinYin": "si wei shi lan",
+            "name_cn": "斯威士兰"
+        },
+        {
+            "country_code": "SD",
+            "sms_code": "249",
+            "name_us": "Sudan",
+            "PinYin": "su dan",
+            "name_cn": "苏丹"
+        },
+        {
+            "country_code": "SR",
+            "sms_code": "597",
+            "name_us": "Suriname",
+            "PinYin": "su li nan",
+            "name_cn": "苏里南"
+        },
+        {
+            "country_code": "SB",
+            "sms_code": "677",
+            "name_us": "Solomon Islands",
+            "PinYin": "suo luo men qun dao",
+            "name_cn": "所罗门群岛"
+        },
+        {
+            "country_code": "SO",
+            "sms_code": "252",
+            "name_us": "Somalia",
+            "PinYin": "suo ma li",
+            "name_cn": "索马里"
+        }
+    ],
+    [
+        {
+            "country_code": "TJ",
+            "sms_code": "992",
+            "name_us": "Tajikistan",
+            "PinYin": "ta ji ke si tan",
+            "name_cn": "塔吉克斯坦"
+        },
+        {
+            "country_code": "TH",
+            "sms_code": "66",
+            "name_us": "Thailand",
+            "PinYin": "tai guo",
+            "name_cn": "泰国"
+        },
+        {
+            "country_code": "TZ",
+            "sms_code": "255",
+            "name_us": "Tanzania United Republic",
+            "PinYin": "tan sang ni ya",
+            "name_cn": "坦桑尼亚"
+        },
+        {
+            "country_code": "TO",
+            "sms_code": "676",
+            "name_us": "Tonga",
+            "PinYin": "tang jia",
+            "name_cn": "汤加"
+        },
+        {
+            "country_code": "TC",
+            "sms_code": "1649",
+            "name_us": "Turks and Caicos Islands",
+            "PinYin": "te ke si he kai ke si qun dao",
+            "name_cn": "特克斯和凯科斯群岛"
+        },
+        {
+            "country_code": "TT",
+            "sms_code": "1868",
+            "name_us": "Trinidad and Tobago",
+            "PinYin": "te li ni da he duo ba ge",
+            "name_cn": "特立尼达和多巴哥"
+        },
+        {
+            "country_code": "TR",
+            "sms_code": "90",
+            "name_us": "Turkey",
+            "PinYin": "tu er qi",
+            "name_cn": "土耳其"
+        },
+        {
+            "country_code": "TM",
+            "sms_code": "993",
+            "name_us": "Turkmenistan",
+            "PinYin": "tu ku man si tan",
+            "name_cn": "土库曼斯坦"
+        },
+        {
+            "country_code": "TN",
+            "sms_code": "216",
+            "name_us": "Tunisia",
+            "PinYin": "tu ni si",
+            "name_cn": "突尼斯"
+        }
+    ],
+    [
+        {
+            "country_code": "VU",
+            "sms_code": "678",
+            "name_us": "Vanuatu",
+            "PinYin": "wa nu a tu",
+            "name_cn": "瓦努阿图"
+        },
+        {
+            "country_code": "GT",
+            "sms_code": "502",
+            "name_us": "Guatemala",
+            "PinYin": "wei de ma la",
+            "name_cn": "危地马拉"
+        },
+        {
+            "country_code": "VE",
+            "sms_code": "58",
+            "name_us": "Venezuela",
+            "PinYin": "wei nei rui la",
+            "name_cn": "委内瑞拉"
+        },
+        {
+            "country_code": "BN",
+            "sms_code": "673",
+            "name_us": "Brunei Darussalam",
+            "PinYin": "wen lai da lu sa lan guo",
+            "name_cn": "文莱达鲁萨兰国"
+        },
+        {
+            "country_code": "UG",
+            "sms_code": "256",
+            "name_us": "Uganda",
+            "PinYin": "wu gan da",
+            "name_cn": "乌干达"
+        },
+        {
+            "country_code": "UA",
+            "sms_code": "380",
+            "name_us": "Ukraine",
+            "PinYin": "wu ke lan",
+            "name_cn": "乌克兰"
+        },
+        {
+            "country_code": "UY",
+            "sms_code": "598",
+            "name_us": "Uruguay",
+            "PinYin": "wu la gui",
+            "name_cn": "乌拉圭"
+        },
+        {
+            "country_code": "UZ",
+            "sms_code": "998",
+            "name_us": "Uzbekistan",
+            "PinYin": "wu zi bie ke si tan",
+            "name_cn": "乌兹别克斯坦"
+        }
+    ],
+    [
+        {
+            "country_code": "ES",
+            "sms_code": "34",
+            "name_us": "Spain",
+            "PinYin": "xi ban ya",
+            "name_cn": "西班牙"
+        },
+        {
+            "country_code": "GR",
+            "sms_code": "30",
+            "name_us": "Greece",
+            "PinYin": "xi la",
+            "name_cn": "希腊"
+        },
+        {
+            "country_code": "SG",
+            "sms_code": "65",
+            "name_us": "Singapore",
+            "PinYin": "xin jia po",
+            "name_cn": "新加坡"
+        },
+        {
+            "country_code": "NC",
+            "sms_code": "687",
+            "name_us": "New Caledonia",
+            "PinYin": "xin ka li duo ni ya",
+            "name_cn": "新喀里多尼亚"
+        },
+        {
+            "country_code": "NZ",
+            "sms_code": "64",
+            "name_us": "New Zealand",
+            "PinYin": "xin xi lan",
+            "name_cn": "新西兰"
+        },
+        {
+            "country_code": "HU",
+            "sms_code": "36",
+            "name_us": "Hungary",
+            "PinYin": "xiong ya li",
+            "name_cn": "匈牙利"
+        }
+    ],
+    [
+        {
+            "country_code": "JM",
+            "sms_code": "1876",
+            "name_us": "Jamaica",
+            "PinYin": "ya mai jia",
+            "name_cn": "牙买加"
+        },
+        {
+            "country_code": "AM",
+            "sms_code": "374",
+            "name_us": "Armenia",
+            "PinYin": "ya mei ni ya",
+            "name_cn": "亚美尼亚"
+        },
+        {
+            "country_code": "YE",
+            "sms_code": "967",
+            "name_us": "Yemen",
+            "PinYin": "ye men",
+            "name_cn": "也门"
+        },
+        {
+            "country_code": "IT",
+            "sms_code": "39",
+            "name_us": "Italy",
+            "PinYin": "yi da li",
+            "name_cn": "意大利"
+        },
+        {
+            "country_code": "IQ",
+            "sms_code": "964",
+            "name_us": "Iraq",
+            "PinYin": "yi la ke",
+            "name_cn": "伊拉克"
+        },
+        {
+            "country_code": "IR",
+            "sms_code": "98",
+            "name_us": "Iran Islamic Republic",
+            "PinYin": "yi lang",
+            "name_cn": "伊朗"
+        },
+        {
+            "country_code": "IL",
+            "sms_code": "972",
+            "name_us": "Israel",
+            "PinYin": "yi se lie",
+            "name_cn": "以色列"
+        },
+        {
+            "country_code": "IN",
+            "sms_code": "91",
+            "name_us": "India",
+            "PinYin": "yin du",
+            "name_cn": "印度"
+        },
+        {
+            "country_code": "ID",
+            "sms_code": "62",
+            "name_us": "Indonesia",
+            "PinYin": "yin du ni xi ya",
+            "name_cn": "印度尼西亚"
+        },
+        {
+            "country_code": "GB",
+            "sms_code": "44",
+            "name_us": "United Kingdom",
+            "PinYin": "ying guo",
+            "name_cn": "英国"
+        },
+        {
+            "country_code": "VG",
+            "sms_code": "1340",
+            "name_us": "Virgin Islands British",
+            "PinYin": "ying shu wei er jing qun dao",
+            "name_cn": "英属维尔京群岛"
+        },
+        {
+            "country_code": "JO",
+            "sms_code": "962",
+            "name_us": "Jordan",
+            "PinYin": "yue dan",
+            "name_cn": "约旦"
+        },
+        {
+            "country_code": "VN",
+            "sms_code": "84",
+            "name_us": "Viet Nam",
+            "PinYin": "yue nan",
+            "name_cn": "越南"
+        }
+    ],
+    [
+        {
+            "country_code": "ZM",
+            "sms_code": "260",
+            "name_us": "Zambia",
+            "PinYin": "zan bi ya",
+            "name_cn": "赞比亚"
+        },
+        {
+            "country_code": "JE",
+            "sms_code": "44",
+            "name_us": "Jersey",
+            "PinYin": "ze xi",
+            "name_cn": "泽西"
+        },
+        {
+            "country_code": "TD",
+            "sms_code": "235",
+            "name_us": "Chad",
+            "PinYin": "zha de",
+            "name_cn": "乍得"
+        },
+        {
+            "country_code": "GI",
+            "sms_code": "350",
+            "name_us": "Gibraltar",
+            "PinYin": "zhi bu luo tuo",
+            "name_cn": "直布罗陀"
+        },
+        {
+            "country_code": "CL",
+            "sms_code": "56",
+            "name_us": "Chile",
+            "PinYin": "zhi li",
+            "name_cn": "智利"
+        },
+        {
+            "country_code": "CF",
+            "sms_code": "236",
+            "name_us": "Central African Republic",
+            "PinYin": "zhong fei gong he guo",
+            "name_cn": "中非共和国"
+        },
+        {
+            "country_code": "MO",
+            "sms_code": "853",
+            "name_us": "Macao",
+            "PinYin": "zhong guo ao men",
+            "name_cn": "中国澳门"
+        },
+        {
+            "country_code": "TW",
+            "sms_code": "886",
+            "name_us": "Taiwan",
+            "PinYin": "zhong guo tai wan",
+            "name_cn": "中国台湾"
+        },
+        {
+            "country_code": "HK",
+            "sms_code": "852",
+            "name_us": "Hong Kong",
+            "PinYin": "zhong guo xiang gang",
+            "name_cn": "中国香港"
+        }
+    ]
+]

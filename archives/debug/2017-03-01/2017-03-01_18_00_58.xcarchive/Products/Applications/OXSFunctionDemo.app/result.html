@@ -1,0 +1,66 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                <script type="text/javascript">
+                    var jsVer = 29;
+                    var phoneWidth = parseInt(window.screen.width);
+                    var phoneScale = phoneWidth/750;
+                    
+                    var ua = navigator.userAgent;
+                    if (/Android (\d+\.\d+)/.test(ua)){
+                        var version = parseFloat(RegExp.$1);
+                        // andriod 2.3
+                        if(version>2.3){
+                            document.write('<meta name="viewport" content="width=750, minimum-scale = '+phoneScale+', maximum-scale = '+phoneScale+', target-densitydpi=device-dpi">');
+                            // andriod 2.3以上
+                        }else{
+                            document.write('<meta name="viewport" content="width=750, target-densitydpi=device-dpi">');
+                        }
+                        // 其他系统
+                    } else {
+                        document.write('<meta name="viewport" content="width=750, user-scalable=no, target-densitydpi=device-dpi">');
+                    }
+                </script>
+                <meta name="description" content="">
+                    <meta name="author" content="">
+                        <title>风险评测-结果1</title>
+                        <link rel="stylesheet" type="text/css" href="./css/style.css">
+    </head>
+    <body>
+        <!-- content begin -->
+        <div class="content result-content">
+            <div class="tip_info">您已完成测评</div>
+            <p class="tip_title">您的投资风险类型</p>
+            <p class="tip_img"></p>
+            <p class="tip_type">保守型</p>
+            <a href="javascript:void(0);" class="btn b_btn touzi_btn">去投资</a>
+        </div>
+        <!-- content end -->
+    </body>
+    <script type="text/javascript" src="./js/zepto.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+          var ceping_types = {
+          'L'  : '保守型',
+          'ML' : '相对保守型',
+          'M' : '稳健性',
+          'MH' : '相对积极型',
+          'H'  : '积极型'
+          }
+          
+          function getQueryString(name) {
+          var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+          var r = window.location.search.substr(1).match(reg);
+          if (r != null) return decodeURIComponent(r[2]); return "";
+          }
+          
+          var score_type = getQueryString("score_type");
+          $(".result-content").addClass("result"+score_type+"-content");
+          $(".tip_type").text(ceping_types[score_type]);
+          })
+          
+        </script>
+</html>

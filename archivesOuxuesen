@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #工程名字 
-targetName="仿京东_月份选择"
+targetName="OXSFunctionDemo"
 targetBundID="com.letv.aa"
 certificateName="iPhone Developer: lexindev@le.com (BY9TARTHA5)"
 targetPROFILE="aa58611b-a96c-4f15-96c5-aa5883e4a490"
@@ -38,6 +38,5 @@ fi
 b=`date +"%Y-%m-%d_%H_%M_%S"`
 echo "-------$targetName $targetBundID"
 xcodebuild archive -workspace ./$targetName.xcworkspace -scheme $targetName -configuration $targetConfig -archivePath ./archives/debug/$a/$b.xcarchive 
-#cd `dirname $0`
-#xcodebuild -exportArchive -exportFormat IPA -archivePath ./archives/debug/$a/$b.xcarchive -exportPath ./archives/debug/$a/$b.ipa  -exportProvisioningProfile $targetPROFILE
-#
+cd `dirname $0`
+xcodebuild -exportArchive -exportFormat IPA -archivePath ./archives/debug/$a/$b.xcarchive -exportPath ./archives/debug/$a/$b.ipa  -exportProvisioningProfile $targetPROFILE

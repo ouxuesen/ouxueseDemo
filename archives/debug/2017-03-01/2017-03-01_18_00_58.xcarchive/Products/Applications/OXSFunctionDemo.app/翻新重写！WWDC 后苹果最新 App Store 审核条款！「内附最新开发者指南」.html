@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black">
+<meta name="format-detection" content="telephone=no">
+
+
+        <script type="text/javascript">
+            window.logs = {
+                pagetime: {}
+            };
+            window.logs.pagetime['html_begin'] = (+new Date());
+        </script>
+        
+
+<script type="text/javascript"> 
+
+    var page_begintime = (+new Date());
+
+    var biz = "MzIwNDAxNjIzNg=="||"";
+    var sn = "73d9419687c25fece39eb5ac817d144d" || ""|| "";
+    var mid = "2650120083" || ""|| "";
+    var idx = "1" || "" || "";
+
+    
+    var is_rumor = ""*1;
+    var norumor = ""*1;
+    if (!!is_rumor&&!norumor){
+      if (!document.referrer || document.referrer.indexOf("mp.weixin.qq.com/mp/rumor") == -1){
+        location.href = "http://mp.weixin.qq.com/mp/rumor?action=info&__biz=" + biz + "&mid=" + mid + "&idx=" + idx + "&sn=" + sn + "#wechat_redirect";
+      }
+    }
+
+    
+    
+</script>
+<script type="text/javascript">
+var MutationObserver = window.WebKitMutationObserver||window.MutationObserver||window.MozMutationObserver;
+var isDangerSrc = function(src) {
+    if(src) {
+        var host = src.match(/http(?:s)?:\/\/([^\/]+?)(\/|$)/);
+        if(host && !/qq\.com$/.test(host[1]) && !/weishi\.com$/.test(host[1])) {
+            return true;
+        }
+    }
+    return false;
+}
+var ishttp = location.href.indexOf("http://")==0;
+if (ishttp && typeof MutationObserver === 'function' && location.host == 'mp.weixin.qq.com') {
+    window.__observer_data = {count:0, exec_time: 0, list:[]};
+    window.__observer = new MutationObserver(function(mutations) {
+        
+        window.__observer_data.count++;
+        var begin = new Date(), deleteNodes = [];
+        mutations.forEach(function(mutation) {
+            var nodes = mutation.addedNodes;
+            for (var i = 0; i < nodes.length; i++) {
+                var node = nodes[i];
+
+                if (node.tagName === 'SCRIPT') {
+                    var scriptSrc = node.src;
+                    if(isDangerSrc(scriptSrc)) {
+                        window.__observer_data.list.push(scriptSrc);
+                        deleteNodes.push(node);
+                    }
+                
+                }
+            }
+        });
+        for(var i=0; i<deleteNodes.length; i++) {
+            var node = deleteNodes[i];
+            node.parentNode.removeChild(node);
+        }
+        window.__observer_data.exec_time += (new Date() - begin);
+    });
+    window.__observer.observe(document, {subtree: true, childList: true});
+}
+(function() {
+    if (Math.random()<0.01 && ishttp && HTMLScriptElement.prototype.__lookupSetter__ && typeof Object.defineProperty !== "undefined") {
+        window.__danger_src = {xmlhttprequest:[], script_src: [], script_setAttribute: []};
+        var t = "$"+Math.random();
+        
+        
+        HTMLScriptElement.prototype.__old_method_script_src = HTMLScriptElement.prototype.__lookupSetter__ ('src');
+        HTMLScriptElement.prototype.__defineSetter__ ('src', function(url) {
+            if (url && isDangerSrc(url)) {
+                
+                window.__danger_src.script_src.push(url);
+            }
+            this.__old_method_script_src(url);
+        });
+        var element_setAttribute_method = "element_setAttribute"+t;
+        Object.defineProperty(Element.prototype, element_setAttribute_method, {
+            value: Element.prototype.setAttribute,
+            enumerable: false
+        });
+        Element.prototype.setAttribute = function(name, url) {
+            if (this.tagName == 'SCRIPT' && name == 'src' && isDangerSrc(url)) {
+                
+                window.__danger_src.script_setAttribute.push(url);
+            }
+            this[element_setAttribute_method](name, url);
+        };
+    }
+})();
+</script>
+
+        <link rel="dns-prefetch" href="https://res.wx.qq.com/">
+<link rel="dns-prefetch" href="https://mmbiz.qpic.cn/">
+<link rel="shortcut icon" type="image/x-icon" href="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/common/favicon22c41b.ico">
+<script type="text/javascript">
+    String.prototype.html = function(encode) {
+        var replace =["&#39;", "'", "&quot;", '"', "&nbsp;", " ", "&gt;", ">", "&lt;", "<", "&amp;", "&", "&yen;", "¥"];
+        if (encode) {
+            replace.reverse();
+        }
+        for (var i=0,str=this;i< replace.length;i+= 2) {
+             str=str.replace(new RegExp(replace[i],'g'),replace[i+1]);
+        }
+        return str;
+    };
+
+    window.isInWeixinApp = function() {
+        return /MicroMessenger/.test(navigator.userAgent);
+    };
+
+    window.getQueryFromURL = function(url) {
+        url = url || 'http://qq.com/s?a=b#rd'; 
+        var query = url.split('?')[1].split('#')[0].split('&'),
+            params = {};
+        for (var i=0; i<query.length; i++) {
+            var arg = query[i].split('=');
+            params[arg[0]] = arg[1];
+        }
+        if (params['pass_ticket']) {
+        	params['pass_ticket'] = encodeURIComponent(params['pass_ticket'].html(false).html(false).replace(/\s/g,"+"));
+        }
+        return params;
+    };
+
+    (function() {
+	    var params = getQueryFromURL(location.href);
+        window.uin = params['uin'] || '';
+        window.key = params['key'] || '';
+        window.wxtoken = params['wxtoken'] || '';
+        window.pass_ticket = params['pass_ticket'] || '';
+    })();
+
+</script>
+
+        <title>翻新重写！WWDC 后苹果最新&nbsp;App Store 审核条款！「内附最新开发者指南」</title>
+        
+<link rel="stylesheet" type="text/css" href="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/page_mp_article_improve2d1390.css">
+<style>
+     
+    </style>
+<!--[if lt IE 9]>
+<link rel="stylesheet" type="text/css" href="https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_pc2c9cd6.css">
+<![endif]-->
+<script type="text/javascript">
+    document.domain = "qq.com";
+</script>
+
+    <script async="" type="text/javascript" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/share2e74e2.js"></script><link href="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/not_in_mm2c9cd6.css" type="text/css" rel="stylesheet"></head>
+    <body id="activity-detail" class="zh_CN mm_appmsg not_in_mm" ontouchstart="">
+        
+    <script type="text/javascript">
+        var write_sceen_time = (+new Date());
+    </script>
+    
+    <div id="js_cmt_mine" class="discuss_container editing access" style="display:none;">
+        <div class="discuss_container_inner">
+            <h2 class="rich_media_title">翻新重写！WWDC 后苹果最新&nbsp;App Store 审核条款！「内附最新开发者指南」</h2>
+            <span id="log"></span>
+            <div class="frm_textarea_box_wrp">
+                <span class="frm_textarea_box">
+                    <textarea id="js_cmt_input" class="frm_textarea" placeholder="留言将由公众号筛选后显示，对所有人可见。"></textarea>
+                    <div class="emotion_tool">
+                        <span class="emotion_switch" style="display:none;"></span>
+                        <span id="js_emotion_switch" class="pic_emotion_switch_wrp">
+                            <img class="pic_default" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_emotion_switch.png" alt="">
+                            <img class="pic_active" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_emotion_switch_active.png" alt="">
+                        </span>
+                        <div class="emotion_panel" id="js_emotion_panel">
+                            <span class="emotion_panel_arrow_wrp" id="js_emotion_panel_arrow_wrp">
+                                <i class="emotion_panel_arrow arrow_out"></i>
+                                <i class="emotion_panel_arrow arrow_in"></i>
+                            </span>
+                            <div class="emotion_list_wrp" id="js_slide_wrapper">
+                                
+                                
+                            </div>
+                            <ul class="emotion_navs" id="js_navbar">
+                                
+                            </ul>
+                        </div>
+                    </div>
+                </span>
+            </div>
+            <div class="discuss_btn_wrp"><a id="js_cmt_submit" class="btn btn_primary btn_discuss btn_disabled" href="javascript:;">提交</a></div>
+            <div class="discuss_list_wrp" style="display:none">
+                <div class="rich_tips with_line title_tips discuss_title_line">
+                    <span class="tips">我的留言</span>
+                </div>
+                <ul class="discuss_list" id="js_cmt_mylist"></ul>
+            </div>
+            <div class="rich_tips tips_global loading_tips" id="js_mycmt_loading">
+                <img src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                <span class="tips">加载中</span>
+            </div>
+            <div class="wx_poptips" id="js_cmt_toast" style="display:none;">
+                <img alt="" class="icon_toast" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAGoAAABqCAYAAABUIcSXAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA3NpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuNS1jMDE0IDc5LjE1MTQ4MSwgMjAxMy8wMy8xMy0xMjowOToxNSAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDoyMTUxMzkxZS1jYWVhLTRmZTMtYTY2NS0xNTRkNDJiOGQyMWIiIHhtcE1NOkRvY3VtZW50SUQ9InhtcC5kaWQ6MTA3QzM2RTg3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcE1NOkluc3RhbmNlSUQ9InhtcC5paWQ6MTA3QzM2RTc3N0UwMTFFNEIzQURGMTQzNzQzMDAxQTUiIHhtcDpDcmVhdG9yVG9vbD0iQWRvYmUgUGhvdG9zaG9wIENDIChNYWNpbnRvc2gpIj4gPHhtcE1NOkRlcml2ZWRGcm9tIHN0UmVmOmluc3RhbmNlSUQ9InhtcC5paWQ6NWMyOGVjZTMtNzllZS00ODlhLWIxZTYtYzNmM2RjNzg2YjI2IiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjIxNTEzOTFlLWNhZWEtNGZlMy1hNjY1LTE1NGQ0MmI4ZDIxYiIvPiA8L3JkZjpEZXNjcmlwdGlvbj4gPC9yZGY6UkRGPiA8L3g6eG1wbWV0YT4gPD94cGFja2V0IGVuZD0iciI/Pmvxj1gAAAVrSURBVHja7J15rF1TFMbXk74q1ZKHGlMkJVIhIgg1FH+YEpEQJCKmGBpThRoSs5jVVNrSQUvEEENIhGiiNf9BiERICCFIRbUiDa2qvudbOetF3Tzv7XWGffa55/uS7593977n3vO7e5+199p7v56BgQGh0tcmvAUERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERREUQVEERVAUQVEERVAUQbVYk+HdvZVG8b5F0xj4RvhouB+eCy8KrdzDJc1RtAX8ILxvx98V1GyCSkN98Cx4z/95/Wn4fj6j6tUEeN4wkFSnw1MJqj5NhBfAuwaUHREUg4lqNMmePVsHll/HFhVfe1t3FwpJI8DXCCquDrCWNN4B6Tb4M3Z98aTPmTvh0YHl18PXw29yZiKejoPvcUD6E74yFBJbVDk6Bb7K8aP/Hb4c/tRzEYIqprPhSxzlf4Uvhb/0Xoig8qnHAJ3lqPMzfDH8XZ4LEpRf2sVdA5/sqPO9Qfop70UJyn+/boaPddT5yrq7VUUvTIVJI7q74MMddXR8NB1eXcYvhBpZm0s2w72/o86HFoKvLau/pYaXzjLMdUJ6y0LwtWV9CIIaXtvA8+G9HHV03u5q+K+yH47U0NoRngPv7KjzHDwTLj0bS1BDazfJJlcnOOostC6ysnCT+q80G/sIvFVgeW09D8FPVT0uoP7VfvAD8NjA8pqmuAN+OcYAjso0RbIZ8DGB5TVNcRO8JMaHY9SXSdfa3eeANJimWBLrA7JFiZwIXye+NMUV8CcxP2SRFjXefok7NRjSGZJlWUPvw2/wtNiQirSoXWyMsR28wR7AzzYM0oXw+Y7yK+CLJGeaoqjyrJSdZJD6Ov4+z5y6NJc0Az7NUecHydIUy+v60KNyQHoM3nKI1y7YCFiq0i7uBvgER52vDdKqWn9djhY1Dn4G3n6Ecqm2rF74dvgoR53S0hQxW9RJAZAGW5bSn58QJA27dQ7uIEedjywEX5NKVxCqsY6y+qA+LxFI4+yZ6oH0trWkNan80jygtIUsc5SflgAsDXgehfdx1KkkTRE76tN+Xue2jnTU0Ru1oIbvpt30bBtKhOp5yaaRkts0lic8V1i6dPcIRx2d/l8Y8XtNNEg7OOo8bl1kmmOKnDsO88CaYzejau0hWZqiL7C83oCH4SeTHvwV2BqqsHRVztSEYOmWF80NeXZT6Hd4KflResE9vCnBOlCyGfDNAstHTVPUDWoQ1t3iW+9WNizvlhfd4aerXd+ThqiMfNR6+9LvOOro5OY5JX2H4+F7HZD+kGzlamMgldWiirQsjcwWFbjmqZJteekJLK9pisvgL6RhKvuciZiwzrWWGapfrPy30kBVcSBIrw0aD3PU0XB6cehntq7rTMf7/2iQlktDVdXJLXlg6VjmiYBn6rWSTRCH6hvJ0hQrpcGq8oidsmHpTP8t8DGO9/vcWt9qabiqPgup1yKyQwvC2tSefZ73SSpNkUJ4PlLorlHZ+446nc8f3fIyywlJhwrTuwVSjBa1ccvSxN0hjjoK5xVrYZMd9V6XbFfgBukixTwGLg8sDam3dZR/wZ6L/dJlin1en8LS+bgpFbz3Ygvzu1J1HKxYNqxGpCmaCEo12rrBorD6LRp8UbpcdR5VWhTW35KlKd6QFqjuM2XzwlpnMxTvSkuUwuG/Xlg6NtPjbT6WFimF/VG6LEvXgn8QGDjMbBukVECFwhpoS+CQatfX2Q1q6H7wENHdrfCr0lKleEB9JyxNneus+VJpsVL9TwI6W65LovWIGl3KtVJaLv7LBwYTFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFEVQFEERFFWq/hFgADUMN4RzT6/OAAAAAElFTkSuQmCC">
+                <p class="toast_content">已留言</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="js_article" class="rich_media">
+        
+        <div id="js_top_ad_area" class="top_banner">
+ 
+        </div>
+                
+
+        <div class="rich_media_inner">
+            <div id="page-content">
+                <div id="img-content" class="rich_media_area_primary">
+                    <h2 class="rich_media_title" id="activity-name">
+                        翻新重写！WWDC 后苹果最新&nbsp;App Store 审核条款！「内附最新开发者指南」 
+                    </h2>
+                    <div class="rich_media_meta_list">
+                        						                        <em id="post-date" class="rich_media_meta rich_media_meta_text">2016-06-16</em>
+
+                                                <a class="rich_media_meta rich_media_meta_link rich_media_meta_nickname" href="javascript:void(0);" id="post-user">ASO100</a>
+                        <span class="rich_media_meta rich_media_meta_text rich_media_meta_nickname">ASO100</span>
+
+                        <div id="js_profile_qrcode" class="profile_container" style="display:none;">
+                            <div class="profile_inner">
+                                <strong class="profile_nickname">ASO100</strong>
+                                <img class="profile_avatar" id="js_profile_qrcode_img" src="" alt="">
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">微信号</label>
+                                <span class="profile_meta_value">ASO100data</span>
+                                </p>
+
+                                <p class="profile_meta">
+                                <label class="profile_meta_label">功能介绍</label>
+                                <span class="profile_meta_value">最专业的App竞品数据分析平台，运营必备ASO工具！</span>
+                                </p>
+                                
+                            </div>
+                            <span class="profile_arrow_wrp" id="js_profile_arrow_wrp">
+                                <i class="profile_arrow arrow_out"></i>
+                                <i class="profile_arrow arrow_in"></i>
+                            </span>
+                        </div>
+                    </div>
+                    
+                    
+                    
+                    
+                                                            
+                                                            
+                    
+                    <div class="rich_media_content " id="js_content">
+                        
+                        <p style="text-align:center"><img src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/0.jpg" style="width: auto ! important; visibility: visible ! important; height: auto ! important;" data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz/spMxia2lZubJJ0ricqLSqibCgncu0c0VEXWFPw5pXNxn6LibjsZ4JnYHFRcEicvuXOgVAAaNlIaw2TREDx0GwAx4P4w/0?wx_fmt=gif" data-ratio="0.21402877697841727" data-w=""></p><p><br></p><section style="box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px;  box-sizing: border-box; "><section class="" style="padding-top: 10px; padding-right: 10px; padding-left: 10px; box-sizing: border-box;"><span style="display: inline-block; width: 5%; line-height: 0.8; font-weight: bolder; font-size: 48px; color: rgb(11, 185, 149); box-sizing: border-box;" class=""><section style="box-sizing: border-box;">“</section></span> <section class="" style="display: inline-block; vertical-align: top; float: right; width: 90%; line-height: 1.5; box-sizing: border-box;"><section style="box-sizing: border-box;">WWDC 2016 大会之后，苹果公司发布了四个全新平台：iOS，macOS，watchOS 和 tvOS。并且在此之后，苹果应用商店审核条款也同时进行了更新——貌似不算进行了更新，简直就是重写！上个版本的 30 个章节被修改成了 5 大章节，但原版英文版字数从 5000 多个英文单词增加到了 6000 多个英文单词。</section></section><section style="clear: both; box-sizing: border-box;"></section></section></section></section></section><p><span class="" style="display: inline-block; width: 26.7969px; line-height: 0.8; font-weight: bolder; font-size: 48px; color: rgb(11, 185, 149); box-sizing: border-box; background-color: rgb(255, 255, 255);"></span></p><section style="line-height: 25.6px; white-space: normal; box-sizing: border-box; background-color: rgb(255, 255, 255);"><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-bottom: 10px;  box-sizing: border-box; "><section class="" style="display: inline-block; box-sizing: border-box;"><section style="border-left-width: 1px; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box;"><section class="" style="padding-left: 5px; border-left-width: 5px; border-left-style: solid; border-left-color: rgb(11, 185, 149); line-height: 1.5em; box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="padding: 3px 5px; display: inline-block; line-height: 1.2em; border-top-width: 5px; border-top-style: solid; border-top-color: rgb(19, 18, 18); border-left-width: 5px; border-left-style: solid; border-left-color: rgb(19, 18, 18); color: rgb(255, 255, 255); text-align: center; box-sizing: border-box; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">目录</section></section></section></section></section><section class="" style="margin-top: 10px; margin-left: 10px; box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">提交应用之前的检查列表</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">1.安全</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;"><span style="line-height: 1.75; box-sizing: border-box;">1.1 不当内容</span></section><section style="box-sizing: border-box;">1.2 用户生成的内容</section><section style="box-sizing: border-box;">1.3 儿童分类</section><section style="box-sizing: border-box;">1.4 人身伤害</section><section style="box-sizing: border-box;">1.5 开发者信息</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">2.性能</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">2.1 应用程序的完整性</section><section style="box-sizing: border-box;">2.2 Beta版测试</section><section style="box-sizing: border-box;">2.3 应用内容的准确性</section><section style="box-sizing: border-box;">2.4 硬件兼容性</section><section style="box-sizing: border-box;">2.5 软件要</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">3.业务</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">3.1 付款<span style="line-height: 1.75; box-sizing: border-box;">&nbsp;</span></section><section style="box-sizing: border-box;">3.2其他商业模式问题</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">4.设计</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">4.1 模仿者</section><section style="box-sizing: border-box;">4.2 最少功能</section><section style="box-sizing: border-box;">4.3 垃圾应用</section><section style="box-sizing: border-box;">4.4 扩展</section><section style="box-sizing: border-box;">4.5 苹果网站和服</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">5.法律</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">5.1 隐私</section><section style="box-sizing: border-box;">5.2 知识产权</section><section style="box-sizing: border-box;">5.3 游戏，赌博，彩</section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; line-height: 1;  box-sizing: border-box; "><section class="" style="display: inline-block; vertical-align: top; box-sizing: border-box;"><span style="width: 0px; display: inline-block; opacity: 0.6; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span><span style="width: 0px; display: inline-block; border-left-width: 0.6em; border-left-style: solid; border-left-color: rgb(11, 185, 149); box-sizing: border-box; border-top-width: 0.5em !important; border-top-style: solid !important; border-top-color: transparent !important; border-bottom-width: 0.5em !important; border-bottom-style: solid !important; border-bottom-color: transparent !important;"></span>&nbsp;</section><section class="" style="padding-left: 3px; display: inline-block; vertical-align: top; line-height: 1.2; box-sizing: border-box;"><section style="box-sizing: border-box;">提交应用之后</section></section></section></section></section></section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">Before</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">提交应用之前的检查列表</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">为了帮助你的应用能够尽可能顺利的过审，请查看下面列出来的可能降低审核速度或者被拒绝的常见失误。本清单无法代替审核条款，但你需要确保你已经达到了清单的要求作为良好的开始。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">确保你已经：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1、&nbsp;</span>测试你的应用程序，保证它不会发生崩溃和错误</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2、</span>&nbsp;确保你的应用程序的信息和应用内容保持完整和准确</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3、</span>&nbsp;保证联系人信息始终有效，审核团队可以及时联系到你</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4、&nbsp;</span>提供一个有效的测试帐号以及登录信息，并提供测试功能必要的的硬件和资源（例如，一个测试用的二维码）</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5、</span>&nbsp;保证后台服务在审核期间运行正常</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">6、</span>&nbsp;如果应用的某些功能和应用内付费隐藏较深，需提供详细的描述文档和支持文档。如果因为地域的原因我们无法正常使用该功能，请提供该功能的描述视频链接。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">7、</span>&nbsp;请检查你的应用程序是否符合其他规范，包括（注意文中部分内容也有对应的条款和说明，请注意查看）</section><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">a开发指南</span></section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>应用程序编程指南（App Programming Guide）</p></li><li><p>应用扩展编程指南（App Extension Programming Guide）</p></li><li><p>iOS数据存储条款（iOS Data Storage Guidelines）</p></li><li><p>Mac OS X文件系统文档（Mac OS X File System Documentation）</p></li><li><p>Safari扩展开发指南（Safari Extensions Development Guide）</p></li><li><p style="box-sizing: border-box;">iTunes Connect开发指南（iTunes Connect Developer Guide）</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><p style="box-sizing: border-box;"><br></p><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">b设计指南</span></section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>iOS人机交互界面条款（iOS Human Interface Guidelines）</p></li><li><p>Mac OS人机交互界面条款（Mac OS Human Interface Guidelines）</p></li><li><p>tvOS人机交互界面条款（tvOS Human Interface Guidelines）</p></li><li><p>watchOS人机交互界面条款（watchOS Human Interface Guidelines）</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">c 品牌营销指南</span></section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>App Store市场营销条款（App Store Marketing Guidelines）</p></li><li><p>苹果支付身份条款（Apple Pay Identity Guidelines）</p></li><li><p>加入苹果支付许可条款（Add to Apple Wallet Guidelines）</p></li><li><p>使用Apple商标和版权的条款（Guidelines for Using Apple Trademarks and Copyrights）</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">点击「阅读原文」可获取以上所有苹果开发者指南官方链接。</span></section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">一</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">安全</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">当用户从App Store安装应用的时候，他们需要确认这样的操作是安全的。所以应用程序不能包含令人不快或者冒犯性的内容，而且使用中不会造成身心伤害。我们列出了常见的几种缺陷，如果你的应用准备冒犯用户或者与用户发生冲突，App Store不是你的应用应该上架的地方。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">1.1不当内容</span></strong></section><section style="box-sizing: border-box;">应用程序不应该包括攻击性，敏感，令人不悦，侮辱或者品味低下的内容。例如：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.1</span>&nbsp;诽谤或者人格侮辱的内容，包括引用或者评论宗教、种族、性取向、性别或者其他目标群体的内容，特别是该应用对特定的人群造成了伤害（只有专业的政治讽刺作家和幽默大师才不会受到此限制）。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.2&nbsp;</span>对人或动物被杀害、致残、折磨、虐待的逼真的描述或者具有暴力倾向的内容。如果是游戏，那么其中的敌人不能只针对特定的种族、文化、政府、公司以及任何其他实体。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.3&nbsp;</span>鼓励人们非法或者轻率使用武器和危险品的内容，或者方便人们购买枪支的内容。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.4&nbsp;</span>公开的性爱或色情的内容。根据韦氏词典（Webster’s Dictionary）的定义，这些内容特指“明确的描述或展示性器官，或者目的在于激发人们的性欲，而不是展示美学或者渲染气氛”。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.5&nbsp;</span>煽动宗教仇恨或者对宗教文献的误导性和不准确的引用。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.1.6&nbsp;</span>提供虚假信息和虚假功能，包括提供不正确的设备信息，提供恶作剧的功能例如虚假的位置跟踪工具。即便是明确指出该应用程序是出于娱乐性的目的也不会无视该条款。发送匿名虚假诈骗信息或者拨打恶意电话的应用会被直接拒绝。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">1.2 用户生成的内容</span></strong></section><section style="box-sizing: border-box;">为了防止非法滥用用户生成的内容，从而给用户提供虚假信息、盗取用户的知识产权，社交应用以及应用当中包含用户生成的信息的应用必须包括下述功能：</section><section style="box-sizing: border-box;">&nbsp;</section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>过滤不良内容</p></li><li><p>提供举报机制</p></li><li><p>后台服务可以提供阻止骚扰用户的行为</p></li><li><p>提供官方联系方式，让用户可以快速联系到开发商</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">如果应用在使用用户生成的内容或者提供服务的时候，主要目的是发布色情内容，人肉搜索、侮辱用户，人身威胁、恐吓用户，这种应用不应该放在应用商店，而且苹果可能会不通知开发商并直接下架。如果你的应用使用用户生成的信息来提供网络服务，并且网页上包含了一些限制级的内容，需要默认隐藏并且提供明显的NSFW（不适合工作场所）标识，用户主动点击才会显示。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">1.3 儿童分类</span></strong></section><section style="box-sizing: border-box;">儿童分类是人们找到适合儿童的应用的良好方式。如果你希望你的应用上架到这个类别当中，你需要关注并且在设计应用的时候需要照顾到儿童的良好体验。这些应用程序不可以包括指向其他应用的链接，付费入口以及其他可能会吸引儿童的不适合的内容，除非提供给家长监控和开启的能力。请记住，一旦客户期望你的应用程序遵循儿童类别的要求，那么它需要进行不断的修改从而满足后续版本的儿童类别的条款更新。即便是你打算取消发布在儿童类别当中也一样需要遵守这些条款。点此了解家长监控的更多内容。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">儿童类别的应用不允许包括基于用户行为的广告（也就是这种广告会根据用户行为而决定展示什么样的内容）。如果包含了广告，这些广告必须也适合儿童。与此同时，你也需要特别留意世界各地有关在线收集儿童数据的相关法律法规。请务必查看本条款的隐私条款来了解更多的相关信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">1.4 人身伤害</span></strong></section><section style="box-sizing: border-box;">如果你的应用程序可能会危害到人身安全，我们可能会拒绝掉它。这类情况包括：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.4.1&nbsp;</span>如果你的应用属于医疗范畴，那我们将会对这个应用提供用于医疗诊断的信息的准确性进行更加严格的审查。如果你的医疗应用已经获得了相关监管部门的批准，你需要随同你的应用一并提供指向相关批准文档的链接用于审核</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.4.2&nbsp;</span>药物剂量计算器必须来自药物生产企业、医院、高校、健康保险公司以及其他具有合法资质的实体。或者你的计算方法已经获得了FDA或其他国际上的同行的认可。考虑到潜在的人身伤害的危险，我们需要确保你的应用会长期获得更新和支持</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.4.3&nbsp;</span>应用程序不允许鼓励人们非法摄入过量的酒精或药物，或者鼓励未成年人消费药物、酒精和烟草。与此同时，严禁销售大麻等毒品。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.4.4</span>&nbsp;应用程序只能显示执法机构提供的酒后驾驶检查站，而且不允许鼓励人们进行危险的行为，包括酒驾、超速。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">1.4.5&nbsp;</span>应用程序禁止强迫人们采用违背苹果硬件的安全文档的方式，包括冒着设备损坏或者造成人身伤害的危险使用他们的设备。例如，应用程序不应该鼓励人们将设备塞到床垫下面或枕头下面充电。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">1.5 开发者信息</span></strong></section><section style="box-sizing: border-box;">用户需要了解当他们遇到问题的时候该如何与您联系。确保你提供的链接当中包含了使用户找到你的非常方便的方法。如果联系人信息不准确或者过期，这不仅令用户失望，在有些国家和地区这也属于违法行为。与此同时，确保支付许可包含发行商的有效联系信息，并且这些信息采用分配给发行商的来自权威机构的合法的根证书进行签名。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">二</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">性能</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">2.1 应用程序的完整性</span></strong></section><section style="box-sizing: border-box;">提审版本的应用必须是最终版本，并且包含了所有应用内容以及所有有效链接。应用在提交的时候需要清除掉所有占位符、无效地址和临时内容。确保你的应用在提交审核之前经过充分测试并且没有BUG，如果你的应用需要登陆，需要包含一个合法的账户而且对应的后台服务也是正常有效的。如果你的应用包含应用内付费，确保他们是完整的，最新的，并且审核人员可以很容易找到。如果不可以，需要提供明确的解释为何不行。请不要把应用程序审核当作软件测试服务，如果你的应用不完整或者存在明显的技术缺陷，它将直接被拒绝。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">2.2 Beta版测试</span></strong></section><section style="box-sizing: border-box;">您的应用程序的测试版本不应该上架到应用商店，请使用Testflight来代替。如果你的应用提交到Testflight Beta，那么这个应用已经准备好对外发布，并且符合应用审核条款。请注意，Testflight版本的应用不允许从测试人员当中获取任何利益，包括来自众筹的资金。你应该对测试人员提供明确的更新说明。请通过Testflight Beta测试说明了解更多信息。</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">&nbsp;</span></strong></section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">2.3 应用内容的准确性</span></strong></section><section style="box-sizing: border-box;">客户在下载你的应用的时候需要明确了解你的应用是什么，所以请确保你的应用描述、截图、预览视频始终是最新版本，并且能够准确反映你的应用。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.1&nbsp;</span>不要在你的应用当中包含任何隐藏和没有相关说明文档的功能。你的应用程序的功能必须让用户和审核人员了解清楚。如果这样的行为过分或者反复出现，你可能会被苹果从开发者身份当中除名。我们努力确保App Store是一个令人信赖的生态系统，并且期望每一个开发者也能够遵守这种要求。如果你没有信誉，我们不想和你合作。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.2&nbsp;</span>如果你的应用程序包含了应用内付费功能，请确保你的应用程序的描述、截图和预览视频能够明确表明哪些功能、关卡、订阅内容等需要额外购买。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.3&nbsp;</span>你的截图必须符合你的应用程序的实际内容，而不是标题艺术，登陆界面和闪屏界面。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.4&nbsp;</span>你的预览视频是让用户能够快速了解你的应用是用来做什么的好方法。为了确保人们可以清楚的了解他们将会在你的应用当中获得什么内容，你的预览视频必须从应用程序本身的运行效果当中捕获。你可以添加旁白或者文本描述来帮助解释视频本身无法解释清楚的内容。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.5&nbsp;</span>你需要遵守App Store的类别定义，并且为你的应用选择最合适的类别。如果你选择的类别不符合你的应用，我们可能会帮助你改变应用类别。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.6&nbsp;</span>你必须诚实的回答iTunes Connect上面提供的年龄分级的问题，从而你的应用可以良好的使用家长控制功能。如果你的应用年龄分级不正确，用户可能会对你的应用程序的行为表示十分意外，这也可能导致某些国家和地区的监管部门对你的应用分级不正确的问题开展调查。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.7&nbsp;</span>你需要创建一个独一无二的应用名称，设计一套准确描述你的应用的关键词。不要尝试使用商标术语、流行的应用名称以及其他不相关的词语来包装你的应用。苹果可能随时修改不恰当的关键词。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.8</span>&nbsp;你的应用内容应该适合所有的用户，所以一定要确保你的应用图标、截图和预览视频能够准确的反映你的应用。即使你的应用程序年龄分级高于4+，你的图标、截图和预览视频也必须符合4+的年龄分级。例如你的应用是一个游戏，并且具有暴力内容，你必须选择一个不反映死亡、枪决的截图放到应用商店当中。记住确保你的应用内容，包括应用名称和图标（小图标、大图标、Apple Watch图标等）是一致的从而防止用户感到迷惑。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.3.9&nbsp;</span>开发商具有保证版权合法的责任，包括应用程序图标，截图，预览视频的版权。图标、截图和预览视频需要使用一个虚构的账户的信息，而不是一个真实的用户信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">2.4 硬件兼容性</span></strong></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.4.1&nbsp;</span>为了确保人们可以尽可能充分的体验你的应用，在可能的情况下iPhone应用也可以完美支持iPad。我们鼓励您建立通用的应用，使得用户可以在不同的设备上使用。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.4.2&nbsp;</span>你的应用需要高效的利用电量。应用程序不应该快速的消耗电池电量并且产生过多的热量，或者对用户的设备造成不必要的负担。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.4.3&nbsp;</span>你的Apple TV应用可以在只有Siri遥控器或者游戏手柄的时候可以正常运行，但我们不反对你通过更多的外围设备增强你的应用功能的做法。如果你需要一个游戏控制器，请确保在游戏当中对这个游戏控制器提供明确的教程，从而让用户知道如何使用这个控制器。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.4.4&nbsp;</span>应用程序不应该建议或者要求设备重新启动。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.4.5&nbsp;</span>通过Mac App Store发布的应用还需要遵守额外的要求：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（i）它们必须适当的被沙盒化，而且遵守Mac OS文件系统文档。这些应用也必须通过对应的Mac OSAPI来修改其他应用的数据（例如书签、地址簿和日历）。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）必须使用Xcode对应用进行打包，不允许包含第三方的安装程序。它们必须是自我包含的、单一文件的安装包，而且不能在共享的位置安装代码和解压资源。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）在未经用户允许的情况下不允许自动启动或者开机启动，而且用户退出应用之后不允许在未经用户同意的情况下残留后台进程。应用不允许自动将图标放在Dock或者用户桌面。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iv）应用程序不允许私自下载和安装其他应用，驱动，额外的代码，以及添加应用功能或者明显改变与审核版本的应用不同的应用工作方式的资源文件。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（v）应用程序不允许要求升级到root权限，或者使用setuid属性来升级权限。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（vi）这些应用运行的时候不允许弹出要求许可证的窗口，或者其他的显示方式来反盗版（应用商店允许付费并视为购买了正版授权）。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（vii）必须使用Mac App Store发布更新，其他方式不被允许。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（viii）应用程序仅在在当前版本的系统就可以运行，不允许使用可选安装的技术或者废弃过时的技术（例如Java, Rosetta等）</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ix）所有的本地化版本必须包含在同一个应用程序包下。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">2.5 软件要求</span></strong></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.1&nbsp;</span>应用程序只能使用公共API，不允许使用私有API。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.2&nbsp;</span>应用程序bundle当中需要是自包含的，不允许读写它们设计的容器之外的数据，并且不得下载、安装或执行代码，包括其他iOS，watchOS，macOS和tvOS的应用。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">2.5.3 如果应用程序传播病毒、文件、计算机代码或者其他可能损坏操作系统和硬件的功能，包括消息推送和游戏中心，将被拒绝。如果这种行为十分恶劣而且反复出现，开发者可能会被苹果除名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.4&nbsp;</span>多任务的应用只能在预期目的下运行后台服务，例如网络电话、音频播放、定位服务、任务计划、本地通知等。如果你的应用程序使用了定位服务，需要提供一个明确的提醒告诉用户这么做会加快电量消耗。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.5&nbsp;</span>我们会在IPv6网络上审核你的应用，所以如果你的应用程序无法使用IPv6协议，可能会被拒绝。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.6&nbsp;</span>应用程序如果浏览网络，必须使用WebKit框架和WebKit Javascript标准。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.7&nbsp;</span>使用蜂窝数据网络播放的视频如果超过10分钟，必须使用HTTP Live Streaming技术并且提供192kbps的码率选项。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.8&nbsp;</span>改动用户桌面/home界面环境体验的应用，以及模拟多应用小工具使用体验的的应用将会被拒绝。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.9&nbsp;</span>应用程序如果修改了标准开关的功能，例如音量上下键和响铃开关，或者其他原生用户界面元素和行为将会被拒绝。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">2.5.10&nbsp;</span>应用程序在提交的时候不允许包含一个空的广告栏或者测试广告。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">三</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">业务</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">你的应用可以在App Store当中有多种方式赚钱。如果你的应用的商业模式不够明显，请在应用内容或者审核备注当中提供商业化描述。如果你的应用程序的行为我们无法理解，或者你的应用内付费入口不够明显，将会使得你的应用审核速度变慢甚至被拒绝。尽管定价权在你，但是如果你的应用或者应用内付费存在明显的敲竹杠的行为，我们也会拒绝发布这个应用或者这个应用内付费。我们会拒绝掉视图以不正常的高价格欺骗用户的昂贵的应用。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">如果我们发现你视图诱导用户给较高评价等操纵评价的行为，例如通过支付来诱导、过滤不良评价、通过水军刷虚假评价或者通过第三方的公司或团队代表您进行这类操作，我们会采取措施来维护App Store的环境，其中可能包括将你从开发人员当中除名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">3.1 付款</span></strong></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.1&nbsp;</span>应用内付费：如果你希望通过付费才可以解锁你的应用当中的一些功能（例如，订阅内容，游戏货币，游戏关卡，获取优质内容，解锁完整版本），你必须使用应用内付费（IAP）。应用程序不允许包括按钮、链接或者其他调用方式和行为指导用户采用非IAP的方式付费。通过IAP购买的游戏内的虚拟货币或积分必须只能在这个应用内才可以消费，不能过期，你应该确保你的应用针对具有可恢复的应用内付费具有恢复应用内付费的购买状态的功能和机制。如果你的应用内付费的付费类型不正确，你的应用会被拒绝。应用不可以直接或间接使用应用内付费的内容和功能向其他用户赠送礼品。在Mac应用商店发布的APP需要使用其他机制或者包含一个插件而不是应用商店本身来完成这样的赠送功能。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.2&nbsp;</span>订阅：自动更新的订阅只能使用应用内付费来提供，并且只能用于期刊（例如报杂志），商业应用（例如企业、生产力、专业创作和云存储），媒体应用（例如视频，音频，语音和照片共享），以及其他批准的服务（例如约会计划、食谱管理和天气预报）。这些订阅必须持续不少于7天，而且从这款应用可以运行的用户的所有的设备当中都可以获取。你可能会提供跨应用程序的丁芸，但这些订阅内容不允许再扩展到第三方的应用或服务。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.3&nbsp;</span>基于内容的“阅读”应用：应用可以允许用户访问他们之前购买的内容或者订阅的内容（比如报纸、杂志、书籍、音频，音乐，视频，专业的数据库，网络电话，云存储以及其他被批准的服务例如管理学生成绩和课程表的教育应用）。应用程序提供商不允许指引用户采用IAP之外的付费机制付费。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.4&nbsp;</span>代码：应用不允许使用自己的机制来解锁应用内容和功能。包括许可证密钥，增强现实的标识，二维码等。在条件不允许的情况下（例如这个功能需要搭配特定的硬件才可以使用，比如天文应用程序在有望远镜的情况下可以扩展它的功能），这些应用可以不使用应用内付费来解锁这些功能。应用程序的功能如果搭配一个被批准的硬件来使用（例如一个玩具），可以只解锁基本的功能，并提供一个应用内付费解锁增值功能。您不允许要求用户购买一个不相关的产品或者参加一个市场营销活动来解锁应用的功能。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.5&nbsp;</span>应用之外的商品和服务：如果你的应用允许人们购买商品和服务，但这些商品和服务的消费和该应用无关，你必须使用非IAP的方式完成支付。例如Apple Pay，信用卡和借记卡支付入口。应用程序可以使用批准的虚拟货币进行交易（例如比特币，狗狗币），只要这些付费方式遵守这个应用发布的国家和地区的相关法律法规即可。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">3.1.6&nbsp;</span>ApplePay：使用Apple Pay的应用程序在出售商品或服务之前，必须提供所有商品和服务的信息给用户。必须正确的使用Apple Pay的品牌和用户界面元素，符合Apple Pay身份识别条款和人机交互界面条款（Apple Pay Identity Guidelines and Human Interface Guidelines）。使用Apple Pay提供定期付款必须提供下述信息：</section><section style="box-sizing: border-box;">&nbsp;</section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>定期的时间长度以及明确指出在取消之前定期付款将一直持续</p></li><li><p>每个周期提供什么样的功能和服务</p></li><li><p>实际收费的账单</p></li><li><p>取消定期付款的方式</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">3.2其他商业模式问题</span></strong></section><section style="box-sizing: border-box;">下面的列表并不全面，而且拟提交的应用可能会触犯我们以后更新的最新政策。但是这里面也提供了一些额外的你应该和不应该做的内容：</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">&nbsp;</span></strong></section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">3.2.1 可接受的方式</span></strong></section><section style="box-sizing: border-box;">（i）你的应用可以展示给用户你开发的其他应用，但你的应用程序不能仅仅是提供其他应用程序的目录应用</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）展示或者建议其他的第三方应用的集合，并且这些应用被设计为在特定领域才发挥作用（例如健康管理，航空服务，交通服务），你的应用程序需要提供强大的编辑能力，使得它看起来不像是一个单独的商店页面。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）当租约过期的时候禁止用户访问特定的需要批准出租的内容（例如电影、电视节目、音乐和书籍）。但是其他的物品和服务不能过期。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iv）支付许可可以用于付款或者收费，转移优惠券和票据（例如电影票，优惠券和VIP凭证）。其他用途可能会导致应用被拒绝或者撤销支付许可证书。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（v）保险类应用必须是免费的，符合发布地区的相关法律法规，且不能使用应用内付费。</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">&nbsp;</span></strong></section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">3.2.2 不可接受的方式</span></strong></section><section style="box-sizing: border-box;">&nbsp;<span style="line-height: 1.75;">（i）展示第三方应用的界面、扩展、插件看起来和App Store很像，或者作为一般的兴趣集合。</span></section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）苹果的硬件和系统内置的功能需要付费才可以解锁，例如通知推送，照相机，陀螺仪。包括苹果服务，例如苹果音乐的访问能力和iCloud存储的访问能力。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）人为的增加广告的展示量和点击量，包括应用程序被设计为主要展示广告的应用。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iv）在应用内为慈善机构募捐资金。这类应用在应用商店必须免费而且必须使用其他方式募捐资金，例如通过短信，网页内支付。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（v）通过某种方式人为限制应用的使用人群，例如通过位置或者载体来限制。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">四</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">设计</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">苹果的客户十分喜欢那些简洁、精致、创新和易于使用的应用，这正是我们希望在应用商店当中看到的。尽管是你在创造出伟大的设计，但下面的这些标准都是通过应用商店审核的最低标准。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">4.1 模仿者</span></strong></section><section style="box-sizing: border-box;">拿出你自己的创意，我们知道你具有创意，所以请将你的创意实现出来。不要简单照搬应用商店当中的流行应用，或者仅仅对这个应用的名称和UI进行简单的修改并将其作为自己的应用。除了冒着侵犯他人知识产权的风险外，应用商店也难以搜索到正确的应用，并且这也使得你的同行受到不公正的待遇。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">4.2 最少功能</span></strong></section><section style="box-sizing: border-box;">你的应用在除了仅仅包装一个网站页面之外还要包含其他的功能和内容。如果你的应用程序不是特别有用、独特、或者看起来像是一个应用程序，那么它不应该在应用商店上架。如果你的应用没有提供持久的娱乐价值，或者仅限于让人们感觉毛骨悚然，这个应用可能会被拒。如果应用仅仅是一首歌曲或者一部电影，它应该被提交到iTunes Store。如果应用仅仅是一本书或者一本游戏指南，那它应该被提交到iBooks商店。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.2.1&nbsp;</span>应用程序应该按照它的预期目的来调用API和开发框架。并且在应用描述当中明确指出这种融合方式。例如，HomeKit框架应该提供家庭自动化服务，HealthKit应该是基于健康和健身的目的并且集成在健康类应用程序当中。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.2.2&nbsp;</span>除了目录用于提供专门的类别之外。应用程序的主要功能不应该是提供营销材料，广告，网络剪辑，内容聚合或者链接集合。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.2.3&nbsp;</span>你的应用程序应该不依赖其他应用或功能就可以正常工作。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.2.4&nbsp;</span>Apple Watch应用如果看起来像是一个表盘会令用户困惑，因为用户期望Apple Watch具有丰富的功能，例如刷卡，消息提醒和第三方服务。如果你的应用程序使用独特的方式展示时间是具有创造性的（例如对于冲浪爱好者展示潮汐的时间），但是如果你的应用看起来特别像传统的手表的表盘，我们会拒绝它。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.2.5&nbsp;</span>如果应用的主要功能是访问iCloud以及iCloud的文件管理器，你需要提供额外的附加功能来使你的应用批准上架。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">4.3 垃圾应用</span></strong></section><section style="box-sizing: border-box;">不要为同一个应用程序创建多个Bundle ID。如果你的应用程序有多个版本，例如针对特定的国家和地区的版本，体育队伍，大学等，考虑提交一个版本的应用但是使用应用内付费来作区分。此外还要避免将你的应用放到已经饱和的分类下。App Store当中已经有了足够多的手电、放屁、打嗝、和某种不好的词语的应用。如果想要往App Store投放垃圾应用可能会导致你的开发者资格被撤销。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">4.4 扩展</span></strong></section><section style="box-sizing: border-box;">应用程序扩展必须符合应用程序扩展开发指南（App Extension Programming Guide）或Safari扩展开发指南（Safari Extensions Development Guide），并且如果可能应该包括额外的功能，例如帮助界面，设置界面等。扩展应用的界面不应该包括市场营销内容，广告和应用内付费。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.4.1&nbsp;</span>键盘扩展有一些额外的规则，他们必须：</section><section style="box-sizing: border-box;">&nbsp;</section><ul class="list-paddingleft-2" style="width: 528.188px;"><li><p>提供键盘输入功能（比如键入字符）</p></li><li><p>提供切换输入法的方式</p></li><li><p>在无网络的情况下仍然可以正常使用</p></li><li><p>根据应用扩展开发指南（App Extension Programming Guide）的要求提供数字和符号输入键盘</p></li><li><p>如果键盘输入是这个应用的主要功能，那它的主要类别是工具（Utilities）</p></li><li><p>只基于增强iOS设备输入功能的目的收集用户信息</p></li></ul><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;"></section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.4.2&nbsp;</span>Safari扩展必须可以在当前OS X系统上的Safari浏览器上正常运行，它们不能干扰到系统和Safari UI元素，并且绝不能包含恶意或者误导用户的代码。违反此规则会被从开发者当中除名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">4.5 苹果网站和服务</span></strong></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.5.1&nbsp;</span>应用可以订阅一些苹果提供的RSS源，例如iTunes Store RSS源。但是不能收集从苹果网站上获得的任何信息（包括apple.com，iTunes Store，App Store，iTunes Connect，开发人员门户网站等），或者创建一个基于这些信息的排名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.5.2&nbsp;</span>苹果音乐API可以允许用户在使用你的应用的时候访问他们的订阅内容。用户必须主动使用播放、暂停和跳过按钮来访问播放列表，不允许应用擅自访问和播放。此外你的应用不允许要求用户必须付费或者间接赚钱才可以访问苹果音乐服务（例如应用内付费，观看广告，获取用户信息等）。</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.5.3&nbsp;</span>不要使用苹果服务去发送垃圾信息，钓鱼，发送垃圾邮件。包括游戏中心，推送消息等。不要尝试反向追踪，扫描，嗅探，或者非法获取玩家ID，别名和其他来自Game Center的信息，否则你会被从开发者当中除名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.5.4&nbsp;</span>推送通知不得作为应用必选项才能使用这个应用，不能用于广告，促销和直销的目的，或者发送敏感和机密信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">4.5.5&nbsp;</span>只能使用Game Center规定的方式访问Game Center玩家ID等信息，但不能展示在APP当中或者分发给第三方厂商。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">五</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">法律</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">应用程序必须遵守当地的所有法律法规才可以正常使用（如果你不确认需要遵守哪些法律法规，请咨询律师）。我们了解这些事情十分复杂，但是保证遵守当地一切适用的法规是你应尽的义务，不仅仅是遵守我们的条款。当然，如果应用程序拉帮结派、煽动和蛊惑人们犯罪的这种鲁莽行为会直接导致应用被拒。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">5.1 隐私</span></strong></section><section style="box-sizing: border-box;">保护隐私是苹果生态系统当中的重中之重。你应该谨慎小心的使用收集到的个人信息，以确保你遵守适用的法律条款和苹果开发人员计划许可协议（Apple Developer Program License Agreement）。更不用说这些都是用户对你的的期望。更具体地说：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.1.1&nbsp;<span style="color: rgb(0, 0, 0);">数据收集和存储</span></span></section><section style="box-sizing: border-box;">（i）收集用户数据的应用必须具有隐私政策并且安全的取得用户的同意。这包括但不限于应用程序如果使用了HealthKit和其他医疗、健康技术的应用、HomeKit，键盘扩展，Apple Pay，并且包括登陆、访问设备上的用户数据（例如地理位置，通讯录，日历等）。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）如果你的应用程序不包括明显需要使用用户账户的功能，那么请让用户不登陆的情况下就可以正常使用。应用程序不能要求用户输入用户个人信息来使用其中的功能，但核心功能必要或者法律要求的情况下除外。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）开发人员如果使用应用窃取用户密码和其他隐私数据会从开发人员当中除名。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.1.2&nbsp;<span style="color: rgb(0, 0, 0);">数据的使用和分享</span></span></section><section style="box-sizing: border-box;">（i）你在向用户提供明确的如何使用用户数据的说明文档并取得用户明确的许可之前，你的应用不能使用或者转移用户的数据。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）如果不是基于提升用户体验，提升软硬件性能或者符合苹果开发者计划许可协议（Apple Developer Program License Agreement）的广告推广目的，不允许使用或者向第三方厂商告知用户数据。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）从HomeKit API当中获得的数据不允许应用在广告投放和数据挖掘的目的。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iv）使用苹果支付并且通过苹果支付获取用户数据的应用，在使用或向第三方厂商告知的时候只能基于促进或改善商品和服务的交付的目的。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.1.3&nbsp;<span style="color: rgb(0, 0, 0);">卫生与健康研究</span></span></section><section style="box-sizing: border-box;">健康、健身和医疗数据十分敏感，所以这类应用程序需要遵守额外的规则以保护客户的隐私安全：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（i）如果目的是打广告或者用户数据挖掘（用于提升健康管理，或者用于获得了批准的科研目的除外），那么应用不得使用或者向第三方披露用户的健康、健身和医疗数据。这些数据来自但不限于HealthKit API，运动和健身功能，或者其他有关健康的学科的研究课题。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（ii）应用不能向HealthKit以及其他医疗研究和健康管理应用当中写入虚假数据，而且不能够在iCloud上存储健康数据。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iii）致力于人类健康相关的学科研究必须在参与者的同意之下才可以进行，或者对于未成年人，他们的父母和监护人的同意之下才可以进行。相关许可条款必须包括（a）性质、宗旨和研究时长；（b）研究程序，风险和参与人的利害关系；（c）数据的保密性和管理方法，包括与第三方共享的任何数据；（d）参与者如果有疑问需要知道的联络方式；（e）参与者如何撤出的机制。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">（iv）如果应用进行健康相关的研究必须具有独立的伦理审查委员会的许可。此类批准必须按照要求提供。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.1.4&nbsp;<span style="color: rgb(0, 0, 0);">儿童</span></span></section><section style="box-sizing: border-box;">基于很多因素，在使用来自儿童的数据的时候务必保持谨慎。我们希望您在使用这些数据之前能够仔细了解相关要求和国际适用的法律条款，例如儿童在线隐私保护法（Children‘s online privacy protection act，COPPA）。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">应用程序只能基于提供必要的功能和非年龄相关的娱乐价值的目的下，而且在遵守相关法律的前提下才可以请求获取孩子的生日和父母的联系方式。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">此外，儿童类应用如果需要采集、传输、分享儿童的信息（包括姓名、地址、电子邮件、位置、照片、视频、图画、聊天功能、其他个人数据和与上述任何信息一起使用的永久的标识符），必须提供隐私条款，而且必须符合所有适用于儿童的隐私政策。为了明确起见，如果这类应用需要家长监控，通常这两种情况所需要提供的隐私条款会有所不同。点此了解详细信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.1.5&nbsp;<span style="color: rgb(0, 0, 0);">位置服务</span></span></section><section style="box-sizing: border-box;">使用位置服务的应用程序必须提供和位置服务直接相关的功能。使用基于位置的API不允许用于提供紧急服务，或者实现自动控制车辆、飞行器以及其他设备（小型的设备例如小型无人机和玩具例外），远程控制汽车警报系统等。在收集、传输和使用用户的位置数据之前，请确保你已经取得了用户的同意。如果应用程序使用了后台定位服务，务必在应用当中阐明其目的。参考人机交互界面条款（Human Interface Guidelines）了解最佳的做法。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">5.2 知识产权</span></strong></section><section style="box-sizing: border-box;">确保你的应用只包括你创建的内容，或者在使用他人的内容的时候具有合法的许可协议。如果你在许可协议规定的方式之外使用这些内容可能会被苹果下架你的应用。当然，这也意味着其他盗用你的内容的应用也可能会被下架。如果你认为你的知识产权已经被侵犯，请填写这个表单发起诉讼申请。知识产权相关法规在每个国家和地区有所不同，但你的应用必须避免以下最基本的错误：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.2.1&nbsp;</span>一般而言：不要使用受保护的第三方内容，如商标、版权作品，或者在你的应用当中使用未经专利许可的创意。不要包含误导、虚假，山寨的描述，名称和应用内容在你的应用当中。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.2.2&nbsp;</span>第三方网站/服务：如果你的应用使用、访问、展示和商业化第三方的服务，请保证你已经获得了相应的授权许可。并且许可文件必须根据要求在审核前一并提供。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.2.3&nbsp;</span>音频和视频下载：应用程序不能对非法分享、保存、转换或者来自第三方源的数据的非法使用提供方便（第三方来源包括Apple Music, YouTube, SoundCloud, Vimeo等），除非具有相应的合法授权协议。如果应用提供了音视频文件，可能这些文件也会违反知识产权，所以你的应用在提供这些文件和服务的访问能力之前务必具有合法授权协议并且必须按照要求在审核前提供。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.2.4&nbsp;</span>苹果广告代言：不要明示或暗示苹果公司是你的应用的供应商，或者苹果为你的应用的功能和质量代言。如果你的应用被授予“编辑选择奖”，苹果会自动加上这个徽章。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.2.5&nbsp;</span>苹果产品：禁止创建一个应用看起来与苹果已有的产品，用户界面（如Finder），应用（如App Store, iTunes Store或Messages），广告主题相似，并且不允许拼错苹果产品名称（如Iphone, iTunz）。iTunes音乐的预览不允许在取得对应的授权许可之前直接使用。例如作为拼图应用的背景音乐，游戏背景音乐等。如果你的应用展示了Activity圆圈，不允许修改圆圈的显示方式以及它们代表的数据。人机界面交互条款当中对如何使用Activity圆圈有更多的信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><strong><span style="color: rgb(11, 185, 149);">5.3 游戏，赌博，彩票</span></strong></section><section style="box-sizing: border-box;">赌博、游戏和彩票功能可能是最难以管理也是苹果应用商店当中最普遍的促销方式。只有当你完全明白相关法律风险并且已经准备好足够的时间应对监管部门的审查的时候才可以考虑使用。不过有些事情需要牢记：</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">&nbsp;</span></section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.3.1&nbsp;</span>抽奖和竞猜必须由应用开发商赞助</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.3.2&nbsp;</span>用于抽奖和竞猜的官方规则必须在应用当中予以提供，并且明确表明苹果公司不是赞助商或者以任何形式参与该活动。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.3.3&nbsp;</span>应用不允许使用应用内付费购买信用点或者虚拟货币，并把它们与实际的货币结合使用，也不允许在应用当中购买彩票，抽奖券，和进行资金转移。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;"><span style="color: rgb(11, 185, 149);">5.3.4&nbsp;</span>提供需要使用真实货币进行游戏的应用（例如体育博彩、扑克赌博、赌场游戏和赛马竞猜等）或者提供彩票，必须具有当地相关监管部门的合法的授权许可。而且发行的地区仅限于许可协议规定的地点，并且在应用商店当中必须是免费的。非法赌博的工具，包括计牌客不允许上架到App Store当中。彩票App必须具有下列要素：报酬，中奖几率和奖金。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" margin-top: 10px; margin-bottom: 10px; transform: translate3d(0px, 0px, 0px);  box-sizing: border-box; "><section class="" style="border: 2px solid rgb(21, 30, 40); text-align: center; display: inline-block; vertical-align: top; overflow: hidden; box-sizing: border-box;"><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(21, 30, 40);"><section style="box-sizing: border-box;">After</section></section><section style="width: 0px; display: inline-block; vertical-align: top; border-width: 1em 0.5em; border-style: solid; border-color: rgb(21, 30, 40) rgb(11, 185, 149) rgb(11, 185, 149) rgb(21, 30, 40); box-sizing: border-box;"></section><section class="" style="line-height: 2em; display: inline-block; vertical-align: top; color: rgb(255, 255, 255); box-sizing: border-box; min-height: 2em !important; min-width: 2em !important; background-color: rgb(11, 185, 149);"><section style="box-sizing: border-box;">提交应用之后</section></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style=" transform: translate3d(10px, 0px, 0px);  box-sizing: border-box; "><section class="" style="line-height: 1.75; box-sizing: border-box;"><section style="box-sizing: border-box;">一旦你将应用程序和元数据提交到iTunes Connect当中，并且进入审核流程，这里有一些事情你需要牢记：</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">时间：应用审核团队会尽快审核你的应用，我们也一直努力加快审核速度。可以在此了解更多有关App审核的信息。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">状态更新：你的应用的当前状态会在iTunes Connect当中直接反映。所以你可以在上面留意你的应用状态。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">加急审核申请：如果你们对时间非常敏感，你们可以点此申请加急审核。请务必当你在真正需要它的情况下才进行加急审核，因为你也需要尊重你的同行。如果我们发现你在滥用这个系统，我们可能会拒绝你的加急申请。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">发布日期：如果你的发布日期设为未来的某个时候，你的应用在到达那个时间点之前不会发布到应用商店上面，即便是已经通过了审核。请记住，你的应用在所有选定的应用商店上架可能需要长达24小时的时间。</section><section style="box-sizing: border-box;">&nbsp;</section><section style="box-sizing: border-box;">被拒：我们的目标是严格遵守这些准则，但人无完人，如果你的应用程序被拒绝并且你对此表示疑问或者希望提供更多的信息，请使用解决方案中心来和应用审核团队直接沟通。这可能对你的应用尽快上架有帮助，而且这也可能帮助我们完善应用程序审核流程或者让我们发现审核政策当中表述不清的地方。如果你仍然对结果有异议，请点此提出上诉。</section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section><section class="" style="   box-sizing: border-box; "><section class="" style="   box-sizing: border-box; "><section class="" style="padding-top: 10px; padding-right: 10px; padding-left: 10px; box-sizing: border-box;"><span class="" style="display: inline-block; width: 26.7969px; line-height: 0.8; font-weight: bolder; font-size: 48px; color: rgb(11, 185, 149); box-sizing: border-box;"><section style="box-sizing: border-box;">“</section></span><section class="" style="display: inline-block; vertical-align: top; float: right; width: 482.391px; line-height: 1.5; box-sizing: border-box;"><section style="box-sizing: border-box;">Apple:We’re excited to see what you come up with next!</section><section style="box-sizing: border-box;">——<span style="line-height: 1.5; box-sizing: border-box;">我们很期待看到你们未来发布的产品！</span></section></section><section style="clear: both; box-sizing: border-box;"></section></section></section></section><section class="" style="box-sizing: border-box;"><section class="" style="   box-sizing: border-box; "><section class="" style="box-sizing: border-box;"><section style="box-sizing: border-box;"><br style="box-sizing: border-box;"></section></section></section></section></section><p style="line-height: 25.6px;"><br></p><p style="line-height: 25.6px;">本文由腾讯网 Hearstzhang 翻译整理，转载请注明来源！</p><p style="line-height: 25.6px;"><br></p><p style="line-height: 25.6px;"><span style="color: rgb(11, 185, 149); line-height: 28px; background-color: rgb(255, 255, 255);">点击「阅读原文」可获取相关苹果开发者指南官方链接。</span></p><p style="line-height: 25.6px;"><span style="color: rgb(11, 185, 149); line-height: 28px; background-color: rgb(255, 255, 255);"><br></span></p><p style="line-height: 25.6px; text-align: center;"><span style="color: rgb(11, 185, 149); line-height: 28px; background-color: rgb(255, 255, 255);"><img src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/0_002.jpg" style="width: auto ! important; visibility: visible ! important; height: auto ! important;" data-type="gif" data-src="http://mmbiz.qpic.cn/mmbiz/spMxia2lZubJJ0ricqLSqibCgncu0c0VEXWibZJspF2Ap30Gp2iaOKqZlcFyFymeWia6bQOtUVfnq9UwHHMB7dPib6mTg/0?wx_fmt=gif" data-ratio="0.5" data-w=""></span></p><p><br></p>
+                    </div>
+                    <script type="text/javascript">
+                        var first_sceen__time = (+new Date());
+
+                        if ("" == 1 && document.getElementById('js_content'))
+                            document.getElementById('js_content').addEventListener("selectstart",function(e){ e.preventDefault(); });
+
+                                        (function(){
+                            if (navigator.userAgent.indexOf("WindowsWechat") != -1){
+                                var link = document.createElement('link');
+                                var head = document.getElementsByTagName('head')[0];
+                                link.rel = 'stylesheet';
+                                link.type = 'text/css';
+                                link.href = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+                                head.appendChild(link);
+                            }
+                        })();
+                    </script>
+                    <link rel="stylesheet" type="text/css" href="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/page_mp_article_improve_combo2e4987.css">
+                    
+                    
+                                        
+                                        
+                                        <div class="rich_media_tool" id="js_toobar3">
+                                                                    <a class="media_tool_meta meta_primary" id="js_view_source" href="javascript:void(0);">阅读原文</a>
+                                                <div id="js_read_area3" class="media_tool_meta tips_global meta_primary" style="display:none;">阅读 <span id="readNum3"></span></div>
+
+                        <span style="display:none;" class="media_tool_meta meta_primary tips_global meta_praise" id="like3">
+                            <i class="icon_praise_gray"></i><span class="praise_num" id="likeNum3"></span>
+                        </span>
+
+                        <a id="js_report_article3" style="display:none;" class="media_tool_meta tips_global meta_extra" href="javascript:void(0);">投诉</a>
+
+                    </div>
+
+
+
+                                    </div>
+
+                <div class="rich_media_area_primary sougou" id="sg_tj" style="display:none">
+
+                </div>
+
+                <div class="rich_media_area_extra">
+
+                    
+                                        <div class="mpda_bottom_container" id="js_bottom_ad_area">
+                        
+                    </div>
+                                        
+                    <div id="js_iframetest" style="display:none;"></div>
+                                        
+                                        <div class="rich_media_extra" id="js_cmt_area" style="display:none">
+
+                        <div class="discuss_container" id="js_cmt_main" style="display:none">
+                            <div class="rich_tips with_line title_tips discuss_title_line">
+                                <span class="tips">精选留言</span>
+                            </div>
+                            <p class="tips_global tc title_bottom_tips" id="js_cmt_nofans1" style="display:none;">该文章作者已设置需关注才可以留言</p>
+                            <p class="discuss_icon_tips title_bottom_tips tr" id="js_cmt_addbtn1" style="display:none">
+                                
+                                                                <a href="#comment">写留言<img class="icon_edit" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_edit25ded2.png" alt=""></a>
+                                                            </p>
+                            <ul class="discuss_list" id="js_cmt_list"></ul>
+                        </div>
+
+
+                        <div class="tips_global rich_split_tips tc" id="js_cmt_nofans2" style="display:none;">
+                            该文章作者已设置需关注才可以留言
+                        </div>
+
+                        <p class="discuss_icon_tips rich_split_tips tr" id="js_cmt_addbtn2" style="display:none">
+                            
+                                                        <a href="#comment">写留言<img class="icon_edit" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_edit25ded2.png" alt=""></a>
+                                                    </p>
+
+                        <p class="rich_split_tips tc tips_global" id="js_cmt_tips" style="display:none;"></p>
+
+
+                        <div class="rich_tips tips_global loading_tips" id="js_cmt_loading">
+                            <img src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/icon_loading_white2805ea.gif" class="rich_icon icon_loading_white" alt="">
+                            <span class="tips">加载中</span>
+                        </div>
+
+                        <div class="rich_tips with_line tips_global" id="js_cmt_statement" style="display:none">
+                            <span class="tips">以上留言由公众号筛选后显示</span>
+                        </div>
+
+                        <p class="rich_split_tips tc" id="js_cmt_qa" style="display:none;">
+                            <a href="http://kf.qq.com/touch/sappfaq/150211YfyMVj150313qmMbyi.html?scene_id=kf264">
+                                了解留言功能详情
+                            </a>
+                        </p>
+
+                    </div>
+                                    </div>
+               
+            </div>
+            <div id="js_pc_qr_code" class="qr_code_pc_outer" style="display: block;">
+                <div class="qr_code_pc_inner">
+                    <div class="qr_code_pc">
+                        <img src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/qrcode.bmp" id="js_pc_qr_code_img" class="qr_code_pc_img">
+                        <p>微信扫一扫<br>关注该公众号</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+        
+        <script>
+    var __DEBUGINFO = {
+        debug_js : "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/debug/console2ca724.js",
+        safe_js : "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/moonsafe2e21ab.js",
+        res_list: []
+    };
+</script>
+        <script>window.moon_map = {"appmsg/emotion/caret.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/caret278965.js","biz_wap/jsapi/cardticket.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/cardticket275627.js","appmsg/emotion/map.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/map278965.js","appmsg/emotion/textarea.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/textarea27cdc5.js","appmsg/emotion/nav.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/nav278965.js","appmsg/emotion/common.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/common278965.js","appmsg/emotion/slide.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/slide2a9cd9.js","pages/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/report2e4987.js","pages/music_player.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/music_player2b674b.js","pages/loadscript.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/loadscript2c9cd6.js","appmsg/emotion/dom.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/dom278965.js","biz_wap/utils/hashrouter.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/hashrouter2805ea.js","a/gotoappdetail.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/gotoappdetail2a2c13.js","a/ios.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/ios275627.js","a/android.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/android2c5484.js","a/profile.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/profile29b1f8.js","a/mpshop.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/mpshop2da3e2.js","a/card.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/a/card2d1390.js","biz_wap/utils/position.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/position29b1f8.js","appmsg/a_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_report2e2d45.js","biz_common/utils/respTypes.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/respTypes2c57d0.js","appmsg/cmt_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cmt_tpl.html2a2c13.js","sougou/a_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/a_tpl.html2c6e7c.js","appmsg/emotion/emotion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/emotion/emotion2a9cd9.js","biz_common/utils/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/report275627.js","biz_common/utils/huatuo.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/huatuo293afc.js","biz_common/utils/cookie.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/cookie275627.js","pages/voice_component.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/voice_component2c5484.js","new_video/ctl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/new_video/ctl2d441f.js","biz_common/utils/monitor.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/monitor2a30ee.js","biz_common/utils/spin.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/spin275627.js","biz_wap/jsapi/pay.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/pay275627.js","appmsg/reward_entry.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/reward_entry2e21d7.js","appmsg/comment.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/comment2d39f3.js","appmsg/like.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/like2b5583.js","appmsg/a.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a2da3e2.js","pages/version4video.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/pages/version4video2e481d.js","rt/appmsg/getappmsgext.rt.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/rt/appmsg/getappmsgext.rt2c21f6.js","biz_wap/utils/storage.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/storage2a74ac.js","biz_common/tmpl.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/tmpl2b3578.js","appmsg/img_copyright_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/img_copyright_tpl.html2a2c13.js","appmsg/a_tpl.html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/a_tpl.html2d1390.js","biz_common/ui/imgonepx.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/ui/imgonepx275627.js","biz_common/dom/attr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/attr275627.js","biz_wap/utils/ajax.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/ajax2c7a90.js","biz_common/utils/string/html.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/string/html29f4e9.js","sougou/index.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/sougou/index2c7543.js","biz_wap/safe/mutation_observer_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/safe/mutation_observer_report2d5cb8.js","appmsg/report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report2cf2a3.js","biz_common/dom/class.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/class275627.js","appmsg/report_and_source.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/report_and_source2c0ff9.js","appmsg/page_pos.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/page_pos2e6aa5.js","appmsg/cdn_speed_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_speed_report2c57d0.js","appmsg/wxtopic.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/wxtopic2e4987.js","appmsg/voice.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/voice2ab8bd.js","appmsg/qqmusic.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/qqmusic2ab8bd.js","appmsg/iframe.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/iframe2e69b8.js","appmsg/review_image.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/review_image2d0cfe.js","appmsg/outer_link.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/outer_link275627.js","biz_wap/jsapi/core.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/core2c30c1.js","biz_common/dom/event.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/dom/event275627.js","appmsg/copyright_report.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/copyright_report2c57d0.js","appmsg/cache.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cache2a74ac.js","appmsg/pay_for_reading.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/pay_for_reading2c5484.js","appmsg/async.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/async2e416f.js","biz_wap/ui/lazyload_img.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/ui/lazyload_img2b18f6.js","biz_common/log/jserr.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/log/jserr2805ea.js","appmsg/share.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/share2e74e2.js","biz_wap/utils/mmversion.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/mmversion275627.js","appmsg/cdn_img_lib.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/cdn_img_lib275627.js","biz_common/utils/url/parse.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_common/utils/url/parse2dd7fd.js","biz_wap/utils/device.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/utils/device2b3aae.js","biz_wap/jsapi/a8key.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/biz_wap/jsapi/a8key2a30ee.js","appmsg/index.js":"https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/js/appmsg/index2e4987.js"};</script><script type="text/javascript" src="%E7%BF%BB%E6%96%B0%E9%87%8D%E5%86%99%EF%BC%81WWDC%20%E5%90%8E%E8%8B%B9%E6%9E%9C%E6%9C%80%E6%96%B0%C2%A0App%20Store%20%E5%AE%A1%E6%A0%B8%E6%9D%A1%E6%AC%BE%EF%BC%81%E3%80%8C%E5%86%85%E9%99%84%E6%9C%80%E6%96%B0%E5%BC%80%E5%8F%91%E8%80%85%E6%8C%87%E5%8D%97%E3%80%8D_files/moon2c7b0a.js"></script>
+    <script id="topic_tpl" type="text/html">        
+        <span class="db topic_wrp">
+            <span class="topic_thumb" style="background-image:url({img_url});"></span>
+            <span class="topic_content">
+                <strong class="topic_title">{title}</strong>
+                <span class="topic_desc">{author}</span>
+                <span class="topic_info">
+                    <span class="topic_info_extra"><span class="icon_topic"></span>话题</span>
+                    <span class="topic_info_primary">相关文章{msg_num}篇</span>
+                </span>
+            </span>
+        </span>
+    </script>
+    <script id="voice_tpl" type="text/html">        
+        <span id="voice_main_<#=voiceid#>_<#=posIndex#>" class="db audio_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+            当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放            </span>
+            <span class="audio_wrp db">
+                <span id="voice_play_<#=voiceid#>_<#=posIndex#>" class="audio_play_area">
+                    <i class="icon_audio_default"></i>
+                    <i class="icon_audio_playing"></i>
+                    <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/audio/icon_audio_unread26f1f1.png" alt="" class="pic_audio_default">
+                </span>
+                <span class="audio_length tips_global"><#=duration_str#></span>
+                <span class="db audio_info_area">
+                    <strong class="db audio_title"><#=title#></strong>
+                    <span class="audio_source tips_global"><#if(window.nickname){#>来自<#=window.nickname#><#}#></span>
+                </span>
+                <span id="voice_progress_<#=voiceid#>_<#=posIndex#>" class="progress_bar" style="width:0px;"></span>
+            </span>
+        </span>
+    </script>
+
+    <script id="qqmusic_tpl" type="text/html">        
+        <span id="qqmusic_main_<#=comment_id#>_<#=posIndex#>" class="db qqmusic_area <#if(!musicSupport){#> unsupport<#}#>">
+            <span class="tc tips_global unsupport_tips" <#if(show_not_support!==true){#>style="display:none;"<#}#>>
+            当前浏览器不支持播放音乐或语音，请在微信或其他浏览器中播放            </span>
+            <span class="db qqmusic_wrp">
+                <span class="db qqmusic_bd">
+                    <span id="qqmusic_play_<#=musicid#>_<#=posIndex#>" class="play_area">
+                        <i class="icon_qqmusic_switch"></i>
+                        <img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_default.2x26f1f1.png" alt="" class="pic_qqmusic_default">
+                        <img src="<#=music_img#>" data-autourl="<#=audiourl#>" data-musicid="<#=musicid#>" class="qqmusic_thumb" alt="">
+                    </span>
+                                        <a id="qqmusic_home_<#=musicid#>_<#=posIndex#>" href="javascript:void(0);" class="access_area">
+                        <span class="qqmusic_songname"><#=music_name#></span>
+                        <span class="qqmusic_singername"><#=singer#></span>
+                        <span class="qqmusic_source"><img src="http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/qqmusic/icon_qqmusic_source263724.png" alt=""></span>
+                    </a>
+                </span>
+            </span>       
+        </span>
+    </script>
+  <script type="text/javascript">
+      var not_in_mm_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/not_in_mm2c9cd6.css";
+      var windowwx_css = "https://res.wx.qq.com/mmbizwap/zh_CN/htmledition/style/page/appmsg/page_mp_article_improve_winwx2c9cd6.css";
+      var tid = "";
+      var aid = "";
+      var clientversion = "11020201";
+      var appuin = "MzIwNDAxNjIzNg=="||"";
+
+      var source = "0";
+      var scene = 75;
+      
+      var itemidx = "";
+
+      var _copyright_stat = "0";
+      var _ori_article_type = "";
+
+      var nickname = "ASO100";
+      var appmsg_type = "9";
+      var ct = "1466055617";
+      var publish_time = "2016-06-16" || "";
+      var user_name = "gh_2b33d21e5bcf";
+      var user_name_new = "";
+      var fakeid   = "NDA2MzM5OTc1";
+      var version   = "";
+      var is_limit_user   = "0";
+      var round_head_img = "http://mmbiz.qpic.cn/mmbiz/spMxia2lZubIUXeWJsa64J0uQ0ah632BkZOoRFBsxvia0re8Q9SGMIssDsbwXeVzBmTTvgQEhVNHdlRdx1T7EXQw/0?wx_fmt=png";
+      var msg_title = "翻新重写！WWDC&nbsp;后苹果最新&nbsp;App&nbsp;Store&nbsp;审核条款！「内附最新开发者指南」";
+      var msg_desc = "WWDC2016大会之后，苹果应用商店审核条款进行了更新——貌似不算进行了更新，简直就是重写！上个版本的30个章节被修改成了5大章节，但原版英文版字数从5000多个英文单词增加到了6000多个英文单词。";
+      var msg_cdn_url = "http://mmbiz.qpic.cn/mmbiz/spMxia2lZubJpvKiaZ7RE7QBAJdMLJnPGECAgCJX5lNnH9MwnYib4xXfotiaYZkqh3YzXPZQ3khvo3fc6gJrvZr3Fg/0?wx_fmt=png";
+      var msg_link = "http://mp.weixin.qq.com/s?__biz=MzIwNDAxNjIzNg==&amp;mid=2650120083&amp;idx=1&amp;sn=73d9419687c25fece39eb5ac817d144d#rd";
+      var user_uin = "677762302"*1;
+      var msg_source_url = 'http://mp.weixin.qq.com/s?__biz=MzI0MzE0NTA3Mg==&amp;mid=503622163&amp;idx=1&amp;sn=6526366e55cd0f36da318c84642e162d#rd';
+      var img_format = 'png';
+      var srcid = '06169HLu7Had5C5U5WetofR3';
+      var networkType;
+      var appmsgid = '' || '2650120083'|| "";
+      var comment_id = "1848308169" * 1;
+      var comment_enabled = "" * 1;
+      var is_need_reward = "0" * 1;
+      var is_https_res = ("" * 1) && (location.protocol == "https:");
+
+      var devicetype = "iMac&amp;nbsp;MacBookPro11,4&amp;nbsp;OSX&amp;nbsp;OSX&amp;nbsp;10.11.4&amp;nbsp;build(15E65)";
+      var source_username = "";  
+      var profile_ext_signature = "" || "";
+      var reprint_ticket = "";
+      var source_mid = "";
+      var source_idx = "";
+
+      var show_comment = "0";
+      var __appmsgCgiData = {
+            can_use_page : "0"*1,
+            is_wxg_stuff_uin : "0"*1,
+            card_pos : "",
+            copyright_stat : "0",
+            source_biz : "",
+            hd_head_img : "http://wx.qlogo.cn/mmhead/Q3auHgzwzM6ykbnMwTKUfJfPKlK0WGt074aXXkTqB2W3wicaWDp5fFg/0"||(window.location.protocol+"//"+window.location.host + "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/appmsg/pic_rumor_link.2x264e76.jpg")
+      };
+      var _empty_v = "http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/pic/pages/voice/empty26f1f1.mp3";
+
+      var copyright_stat = "0" * 1;
+
+      var pay_fee = "" * 1;
+      var pay_timestamp = "";
+      var need_pay = "" * 1;
+
+      var need_report_cost = "0" * 1;
+      var use_tx_video_player = "0" * 1;
+
+      var friend_read_source = "" || "";
+      var friend_read_version = "" || "";
+      var friend_read_class_id = "" || "";
+
+      var is_only_read = "1" * 1;
+
+      var topic_default_img = 'http://res.wx.qq.com/mmbizwap/zh_CN/htmledition/images/icon/appmsg/topic/pic_book_thumb.2x2e4987.png';
+
+      
+      var wxtopic = {
+        isbn : ""    
+      };
+
+      
+            window.wxtoken = "2702089824";
+          if(!!window.__initCatch){
+        window.__initCatch({
+            idkey : 27613,
+            startKey : 0,
+            limit : 128,
+            reportOpt : {
+                uin : uin,
+                biz : biz,
+                mid : mid,
+                idx : idx,
+                sn  : sn
+            },
+            extInfo : {
+                network_rate : 0.01    
+            }
+        });
+    }
+  </script>
+  <script type="text/javascript">
+          seajs.use('appmsg/index.js');
+  </script>
+
+    
+
+
+ 
+</body></html>
