@@ -11,7 +11,7 @@
 #import "NSObject_Ouxuesen.h"
 @interface ViewController ()
 {
-    
+
 }
 @end
 
@@ -29,12 +29,15 @@
     NSError * error = nil;
     NSDictionary * dic = [NSJSONSerialization JSONObjectWithData:[NSData dataWithContentsOfFile:jsonPath] options:kNilOptions error:&error];
     NSLog(@"dic = %@",dic);
+    [self creatView];
 }
 
 -(void)creatView
 {
-    
+    NSLog(@"中奖概率--%d",33*32*31*30*29*28/2/3/4/5/6*16);
 }
+
+
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.

@@ -41,6 +41,7 @@
         }
         
     });
+    
 }
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -80,12 +81,12 @@
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
--(void)swiz_viewWillAppear:(BOOL)animated{
-    //这时候调用自己，看起来像是死循环
-    //但是其实自己的实现已经被替换了
-    [self swiz_viewWillAppear:animated];
-    NSLog(@"swizzle");
-}
+//-(void)swiz_viewWillAppear:(BOOL)animated{
+//    //这时候调用自己，看起来像是死循环
+//    //但是其实自己的实现已经被替换了
+//    [self swiz_viewWillAppear:animated];
+//    NSLog(@"swizzle");
+//}
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     NSLog(@"viewWillAppear");

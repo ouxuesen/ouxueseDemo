@@ -134,6 +134,10 @@
 		D713B59B1E66CB7800C93ADC /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5231E66CB7800C93ADC /* GradientViewController.m */; };
 		D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B5241E66CB7800C93ADC /* GradientViewController.xib */; };
 		D713B59E1E66D14E00C93ADC /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D713B59D1E66D14E00C93ADC /* update.json */; };
+		D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9FC0C1E71335000588118 /* RunLoopViewController.m */; };
+		D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */; };
+		D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */; };
+		D7B9FDBF1E724A3400588118 /* DoubleBollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9FDBD1E724A3400588118 /* DoubleBollViewController.xib */; };
 		F67B533BDA9121BE9AF9C135 /* libPods-OXSFunctionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B36D9890C21441CF8640D4 /* libPods-OXSFunctionDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -346,6 +350,12 @@
 		D713B5231E66CB7800C93ADC /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		D713B5241E66CB7800C93ADC /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
 		D713B59D1E66D14E00C93ADC /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
+		D7B9FC0B1E71335000588118 /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
+		D7B9FC0C1E71335000588118 /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
+		D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunLoopViewController.xib; sourceTree = "<group>"; };
+		D7B9FDBB1E724A3400588118 /* DoubleBollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleBollViewController.h; sourceTree = "<group>"; };
+		D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleBollViewController.m; sourceTree = "<group>"; };
+		D7B9FDBD1E724A3400588118 /* DoubleBollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleBollViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -442,6 +452,7 @@
 				D713B4B81E66CB7800C93ADC /* NSObject_Ouxuesen.h */,
 				D713B4B91E66CB7800C93ADC /* pickVIewSheet */,
 				D713B4BE1E66CB7800C93ADC /* PrefixHeader.pch */,
+				D7B9FC0A1E71012F00588118 /* runLoop */,
 				D713B4BF1E66CB7800C93ADC /* runtime */,
 				D713B4C51E66CB7800C93ADC /* test */,
 				D713B4C91E66CB7800C93ADC /* texKit */,
@@ -453,6 +464,7 @@
 				D713B4EB1E66CB7800C93ADC /* 应用内弹出appstore */,
 				D713B4EF1E66CB7800C93ADC /* 房京东月份选择 */,
 				D713B4F61E66CB7800C93ADC /* 房京东走势图 */,
+				D7B9FDBA1E724A2100588118 /* 双色球 */,
 				D713B4FF1E66CB7800C93ADC /* 扫雷 */,
 				D713B5071E66CB7800C93ADC /* 拉伸头 */,
 				D713B50E1E66CB7800C93ADC /* 模式弹出 */,
@@ -860,6 +872,26 @@
 			path = "渐变色";
 			sourceTree = "<group>";
 		};
+		D7B9FC0A1E71012F00588118 /* runLoop */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9FC0B1E71335000588118 /* RunLoopViewController.h */,
+				D7B9FC0C1E71335000588118 /* RunLoopViewController.m */,
+				D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */,
+			);
+			path = runLoop;
+			sourceTree = "<group>";
+		};
+		D7B9FDBA1E724A2100588118 /* 双色球 */ = {
+			isa = PBXGroup;
+			children = (
+				D7B9FDBB1E724A3400588118 /* DoubleBollViewController.h */,
+				D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */,
+				D7B9FDBD1E724A3400588118 /* DoubleBollViewController.xib */,
+			);
+			path = "双色球";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1020,10 +1052,12 @@
 				D713B52A1E66CB7800C93ADC /* image_picker_send@2x.png in Resources */,
 				D713B58F1E66CB7800C93ADC /* PictureHeardPullViewControll.xib in Resources */,
 				D713B5991E66CB7800C93ADC /* PresentVCViewController.xib in Resources */,
+				D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */,
 				D713B54B1E66CB7800C93ADC /* jj_style@3x.png in Resources */,
 				D713B52B1E66CB7800C93ADC /* image_picker_send_light@2x.png in Resources */,
 				D713B5581E66CB7800C93ADC /* security.js in Resources */,
 				D713B57C1E66CB7800C93ADC /* ZR_ScanFrame@3x.png in Resources */,
+				D7B9FDBF1E724A3400588118 /* DoubleBollViewController.xib in Resources */,
 				D713B5731E66CB7800C93ADC /* ZxingDemoViewController.xib in Resources */,
 				D713B58D1E66CB7800C93ADC /* ouxuesen@2x.jpg in Resources */,
 				D713B55B1E66CB7800C93ADC /* result.html in Resources */,
@@ -1194,6 +1228,7 @@
 				D713B5691E66CB7800C93ADC /* PhotoViewController.m in Sources */,
 				D713B5371E66CB7800C93ADC /* AutolayoutViewController.m in Sources */,
 				D713B5301E66CB7800C93ADC /* MCGetImageAndVideoData.m in Sources */,
+				D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */,
 				D713B5311E66CB7800C93ADC /* MCImageGridCell.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D713B5761E66CB7800C93ADC /* LFDRQDealManger.m in Sources */,
@@ -1217,6 +1252,7 @@
 				D713B5341E66CB7800C93ADC /* ShowPhotosViewController.m in Sources */,
 				D713B58B1E66CB7800C93ADC /* GaMeViewController.m in Sources */,
 				D713B5931E66CB7800C93ADC /* LFDWSecondTransitionView.m in Sources */,
+				D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
