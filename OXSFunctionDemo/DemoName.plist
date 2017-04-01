@@ -202,5 +202,13 @@
 		<key>type</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>多级目录</string>
+		<key>vc</key>
+		<string>MenuListViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
 </array>
 </plist>
