@@ -137,6 +137,8 @@
 		D73937E21E8101BF0014FEE6 /* ThiredTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E01E8101BF0014FEE6 /* ThiredTableViewCell.m */; };
 		D73937E31E8101BF0014FEE6 /* ThiredTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */; };
 		D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E51E8115D50014FEE6 /* MenuModel.m */; };
+		D78BFA431E978D3A005853D0 /* WebSoctetTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */; };
+		D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */; };
 		D793D6571E80FCB5008CA4E5 /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D6551E80FCB5008CA4E5 /* MenuListViewController.m */; };
 		D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D793D6561E80FCB5008CA4E5 /* MenuListViewController.xib */; };
 		D793D65C1E80FCD7008CA4E5 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D65A1E80FCD7008CA4E5 /* MenuTableViewCell.m */; };
@@ -362,6 +364,9 @@
 		D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThiredTableViewCell.xib; sourceTree = "<group>"; };
 		D73937E41E8115D50014FEE6 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
 		D73937E51E8115D50014FEE6 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		D78BFA401E978D3A005853D0 /* WebSoctetTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSoctetTestViewController.h; sourceTree = "<group>"; };
+		D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSoctetTestViewController.m; sourceTree = "<group>"; };
+		D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebSoctetTestViewController.xib; sourceTree = "<group>"; };
 		D793D6541E80FCB5008CA4E5 /* MenuListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuListViewController.h; sourceTree = "<group>"; };
 		D793D6551E80FCB5008CA4E5 /* MenuListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuListViewController.m; sourceTree = "<group>"; };
 		D793D6561E80FCB5008CA4E5 /* MenuListViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuListViewController.xib; sourceTree = "<group>"; };
@@ -476,6 +481,7 @@
 				D713B4C51E66CB7800C93ADC /* test */,
 				D793D6531E80FC89008CA4E5 /* 多级列表 */,
 				D713B4C91E66CB7800C93ADC /* texKit */,
+				D78BFA3F1E978D19005853D0 /* 长连接 */,
 				D713B4CF1E66CB7800C93ADC /* URL Schemes */,
 				D713B4D01E66CB7800C93ADC /* windowLevel */,
 				D713B4D61E66CB7800C93ADC /* zxing */,
@@ -893,6 +899,16 @@
 			path = "渐变色";
 			sourceTree = "<group>";
 		};
+		D78BFA3F1E978D19005853D0 /* 长连接 */ = {
+			isa = PBXGroup;
+			children = (
+				D78BFA401E978D3A005853D0 /* WebSoctetTestViewController.h */,
+				D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */,
+				D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */,
+			);
+			path = "长连接";
+			sourceTree = "<group>";
+		};
 		D793D6531E80FC89008CA4E5 /* 多级列表 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1110,6 +1126,7 @@
 				D713B54A1E66CB7800C93ADC /* jj_style@2x.png in Resources */,
 				D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */,
 				D713B5781E66CB7800C93ADC /* ScanCaptureQRViewController.xib in Resources */,
+				D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */,
 				D713B5451E66CB7800C93ADC /* echo.html in Resources */,
 				D713B55F1E66CB7800C93ADC /* MBProgressHUDListTableViewController.xib in Resources */,
 				D713B5811E66CB7800C93ADC /* LFDMonthSelectViewController.xib in Resources */,
@@ -1174,7 +1191,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		47ED45CE759818B7E69845A1 /* [CP] Embed Pods Frameworks */ = {
@@ -1204,7 +1221,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		9350321FE8A1C43A7E589BA1 /* [CP] Copy Pods Resources */ = {
@@ -1251,6 +1268,7 @@
 				D713B5641E66CB7800C93ADC /* LFDWPickSheetView.m in Sources */,
 				D713B5891E66CB7800C93ADC /* CreatCellView.m in Sources */,
 				D713B5911E66CB7800C93ADC /* LFDWFirstTransitionView.m in Sources */,
+				D78BFA431E978D3A005853D0 /* WebSoctetTestViewController.m in Sources */,
 				D713B5321E66CB7800C93ADC /* MCPhotoShowViewController.m in Sources */,
 				D713B55C1E66CB7800C93ADC /* JSViewController.m in Sources */,
 				D713B5741E66CB7800C93ADC /* LFDCaptureRQImage.m in Sources */,

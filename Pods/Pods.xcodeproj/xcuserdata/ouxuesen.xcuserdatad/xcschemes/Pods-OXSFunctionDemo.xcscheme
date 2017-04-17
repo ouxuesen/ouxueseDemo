@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '33C51B90767F0A06A6EB0B2CCE7B9508'
+               BlueprintIdentifier = '3D4BAA4CD2E775E0E2F853989F6C2645'
                BlueprintName = 'Pods-OXSFunctionDemo'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-OXSFunctionDemo.a'>

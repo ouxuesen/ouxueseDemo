@@ -21,6 +21,7 @@ PODS:
     - AFNetworking/NSURLConnection
     - AFNetworking/NSURLSession
   - MBProgressHUD (0.9.2)
+  - SocketRocket (0.5.1)
   - SVProgressHUD (2.1.2)
   - WebViewJavascriptBridge (6.0.2)
   - ZXingObjC (3.2.1):
@@ -30,6 +31,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 2.0)
   - MBProgressHUD (~> 0.9.2)
+  - SocketRocket
   - SVProgressHUD
   - WebViewJavascriptBridge
   - ZXingObjC
@@ -37,10 +39,11 @@ DEPENDENCIES:
 SPEC CHECKSUMS:
   AFNetworking: cb8d14a848e831097108418f5d49217339d4eb60
   MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  SocketRocket: d57c7159b83c3c6655745cd15302aa24b6bae531
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   WebViewJavascriptBridge: 791ee0e26d1bf15efe5fb7fb9666a71a19b89d77
   ZXingObjC: bbf7b8f0cf8933fdd33eb4f9f46e22308552869b
 
-PODFILE CHECKSUM: 259991a19a3c6271b00fe971368bb55aa8df03c1
+PODFILE CHECKSUM: 915924bbfe52c8d1b5174cb26b0c5bb14f89119e
 
-COCOAPODS: 1.2.0
+COCOAPODS: 1.2.1.beta.1

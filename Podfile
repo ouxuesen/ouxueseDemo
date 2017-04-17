@@ -8,6 +8,7 @@ target 'OXSFunctionDemo' do
     pod 'AFNetworking', '~> 2.0'
     pod 'WebViewJavascriptBridge'
     pod 'ZXingObjC'
+    pod 'SocketRocket'
 end
 
 target 'OXSFunctionDemoUITests' do
