@@ -64,7 +64,9 @@
     NSDictionary * dic = listArray[indexPath.row];
     NSString * nameClass = dic[@"vc"];
     Class class = NSClassFromString(nameClass);
-    UIViewController * vc = [[class alloc]initWithNibName:nameClass bundle:nil];
+    
+    UIViewController * vc = [[class alloc]init];
+    
     if ([vc isKindOfClass:[ContinerViewController class]]) {
         ((ContinerViewController*)vc).type = [dic[@"type"] integerValue];
     }

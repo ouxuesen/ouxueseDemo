@@ -76,14 +76,6 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>画虚线</string>
-		<key>vc</key>
-		<string>DreawLineViewController</string>
-		<key>type</key>
-		<string>1</string>
-	</dict>
-	<dict>
-		<key>name</key>
 		<string>textKit</string>
 		<key>vc</key>
 		<string>TextKitViewController</string>
@@ -215,6 +207,30 @@
 		<string>长连接</string>
 		<key>vc</key>
 		<string>WebSoctetTestViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>白板</string>
+		<key>vc</key>
+		<string>BaiBanViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>ReplayKit</string>
+		<key>vc</key>
+		<string>ReplayKitViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>PPT</string>
+		<key>vc</key>
+		<string>PPTPreviewController</string>
 		<key>type</key>
 		<string>1</string>
 	</dict>
