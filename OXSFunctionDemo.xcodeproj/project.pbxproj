@@ -143,6 +143,7 @@
 		D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */; };
 		D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */; };
 		D7B9FDBF1E724A3400588118 /* DoubleBollViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9FDBD1E724A3400588118 /* DoubleBollViewController.xib */; };
+		D7BD7EB11EC1754200BD174C /* RecordDateManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D7BD7EAE1EC1754200BD174C /* RecordDateManager.m */; };
 		D7C0B1381EA8B4B000D459CA /* ReplayKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B1361EA8B4B000D459CA /* ReplayKitViewController.m */; };
 		D7C0B1391EA8B4B000D459CA /* ReplayKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C0B1371EA8B4B000D459CA /* ReplayKitViewController.xib */; };
 		D7C0B13C1EA8C7EB00D459CA /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B13B1EA8C7EB00D459CA /* ScreenRecorder.m */; };
@@ -388,6 +389,8 @@
 		D7B9FDBB1E724A3400588118 /* DoubleBollViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DoubleBollViewController.h; sourceTree = "<group>"; };
 		D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DoubleBollViewController.m; sourceTree = "<group>"; };
 		D7B9FDBD1E724A3400588118 /* DoubleBollViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DoubleBollViewController.xib; sourceTree = "<group>"; };
+		D7BD7EAD1EC1754200BD174C /* RecordDateManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecordDateManager.h; sourceTree = "<group>"; };
+		D7BD7EAE1EC1754200BD174C /* RecordDateManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecordDateManager.m; sourceTree = "<group>"; };
 		D7C0B1351EA8B4B000D459CA /* ReplayKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplayKitViewController.h; sourceTree = "<group>"; };
 		D7C0B1361EA8B4B000D459CA /* ReplayKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplayKitViewController.m; sourceTree = "<group>"; };
 		D7C0B1371EA8B4B000D459CA /* ReplayKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplayKitViewController.xib; sourceTree = "<group>"; };
@@ -498,6 +501,7 @@
 				D713B4CF1E66CB7800C93ADC /* URL Schemes */,
 				D713B4D01E66CB7800C93ADC /* windowLevel */,
 				D713B4D61E66CB7800C93ADC /* zxing */,
+				D7BD7EAC1EC1754200BD174C /* coreDateManager */,
 				D713B4DA1E66CB7800C93ADC /* 原声二维码处理 */,
 				D713B4E91E66CB7800C93ADC /* 导航栏问题 */,
 				D713B4EB1E66CB7800C93ADC /* 应用内弹出appstore */,
@@ -996,6 +1000,15 @@
 			path = "双色球";
 			sourceTree = "<group>";
 		};
+		D7BD7EAC1EC1754200BD174C /* coreDateManager */ = {
+			isa = PBXGroup;
+			children = (
+				D7BD7EAD1EC1754200BD174C /* RecordDateManager.h */,
+				D7BD7EAE1EC1754200BD174C /* RecordDateManager.m */,
+			);
+			path = coreDateManager;
+			sourceTree = "<group>";
+		};
 		D7C0B1341EA8B4A300D459CA /* ReplayKit */ = {
 			isa = PBXGroup;
 			children = (
@@ -1318,6 +1331,7 @@
 				D713B5321E66CB7800C93ADC /* MCPhotoShowViewController.m in Sources */,
 				D713B55C1E66CB7800C93ADC /* JSViewController.m in Sources */,
 				D713B5741E66CB7800C93ADC /* LFDCaptureRQImage.m in Sources */,
+				D7BD7EB11EC1754200BD174C /* RecordDateManager.m in Sources */,
 				D713B59A1E66CB7800C93ADC /* CFGradientLabel.m in Sources */,
 				D713B5651E66CB7800C93ADC /* UIView+AutoLayout.m in Sources */,
 				D713B5841E66CB7800C93ADC /* CAShapeLayer+Animation.m in Sources */,

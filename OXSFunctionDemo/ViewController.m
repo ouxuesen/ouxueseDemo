@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "MenuViewController.h"
 #import "NSObject_Ouxuesen.h"
+#import "RecordDateManager.h"
 @interface ViewController ()
 {
 
@@ -18,6 +19,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    [RecordDateManager sharRecordDateManager];
     [super viewDidLoad];
     NSString *bananas = @"123.321abc137d efg hij kl";
     
