@@ -147,6 +147,11 @@
 		D7C0B1381EA8B4B000D459CA /* ReplayKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B1361EA8B4B000D459CA /* ReplayKitViewController.m */; };
 		D7C0B1391EA8B4B000D459CA /* ReplayKitViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7C0B1371EA8B4B000D459CA /* ReplayKitViewController.xib */; };
 		D7C0B13C1EA8C7EB00D459CA /* ScreenRecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7C0B13B1EA8C7EB00D459CA /* ScreenRecorder.m */; };
+		D7CC81F21ECAF62E0085BDF9 /* ThreadDemoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F01ECAF62E0085BDF9 /* ThreadDemoViewController.m */; };
+		D7CC81F31ECAF62E0085BDF9 /* ThreadDemoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7CC81F11ECAF62E0085BDF9 /* ThreadDemoViewController.xib */; };
+		D7CC81FA1ECAF6F00085BDF9 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F51ECAF6F00085BDF9 /* GCDViewController.m */; };
+		D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F71ECAF6F00085BDF9 /* NSOperationViewController.m */; };
+		D7CC81FC1ECAF6F00085BDF9 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F91ECAF6F00085BDF9 /* NSThreadViewController.m */; };
 		F67B533BDA9121BE9AF9C135 /* libPods-OXSFunctionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B36D9890C21441CF8640D4 /* libPods-OXSFunctionDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -396,6 +401,15 @@
 		D7C0B1371EA8B4B000D459CA /* ReplayKitViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReplayKitViewController.xib; sourceTree = "<group>"; };
 		D7C0B13A1EA8C7EB00D459CA /* ScreenRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScreenRecorder.h; sourceTree = "<group>"; };
 		D7C0B13B1EA8C7EB00D459CA /* ScreenRecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScreenRecorder.m; sourceTree = "<group>"; };
+		D7CC81EF1ECAF62E0085BDF9 /* ThreadDemoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreadDemoViewController.h; sourceTree = "<group>"; };
+		D7CC81F01ECAF62E0085BDF9 /* ThreadDemoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreadDemoViewController.m; sourceTree = "<group>"; };
+		D7CC81F11ECAF62E0085BDF9 /* ThreadDemoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThreadDemoViewController.xib; sourceTree = "<group>"; };
+		D7CC81F41ECAF6F00085BDF9 /* GCDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDViewController.h; sourceTree = "<group>"; };
+		D7CC81F51ECAF6F00085BDF9 /* GCDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDViewController.m; sourceTree = "<group>"; };
+		D7CC81F61ECAF6F00085BDF9 /* NSOperationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSOperationViewController.h; sourceTree = "<group>"; };
+		D7CC81F71ECAF6F00085BDF9 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
+		D7CC81F81ECAF6F00085BDF9 /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
+		D7CC81F91ECAF6F00085BDF9 /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -471,6 +485,7 @@
 		D713B4271E66CA2500C93ADC /* OXSFunctionDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D7CC81EE1ECAF5C00085BDF9 /* 线程详解 */,
 				D713B45B1E66CB7800C93ADC /* appIcon@2x.png */,
 				D713B59D1E66D14E00C93ADC /* update.json */,
 				D713B45C1E66CB7800C93ADC /* AssetPcikerController */,
@@ -1019,6 +1034,22 @@
 			path = ReplayKit;
 			sourceTree = "<group>";
 		};
+		D7CC81EE1ECAF5C00085BDF9 /* 线程详解 */ = {
+			isa = PBXGroup;
+			children = (
+				D7CC81EF1ECAF62E0085BDF9 /* ThreadDemoViewController.h */,
+				D7CC81F01ECAF62E0085BDF9 /* ThreadDemoViewController.m */,
+				D7CC81F11ECAF62E0085BDF9 /* ThreadDemoViewController.xib */,
+				D7CC81F41ECAF6F00085BDF9 /* GCDViewController.h */,
+				D7CC81F51ECAF6F00085BDF9 /* GCDViewController.m */,
+				D7CC81F61ECAF6F00085BDF9 /* NSOperationViewController.h */,
+				D7CC81F71ECAF6F00085BDF9 /* NSOperationViewController.m */,
+				D7CC81F81ECAF6F00085BDF9 /* NSThreadViewController.h */,
+				D7CC81F91ECAF6F00085BDF9 /* NSThreadViewController.m */,
+			);
+			path = "线程详解";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1146,6 +1177,7 @@
 				D713B56C1E66CB7800C93ADC /* TextKitViewController.xib in Resources */,
 				D713B5261E66CB7800C93ADC /* image_picker_ensure@2x.png in Resources */,
 				D713B5381E66CB7800C93ADC /* AutolayoutViewController.xib in Resources */,
+				D7CC81F31ECAF62E0085BDF9 /* ThreadDemoViewController.xib in Resources */,
 				D713B5291E66CB7800C93ADC /* image_picker_preview_light@2x.png in Resources */,
 				D713B5361E66CB7800C93ADC /* Assets.xcassets in Resources */,
 				D713B56A1E66CB7800C93ADC /* PhotoViewController.xib in Resources */,
@@ -1334,6 +1366,7 @@
 				D7BD7EB11EC1754200BD174C /* RecordDateManager.m in Sources */,
 				D713B59A1E66CB7800C93ADC /* CFGradientLabel.m in Sources */,
 				D713B5651E66CB7800C93ADC /* UIView+AutoLayout.m in Sources */,
+				D7CC81F21ECAF62E0085BDF9 /* ThreadDemoViewController.m in Sources */,
 				D713B5841E66CB7800C93ADC /* CAShapeLayer+Animation.m in Sources */,
 				D793D65C1E80FCD7008CA4E5 /* MenuTableViewCell.m in Sources */,
 				D713B5721E66CB7800C93ADC /* ZxingDemoViewController.m in Sources */,
@@ -1357,6 +1390,7 @@
 				D713B5301E66CB7800C93ADC /* MCGetImageAndVideoData.m in Sources */,
 				D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */,
 				D713B5311E66CB7800C93ADC /* MCImageGridCell.m in Sources */,
+				D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */,
 				D713B5761E66CB7800C93ADC /* LFDRQDealManger.m in Sources */,
@@ -1366,6 +1400,7 @@
 				D713B5681E66CB7800C93ADC /* ShowRuntimeObjc.m in Sources */,
 				D7A6FB731EAD98DE006EB894 /* NSString+ScreenFecorder.m in Sources */,
 				D713B42A1E66CA2500C93ADC /* main.m in Sources */,
+				D7CC81FC1ECAF6F00085BDF9 /* NSThreadViewController.m in Sources */,
 				D713B55E1E66CB7800C93ADC /* MBProgressHUDListTableViewController.m in Sources */,
 				D713B5981E66CB7800C93ADC /* PresentVCViewController.m in Sources */,
 				D713B57E1E66CB7800C93ADC /* JumpAppstoreViewController.m in Sources */,
@@ -1379,6 +1414,7 @@
 				D713B5851E66CB7800C93ADC /* ContinerViewController.m in Sources */,
 				D713B5951E66CB7800C93ADC /* LFDWTransitionContainerViewController.m in Sources */,
 				D713B58E1E66CB7800C93ADC /* PictureHeardPullViewControll.m in Sources */,
+				D7CC81FA1ECAF6F00085BDF9 /* GCDViewController.m in Sources */,
 				D713B5821E66CB7800C93ADC /* MouthCollectionViewCell.m in Sources */,
 				D7556AFC1EA88F3900A31E44 /* SelectColorPickerView.m in Sources */,
 				D7C0B13C1EA8C7EB00D459CA /* ScreenRecorder.m in Sources */,
