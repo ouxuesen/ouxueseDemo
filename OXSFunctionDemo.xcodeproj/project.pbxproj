@@ -139,6 +139,11 @@
 		D7A6FB7C1EAD9D4A006EB894 /* PPTPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A6FB7B1EAD9D4A006EB894 /* PPTPreviewController.xib */; };
 		D7A6FB7F1EAD9F35006EB894 /* Sampleclass.pptx in Resources */ = {isa = PBXBuildFile; fileRef = D7A6FB7E1EAD9F35006EB894 /* Sampleclass.pptx */; };
 		D7A6FB811EADA0A8006EB894 /* 教师APP.pdf in Resources */ = {isa = PBXBuildFile; fileRef = D7A6FB801EADA0A8006EB894 /* 教师APP.pdf */; };
+		D7A9EC7F1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A9EC7D1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m */; };
+		D7A9EC801EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A9EC7E1EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib */; };
+		D7A9EC821EE7B1BF008BFCD9 /* d1_loading@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A9EC811EE7B1BF008BFCD9 /* d1_loading@2x.png */; };
+		D7A9EC861EE8EC41008BFCD9 /* d2_xingxing@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A9EC851EE8EC41008BFCD9 /* d2_xingxing@2x.png */; };
+		D7A9EC881EE8EC46008BFCD9 /* d2_xingxing_weiba@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7A9EC871EE8EC45008BFCD9 /* d2_xingxing_weiba@2x.png */; };
 		D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9FC0C1E71335000588118 /* RunLoopViewController.m */; };
 		D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */; };
 		D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7B9FDBC1E724A3400588118 /* DoubleBollViewController.m */; };
@@ -388,6 +393,12 @@
 		D7A6FB7B1EAD9D4A006EB894 /* PPTPreviewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PPTPreviewController.xib; sourceTree = "<group>"; };
 		D7A6FB7E1EAD9F35006EB894 /* Sampleclass.pptx */ = {isa = PBXFileReference; lastKnownFileType = file; path = Sampleclass.pptx; sourceTree = "<group>"; };
 		D7A6FB801EADA0A8006EB894 /* 教师APP.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "教师APP.pdf"; sourceTree = "<group>"; };
+		D7A9EC7C1EE7AAF0008BFCD9 /* CombinationAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CombinationAnimationViewController.h; sourceTree = "<group>"; };
+		D7A9EC7D1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CombinationAnimationViewController.m; sourceTree = "<group>"; };
+		D7A9EC7E1EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CombinationAnimationViewController.xib; sourceTree = "<group>"; };
+		D7A9EC811EE7B1BF008BFCD9 /* d1_loading@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d1_loading@2x.png"; sourceTree = "<group>"; };
+		D7A9EC851EE8EC41008BFCD9 /* d2_xingxing@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d2_xingxing@2x.png"; sourceTree = "<group>"; };
+		D7A9EC871EE8EC45008BFCD9 /* d2_xingxing_weiba@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "d2_xingxing_weiba@2x.png"; sourceTree = "<group>"; };
 		D7B9FC0B1E71335000588118 /* RunLoopViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RunLoopViewController.h; sourceTree = "<group>"; };
 		D7B9FC0C1E71335000588118 /* RunLoopViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RunLoopViewController.m; sourceTree = "<group>"; };
 		D7B9FC0D1E71335000588118 /* RunLoopViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RunLoopViewController.xib; sourceTree = "<group>"; };
@@ -487,7 +498,10 @@
 			children = (
 				D7CC81EE1ECAF5C00085BDF9 /* 线程详解 */,
 				D713B45B1E66CB7800C93ADC /* appIcon@2x.png */,
+				D7A9EC811EE7B1BF008BFCD9 /* d1_loading@2x.png */,
 				D713B59D1E66D14E00C93ADC /* update.json */,
+				D7A9EC871EE8EC45008BFCD9 /* d2_xingxing_weiba@2x.png */,
+				D7A9EC851EE8EC41008BFCD9 /* d2_xingxing@2x.png */,
 				D713B45C1E66CB7800C93ADC /* AssetPcikerController */,
 				D713B4751E66CB7800C93ADC /* Assets.xcassets */,
 				D713B4761E66CB7800C93ADC /* autolyout */,
@@ -507,6 +521,7 @@
 				D713B4B81E66CB7800C93ADC /* NSObject_Ouxuesen.h */,
 				D713B4B91E66CB7800C93ADC /* pickVIewSheet */,
 				D713B4BE1E66CB7800C93ADC /* PrefixHeader.pch */,
+				D7A9EC7B1EE7AABA008BFCD9 /* 动画 */,
 				D7B9FC0A1E71012F00588118 /* runLoop */,
 				D713B4BF1E66CB7800C93ADC /* runtime */,
 				D713B4C51E66CB7800C93ADC /* test */,
@@ -995,6 +1010,16 @@
 			path = PPT;
 			sourceTree = "<group>";
 		};
+		D7A9EC7B1EE7AABA008BFCD9 /* 动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D7A9EC7C1EE7AAF0008BFCD9 /* CombinationAnimationViewController.h */,
+				D7A9EC7D1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m */,
+				D7A9EC7E1EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib */,
+			);
+			path = "动画";
+			sourceTree = "<group>";
+		};
 		D7B9FC0A1E71012F00588118 /* runLoop */ = {
 			isa = PBXGroup;
 			children = (
@@ -1167,6 +1192,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D713B52D1E66CB7800C93ADC /* PhotoAlbumViewController.xib in Resources */,
+				D7A9EC861EE8EC41008BFCD9 /* d2_xingxing@2x.png in Resources */,
 				D713B56E1E66CB7800C93ADC /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
 				D713B53C1E66CB7800C93ADC /* CAbasicAbunatuinViewController.xib in Resources */,
 				D7A6FB7C1EAD9D4A006EB894 /* PPTPreviewController.xib in Resources */,
@@ -1191,6 +1217,7 @@
 				D713B58C1E66CB7800C93ADC /* GaMeViewController.xib in Resources */,
 				D713B5831E66CB7800C93ADC /* MouthCollectionViewCell.xib in Resources */,
 				D7556AFA1EA88F3900A31E44 /* point.png in Resources */,
+				D7A9EC881EE8EC46008BFCD9 /* d2_xingxing_weiba@2x.png in Resources */,
 				D713B5391E66CB7800C93ADC /* LaunchScreen.storyboard in Resources */,
 				D7A6FB811EADA0A8006EB894 /* 教师APP.pdf in Resources */,
 				D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */,
@@ -1209,6 +1236,7 @@
 				D713B5991E66CB7800C93ADC /* PresentVCViewController.xib in Resources */,
 				D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */,
 				D713B52B1E66CB7800C93ADC /* image_picker_send_light@2x.png in Resources */,
+				D7A9EC821EE7B1BF008BFCD9 /* d1_loading@2x.png in Resources */,
 				D713B57C1E66CB7800C93ADC /* ZR_ScanFrame@3x.png in Resources */,
 				D7B9FDBF1E724A3400588118 /* DoubleBollViewController.xib in Resources */,
 				D713B5731E66CB7800C93ADC /* ZxingDemoViewController.xib in Resources */,
@@ -1219,6 +1247,7 @@
 				D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */,
 				D713B5781E66CB7800C93ADC /* ScanCaptureQRViewController.xib in Resources */,
 				D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */,
+				D7A9EC801EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib in Resources */,
 				D713B55F1E66CB7800C93ADC /* MBProgressHUDListTableViewController.xib in Resources */,
 				D7556B011EA8923200A31E44 /* html in Resources */,
 				D713B5811E66CB7800C93ADC /* LFDMonthSelectViewController.xib in Resources */,
@@ -1390,6 +1419,7 @@
 				D713B5301E66CB7800C93ADC /* MCGetImageAndVideoData.m in Sources */,
 				D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */,
 				D713B5311E66CB7800C93ADC /* MCImageGridCell.m in Sources */,
+				D7A9EC7F1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m in Sources */,
 				D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */,
