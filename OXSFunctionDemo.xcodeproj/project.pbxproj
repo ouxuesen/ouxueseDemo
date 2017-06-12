@@ -113,6 +113,11 @@
 		D73937E21E8101BF0014FEE6 /* ThiredTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E01E8101BF0014FEE6 /* ThiredTableViewCell.m */; };
 		D73937E31E8101BF0014FEE6 /* ThiredTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */; };
 		D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E51E8115D50014FEE6 /* MenuModel.m */; };
+		D740F18B1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D740F18D1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png */; };
+		D7551D941EEE432400FDA42B /* logo_shu_1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551D931EEE432400FDA42B /* logo_shu_1@2x.png */; };
+		D7551D961EEE432D00FDA42B /* logo_shu_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551D951EEE432D00FDA42B /* logo_shu_2@2x.png */; };
+		D7551DA21EEE47A100FDA42B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7551DA41EEE47A100FDA42B /* InfoPlist.strings */; };
+		D7551DA71EEE658000FDA42B /* LaunchScreen_Han.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7551DA61EEE658000FDA42B /* LaunchScreen_Han.storyboard */; };
 		D7556AF61EA88F3900A31E44 /* BaibanView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEA1EA88F3900A31E44 /* BaibanView.m */; };
 		D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEC1EA88F3900A31E44 /* BaiBanViewController.m */; };
 		D7556AF81EA88F3900A31E44 /* YJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEE1EA88F3900A31E44 /* YJBezierPath.m */; };
@@ -350,6 +355,16 @@
 		D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThiredTableViewCell.xib; sourceTree = "<group>"; };
 		D73937E41E8115D50014FEE6 /* MenuModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuModel.h; sourceTree = "<group>"; };
 		D73937E51E8115D50014FEE6 /* MenuModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuModel.m; sourceTree = "<group>"; };
+		D740F1851EEA7B9F00A6FA99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Main.strings"; sourceTree = "<group>"; };
+		D740F18E1EEA7E2E00A6FA99 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "zh-Hans"; path = "zh-Hans.lproj/logo_shu_yingwen@2x.png"; sourceTree = "<group>"; };
+		D740F18F1EEA7E3000A6FA99 /* en */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = en; path = "en.lproj/logo_shu_yingwen@2x.png"; sourceTree = "<group>"; };
+		D7551D911EEE41E700FDA42B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D7551D921EEE41EC00FDA42B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = "zh-Hans"; path = "zh-Hans.lproj/LaunchScreen.storyboard"; sourceTree = "<group>"; };
+		D7551D931EEE432400FDA42B /* logo_shu_1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_shu_1@2x.png"; sourceTree = "<group>"; };
+		D7551D951EEE432D00FDA42B /* logo_shu_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "logo_shu_2@2x.png"; sourceTree = "<group>"; };
+		D7551DA31EEE47A100FDA42B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D7551DA51EEE47A300FDA42B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
+		D7551DA61EEE658000FDA42B /* LaunchScreen_Han.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen_Han.storyboard; sourceTree = "<group>"; };
 		D7556AE91EA88F3900A31E44 /* BaibanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaibanView.h; sourceTree = "<group>"; };
 		D7556AEA1EA88F3900A31E44 /* BaibanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaibanView.m; sourceTree = "<group>"; };
 		D7556AEB1EA88F3900A31E44 /* BaiBanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiBanViewController.h; sourceTree = "<group>"; };
@@ -500,8 +515,11 @@
 				D713B45B1E66CB7800C93ADC /* appIcon@2x.png */,
 				D7A9EC811EE7B1BF008BFCD9 /* d1_loading@2x.png */,
 				D713B59D1E66D14E00C93ADC /* update.json */,
+				D7551D931EEE432400FDA42B /* logo_shu_1@2x.png */,
+				D7551D951EEE432D00FDA42B /* logo_shu_2@2x.png */,
 				D7A9EC871EE8EC45008BFCD9 /* d2_xingxing_weiba@2x.png */,
 				D7A9EC851EE8EC41008BFCD9 /* d2_xingxing@2x.png */,
+				D740F18D1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png */,
 				D713B45C1E66CB7800C93ADC /* AssetPcikerController */,
 				D713B4751E66CB7800C93ADC /* Assets.xcassets */,
 				D713B4761E66CB7800C93ADC /* autolyout */,
@@ -552,7 +570,9 @@
 				D713B4311E66CA2500C93ADC /* Main.storyboard */,
 				D713B4341E66CA2500C93ADC /* Assets.xcassets */,
 				D713B4361E66CA2500C93ADC /* LaunchScreen.storyboard */,
+				D7551DA61EEE658000FDA42B /* LaunchScreen_Han.storyboard */,
 				D713B4391E66CA2500C93ADC /* Info.plist */,
+				D7551DA41EEE47A100FDA42B /* InfoPlist.strings */,
 				D713B4281E66CA2500C93ADC /* Supporting Files */,
 			);
 			path = OXSFunctionDemo;
@@ -1173,6 +1193,7 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = D713B41C1E66CA2500C93ADC;
 			productRefGroup = D713B4261E66CA2500C93ADC /* Products */;
@@ -1207,8 +1228,10 @@
 				D713B5291E66CB7800C93ADC /* image_picker_preview_light@2x.png in Resources */,
 				D713B5361E66CB7800C93ADC /* Assets.xcassets in Resources */,
 				D713B56A1E66CB7800C93ADC /* PhotoViewController.xib in Resources */,
+				D740F18B1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png in Resources */,
 				D713B5271E66CB7800C93ADC /* image_picker_ensure_light@2x.png in Resources */,
 				D713B5421E66CB7800C93ADC /* country_code.json in Resources */,
+				D7551DA21EEE47A100FDA42B /* InfoPlist.strings in Resources */,
 				D713B5671E66CB7800C93ADC /* RuntimeDemoViewController.xib in Resources */,
 				D713B57B1E66CB7800C93ADC /* ZR_ScanFrame@2x.png in Resources */,
 				D793D65D1E80FCD7008CA4E5 /* MenuTableViewCell.xib in Resources */,
@@ -1234,6 +1257,7 @@
 				D73937E31E8101BF0014FEE6 /* ThiredTableViewCell.xib in Resources */,
 				D713B58F1E66CB7800C93ADC /* PictureHeardPullViewControll.xib in Resources */,
 				D713B5991E66CB7800C93ADC /* PresentVCViewController.xib in Resources */,
+				D7551DA71EEE658000FDA42B /* LaunchScreen_Han.storyboard in Resources */,
 				D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */,
 				D713B52B1E66CB7800C93ADC /* image_picker_send_light@2x.png in Resources */,
 				D7A9EC821EE7B1BF008BFCD9 /* d1_loading@2x.png in Resources */,
@@ -1252,8 +1276,10 @@
 				D7556B011EA8923200A31E44 /* html in Resources */,
 				D713B5811E66CB7800C93ADC /* LFDMonthSelectViewController.xib in Resources */,
 				D713B53A1E66CB7800C93ADC /* Main.storyboard in Resources */,
+				D7551D941EEE432400FDA42B /* logo_shu_1@2x.png in Resources */,
 				D713B57F1E66CB7800C93ADC /* JumpAppstoreViewController.xib in Resources */,
 				D713B5861E66CB7800C93ADC /* ContinerViewController.xib in Resources */,
+				D7551D961EEE432D00FDA42B /* logo_shu_2@2x.png in Resources */,
 				D713B5961E66CB7800C93ADC /* LFDWTransitionContainerViewController.xib in Resources */,
 				D713B56D1E66CB7800C93ADC /* 新浪首页.html in Resources */,
 				D713B59E1E66D14E00C93ADC /* update.json in Resources */,
@@ -1494,6 +1520,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				D713B4321E66CA2500C93ADC /* Base */,
+				D740F1851EEA7B9F00A6FA99 /* zh-Hans */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -1502,6 +1529,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				D713B4371E66CA2500C93ADC /* Base */,
+				D7551D911EEE41E700FDA42B /* en */,
+				D7551D921EEE41EC00FDA42B /* zh-Hans */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -1522,6 +1551,24 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
+		D740F18D1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D740F18E1EEA7E2E00A6FA99 /* zh-Hans */,
+				D740F18F1EEA7E3000A6FA99 /* en */,
+			);
+			name = "logo_shu_yingwen@2x.png";
+			sourceTree = "<group>";
+		};
+		D7551DA41EEE47A100FDA42B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D7551DA31EEE47A100FDA42B /* en */,
+				D7551DA51EEE47A300FDA42B /* zh-Hans */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -1529,6 +1576,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -1577,6 +1625,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
