@@ -118,6 +118,18 @@
 		D7551D961EEE432D00FDA42B /* logo_shu_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551D951EEE432D00FDA42B /* logo_shu_2@2x.png */; };
 		D7551DA21EEE47A100FDA42B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D7551DA41EEE47A100FDA42B /* InfoPlist.strings */; };
 		D7551DA71EEE658000FDA42B /* LaunchScreen_Han.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D7551DA61EEE658000FDA42B /* LaunchScreen_Han.storyboard */; };
+		D7551DB61EF222B200FDA42B /* LEDTostView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7551DB51EF222B200FDA42B /* LEDTostView.m */; };
+		D7551DB81EF222BC00FDA42B /* LEDTostView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7551DB71EF222BC00FDA42B /* LEDTostView.xib */; };
+		D7551DBA1EF224D900FDA42B /* bg_toast@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DB91EF224D900FDA42B /* bg_toast@2x.png */; };
+		D7551DBD1EF224EC00FDA42B /* icon_cuo@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DBB1EF224EC00FDA42B /* icon_cuo@2x.png */; };
+		D7551DBE1EF224EC00FDA42B /* icon_dui@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DBC1EF224EC00FDA42B /* icon_dui@2x.png */; };
+		D7551DC11EF2314400FDA42B /* LEDERRORView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7551DC01EF2314400FDA42B /* LEDERRORView.m */; };
+		D7551DC31EF2314E00FDA42B /* LEDERRORView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7551DC21EF2314E00FDA42B /* LEDERRORView.xib */; };
+		D7551DC51EF231F900FDA42B /* bg_bai@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DC41EF231F900FDA42B /* bg_bai@2x.png */; };
+		D7551DC71EF2324800FDA42B /* jinggao2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DC61EF2324800FDA42B /* jinggao2@2x.png */; };
+		D7551DCA1EF2369F00FDA42B /* LEDSelectColorView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7551DC91EF2369F00FDA42B /* LEDSelectColorView.m */; };
+		D7551DCC1EF236A700FDA42B /* LEDSelectColorView.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7551DCB1EF236A700FDA42B /* LEDSelectColorView.xib */; };
+		D7551DD21EF25EE500FDA42B /* WechatIMG21@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D7551DD11EF25EE500FDA42B /* WechatIMG21@2x.png */; };
 		D7556AF61EA88F3900A31E44 /* BaibanView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEA1EA88F3900A31E44 /* BaibanView.m */; };
 		D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEC1EA88F3900A31E44 /* BaiBanViewController.m */; };
 		D7556AF81EA88F3900A31E44 /* YJBezierPath.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556AEE1EA88F3900A31E44 /* YJBezierPath.m */; };
@@ -139,6 +151,10 @@
 		D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D793D6561E80FCB5008CA4E5 /* MenuListViewController.xib */; };
 		D793D65C1E80FCD7008CA4E5 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D65A1E80FCD7008CA4E5 /* MenuTableViewCell.m */; };
 		D793D65D1E80FCD7008CA4E5 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D793D65B1E80FCD7008CA4E5 /* MenuTableViewCell.xib */; };
+		D79EF2F01EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79EF2EE1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m */; };
+		D79EF2F11EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79EF2EF1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib */; };
+		D79EF2F41EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D79EF2F31EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m */; };
+		D79EF2F61EF7DF1200ABFE31 /* icon-83.5.png in Resources */ = {isa = PBXBuildFile; fileRef = D79EF2F51EF7DF1200ABFE31 /* icon-83.5.png */; };
 		D7A6FB731EAD98DE006EB894 /* NSString+ScreenFecorder.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A6FB721EAD98DE006EB894 /* NSString+ScreenFecorder.m */; };
 		D7A6FB781EAD9CE1006EB894 /* PPTPreviewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7A6FB771EAD9CE1006EB894 /* PPTPreviewController.m */; };
 		D7A6FB7C1EAD9D4A006EB894 /* PPTPreviewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7A6FB7B1EAD9D4A006EB894 /* PPTPreviewController.xib */; };
@@ -365,6 +381,21 @@
 		D7551DA31EEE47A100FDA42B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		D7551DA51EEE47A300FDA42B /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/InfoPlist.strings"; sourceTree = "<group>"; };
 		D7551DA61EEE658000FDA42B /* LaunchScreen_Han.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen_Han.storyboard; sourceTree = "<group>"; };
+		D7551DB41EF222B200FDA42B /* LEDTostView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDTostView.h; sourceTree = "<group>"; };
+		D7551DB51EF222B200FDA42B /* LEDTostView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDTostView.m; sourceTree = "<group>"; };
+		D7551DB71EF222BC00FDA42B /* LEDTostView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDTostView.xib; sourceTree = "<group>"; };
+		D7551DB91EF224D900FDA42B /* bg_toast@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_toast@2x.png"; sourceTree = "<group>"; };
+		D7551DBB1EF224EC00FDA42B /* icon_cuo@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_cuo@2x.png"; sourceTree = "<group>"; };
+		D7551DBC1EF224EC00FDA42B /* icon_dui@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon_dui@2x.png"; sourceTree = "<group>"; };
+		D7551DBF1EF2314400FDA42B /* LEDERRORView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDERRORView.h; sourceTree = "<group>"; };
+		D7551DC01EF2314400FDA42B /* LEDERRORView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDERRORView.m; sourceTree = "<group>"; };
+		D7551DC21EF2314E00FDA42B /* LEDERRORView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDERRORView.xib; sourceTree = "<group>"; };
+		D7551DC41EF231F900FDA42B /* bg_bai@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg_bai@2x.png"; sourceTree = "<group>"; };
+		D7551DC61EF2324800FDA42B /* jinggao2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "jinggao2@2x.png"; sourceTree = "<group>"; };
+		D7551DC81EF2369F00FDA42B /* LEDSelectColorView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDSelectColorView.h; sourceTree = "<group>"; };
+		D7551DC91EF2369F00FDA42B /* LEDSelectColorView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDSelectColorView.m; sourceTree = "<group>"; };
+		D7551DCB1EF236A700FDA42B /* LEDSelectColorView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LEDSelectColorView.xib; sourceTree = "<group>"; };
+		D7551DD11EF25EE500FDA42B /* WechatIMG21@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WechatIMG21@2x.png"; sourceTree = "<group>"; };
 		D7556AE91EA88F3900A31E44 /* BaibanView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaibanView.h; sourceTree = "<group>"; };
 		D7556AEA1EA88F3900A31E44 /* BaibanView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaibanView.m; sourceTree = "<group>"; };
 		D7556AEB1EA88F3900A31E44 /* BaiBanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiBanViewController.h; sourceTree = "<group>"; };
@@ -400,6 +431,12 @@
 		D793D6591E80FCD7008CA4E5 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
 		D793D65A1E80FCD7008CA4E5 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		D793D65B1E80FCD7008CA4E5 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		D79EF2ED1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLProtocolWebViewController.h; sourceTree = "<group>"; };
+		D79EF2EE1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLProtocolWebViewController.m; sourceTree = "<group>"; };
+		D79EF2EF1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSURLProtocolWebViewController.xib; sourceTree = "<group>"; };
+		D79EF2F21EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReplacingImageURLProtocol.h; sourceTree = "<group>"; };
+		D79EF2F31EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReplacingImageURLProtocol.m; sourceTree = "<group>"; };
+		D79EF2F51EF7DF1200ABFE31 /* icon-83.5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon-83.5.png"; sourceTree = "<group>"; };
 		D7A07A9E1E8FA1AC0017C8D3 /* AutoLayout.key */ = {isa = PBXFileReference; lastKnownFileType = file; path = AutoLayout.key; sourceTree = "<group>"; };
 		D7A6FB711EAD98DE006EB894 /* NSString+ScreenFecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+ScreenFecorder.h"; sourceTree = "<group>"; };
 		D7A6FB721EAD98DE006EB894 /* NSString+ScreenFecorder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+ScreenFecorder.m"; sourceTree = "<group>"; };
@@ -567,6 +604,7 @@
 				D713B42C1E66CA2500C93ADC /* AppDelegate.m */,
 				D713B42E1E66CA2500C93ADC /* ViewController.h */,
 				D713B42F1E66CA2500C93ADC /* ViewController.m */,
+				D79EF2EC1EF7DCF300ABFE31 /* webView+NSURLProtocol */,
 				D713B4311E66CA2500C93ADC /* Main.storyboard */,
 				D713B4341E66CA2500C93ADC /* Assets.xcassets */,
 				D713B4361E66CA2500C93ADC /* LaunchScreen.storyboard */,
@@ -1018,6 +1056,19 @@
 			path = "多级列表";
 			sourceTree = "<group>";
 		};
+		D79EF2EC1EF7DCF300ABFE31 /* webView+NSURLProtocol */ = {
+			isa = PBXGroup;
+			children = (
+				D79EF2ED1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.h */,
+				D79EF2EE1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m */,
+				D79EF2EF1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib */,
+				D79EF2F21EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.h */,
+				D79EF2F31EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m */,
+				D79EF2F51EF7DF1200ABFE31 /* icon-83.5.png */,
+			);
+			path = "webView+NSURLProtocol";
+			sourceTree = "<group>";
+		};
 		D7A6FB751EAD9C96006EB894 /* PPT */ = {
 			isa = PBXGroup;
 			children = (
@@ -1033,9 +1084,24 @@
 		D7A9EC7B1EE7AABA008BFCD9 /* 动画 */ = {
 			isa = PBXGroup;
 			children = (
+				D7551DC41EF231F900FDA42B /* bg_bai@2x.png */,
+				D7551DB91EF224D900FDA42B /* bg_toast@2x.png */,
 				D7A9EC7C1EE7AAF0008BFCD9 /* CombinationAnimationViewController.h */,
 				D7A9EC7D1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m */,
 				D7A9EC7E1EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib */,
+				D7551DBB1EF224EC00FDA42B /* icon_cuo@2x.png */,
+				D7551DBC1EF224EC00FDA42B /* icon_dui@2x.png */,
+				D7551DC61EF2324800FDA42B /* jinggao2@2x.png */,
+				D7551DBF1EF2314400FDA42B /* LEDERRORView.h */,
+				D7551DC01EF2314400FDA42B /* LEDERRORView.m */,
+				D7551DC21EF2314E00FDA42B /* LEDERRORView.xib */,
+				D7551DC81EF2369F00FDA42B /* LEDSelectColorView.h */,
+				D7551DC91EF2369F00FDA42B /* LEDSelectColorView.m */,
+				D7551DCB1EF236A700FDA42B /* LEDSelectColorView.xib */,
+				D7551DB41EF222B200FDA42B /* LEDTostView.h */,
+				D7551DB51EF222B200FDA42B /* LEDTostView.m */,
+				D7551DB71EF222BC00FDA42B /* LEDTostView.xib */,
+				D7551DD11EF25EE500FDA42B /* WechatIMG21@2x.png */,
 			);
 			path = "动画";
 			sourceTree = "<group>";
@@ -1213,6 +1279,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D713B52D1E66CB7800C93ADC /* PhotoAlbumViewController.xib in Resources */,
+				D7551DC51EF231F900FDA42B /* bg_bai@2x.png in Resources */,
 				D7A9EC861EE8EC41008BFCD9 /* d2_xingxing@2x.png in Resources */,
 				D713B56E1E66CB7800C93ADC /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
 				D713B53C1E66CB7800C93ADC /* CAbasicAbunatuinViewController.xib in Resources */,
@@ -1234,6 +1301,7 @@
 				D7551DA21EEE47A100FDA42B /* InfoPlist.strings in Resources */,
 				D713B5671E66CB7800C93ADC /* RuntimeDemoViewController.xib in Resources */,
 				D713B57B1E66CB7800C93ADC /* ZR_ScanFrame@2x.png in Resources */,
+				D7551DC71EF2324800FDA42B /* jinggao2@2x.png in Resources */,
 				D793D65D1E80FCD7008CA4E5 /* MenuTableViewCell.xib in Resources */,
 				D7C0B1391EA8B4B000D459CA /* ReplayKitViewController.xib in Resources */,
 				D713B5941E66CB7800C93ADC /* LFDWSecondTransitionView.xib in Resources */,
@@ -1251,14 +1319,19 @@
 				D713B5351E66CB7800C93ADC /* ShowPhotosViewController.xib in Resources */,
 				D713B5701E66CB7800C93ADC /* KeyWindowLevelViewController.xib in Resources */,
 				D713B5611E66CB7800C93ADC /* ShowMBprogressViewController.xib in Resources */,
+				D7551DD21EF25EE500FDA42B /* WechatIMG21@2x.png in Resources */,
 				D713B5281E66CB7800C93ADC /* image_picker_preview@2x.png in Resources */,
 				D713B52A1E66CB7800C93ADC /* image_picker_send@2x.png in Resources */,
 				D7A6FB7F1EAD9F35006EB894 /* Sampleclass.pptx in Resources */,
 				D73937E31E8101BF0014FEE6 /* ThiredTableViewCell.xib in Resources */,
+				D7551DBD1EF224EC00FDA42B /* icon_cuo@2x.png in Resources */,
 				D713B58F1E66CB7800C93ADC /* PictureHeardPullViewControll.xib in Resources */,
+				D79EF2F11EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib in Resources */,
 				D713B5991E66CB7800C93ADC /* PresentVCViewController.xib in Resources */,
+				D79EF2F61EF7DF1200ABFE31 /* icon-83.5.png in Resources */,
 				D7551DA71EEE658000FDA42B /* LaunchScreen_Han.storyboard in Resources */,
 				D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */,
+				D7551DBA1EF224D900FDA42B /* bg_toast@2x.png in Resources */,
 				D713B52B1E66CB7800C93ADC /* image_picker_send_light@2x.png in Resources */,
 				D7A9EC821EE7B1BF008BFCD9 /* d1_loading@2x.png in Resources */,
 				D713B57C1E66CB7800C93ADC /* ZR_ScanFrame@3x.png in Resources */,
@@ -1269,6 +1342,7 @@
 				D713B52F1E66CB7800C93ADC /* PhotoCollectionViewCell.xib in Resources */,
 				D713B5331E66CB7800C93ADC /* MCPhotoShowViewController.xib in Resources */,
 				D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */,
+				D7551DC31EF2314E00FDA42B /* LEDERRORView.xib in Resources */,
 				D713B5781E66CB7800C93ADC /* ScanCaptureQRViewController.xib in Resources */,
 				D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */,
 				D7A9EC801EE7AAF0008BFCD9 /* CombinationAnimationViewController.xib in Resources */,
@@ -1286,7 +1360,10 @@
 				D713B4351E66CA2500C93ADC /* Assets.xcassets in Resources */,
 				D7556B031EA8931600A31E44 /* BaiBanViewController.xib in Resources */,
 				D713B4331E66CA2500C93ADC /* Main.storyboard in Resources */,
+				D7551DCC1EF236A700FDA42B /* LEDSelectColorView.xib in Resources */,
+				D7551DB81EF222BC00FDA42B /* LEDTostView.xib in Resources */,
 				D713B5631E66CB7800C93ADC /* MenuViewController.xib in Resources */,
+				D7551DBE1EF224EC00FDA42B /* icon_dui@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1407,6 +1484,7 @@
 				D713B5601E66CB7800C93ADC /* ShowMBprogressViewController.m in Sources */,
 				D713B5971E66CB7800C93ADC /* LFDWTransitionView.m in Sources */,
 				D7A6FB781EAD9CE1006EB894 /* PPTPreviewController.m in Sources */,
+				D79EF2F41EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m in Sources */,
 				D713B56F1E66CB7800C93ADC /* KeyWindowLevelViewController.m in Sources */,
 				D713B5621E66CB7800C93ADC /* MenuViewController.m in Sources */,
 				D7556B1D1EA89BB900A31E44 /* CGContextCreator.m in Sources */,
@@ -1441,12 +1519,14 @@
 				D7556AF61EA88F3900A31E44 /* BaibanView.m in Sources */,
 				D713B5691E66CB7800C93ADC /* PhotoViewController.m in Sources */,
 				D713B5371E66CB7800C93ADC /* AutolayoutViewController.m in Sources */,
+				D7551DC11EF2314400FDA42B /* LEDERRORView.m in Sources */,
 				D7556B131EA89B5E00A31E44 /* BlazeiceAudioRecordAndTransCoding.m in Sources */,
 				D713B5301E66CB7800C93ADC /* MCGetImageAndVideoData.m in Sources */,
 				D7B9FC0E1E71335000588118 /* RunLoopViewController.m in Sources */,
 				D713B5311E66CB7800C93ADC /* MCImageGridCell.m in Sources */,
 				D7A9EC7F1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m in Sources */,
 				D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */,
+				D79EF2F01EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */,
 				D713B5761E66CB7800C93ADC /* LFDRQDealManger.m in Sources */,
@@ -1460,6 +1540,7 @@
 				D713B55E1E66CB7800C93ADC /* MBProgressHUDListTableViewController.m in Sources */,
 				D713B5981E66CB7800C93ADC /* PresentVCViewController.m in Sources */,
 				D713B57E1E66CB7800C93ADC /* JumpAppstoreViewController.m in Sources */,
+				D7551DB61EF222B200FDA42B /* LEDTostView.m in Sources */,
 				D713B53D1E66CB7800C93ADC /* WebViewController.m in Sources */,
 				D713B58A1E66CB7800C93ADC /* GameConrierView.m in Sources */,
 				D713B5791E66CB7800C93ADC /* SystemQRViewController.m in Sources */,
@@ -1480,6 +1561,7 @@
 				D713B58B1E66CB7800C93ADC /* GaMeViewController.m in Sources */,
 				D713B5931E66CB7800C93ADC /* LFDWSecondTransitionView.m in Sources */,
 				D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */,
+				D7551DCA1EF2369F00FDA42B /* LEDSelectColorView.m in Sources */,
 				D7556B161EA89B5E00A31E44 /* WFCapture.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
