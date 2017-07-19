@@ -1168,9 +1168,9 @@
 				TargetAttributes = {
 					D713B4241E66CA2500C93ADC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 4B7W4R45RH;
+						DevelopmentTeam = 9U4DA6JN7Y;
 						LastSwiftMigration = 0820;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					D713B43D1E66CA2600C93ADC = {
 						CreatedOnToolsVersion = 8.2.1;
@@ -1669,14 +1669,18 @@
 			baseConfigurationReference = 51F33AE5D7FE51BEB1049B5C /* Pods-OXSFunctionDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4B7W4R45RH;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Letv Information Technology(Beijing)Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9U4DA6JN7Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.enterprise.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c1758fbc-98a6-4a79-9e97-8648815910ad";
+				PROVISIONING_PROFILE_SPECIFIER = LetvIphoneEpDistributeNew;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -1686,14 +1690,18 @@
 			baseConfigurationReference = ACD0732BC4859E4FCFBCFBD0 /* Pods-OXSFunctionDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 4B7W4R45RH;
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Letv Information Technology(Beijing)Co.,Ltd";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = 9U4DA6JN7Y;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
+				PRODUCT_BUNDLE_IDENTIFIER = com.letv.iphone.enterprise.client;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "c1758fbc-98a6-4a79-9e97-8648815910ad";
+				PROVISIONING_PROFILE_SPECIFIER = LetvIphoneEpDistributeNew;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
