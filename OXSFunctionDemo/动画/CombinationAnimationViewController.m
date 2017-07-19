@@ -8,6 +8,9 @@
 
 #import "CombinationAnimationViewController.h"
 #import <CoreText/CoreText.h>
+#import "LEDTostView.h"
+#import "LEDERRORView.h"
+#import "LEDSelectColorView.h"
 
 @interface WaterRippleLable ()
 @property(nonatomic,strong)NSMutableArray *labelArray;
@@ -238,6 +241,19 @@
         [_lodingImageView.layer addAnimation:animate forKey:nil];
     }else if (sender.tag == 1){
         [_showLablke startAnimate];
+//        LEDTostView*tostView = [[NSBundle mainBundle ] loadNibNamed:@"LEDTostView" owner:self options:nil][0];
+//        [tostView showTosetMessage:@"我们都是好孩子我们都" isError:YES];
+//        [KeyWindow addSubview:tostView];
+//        LEDERRORView*tostView = [[NSBundle mainBundle ] loadNibNamed:@"LEDERRORView" owner:self options:nil][0];
+//        [self.view addSubview:tostView];
+//        tostView.frame = CGRectMake(0, 0, WINDOW_WIDTH, WINDOW_HEIGHT);
+//        LEDSelectColorView*tostView = [[NSBundle mainBundle ] loadNibNamed:@"LEDSelectColorView" owner:self options:nil][0];
+        LEDSelectColorView*tostView = [[NSBundle mainBundle ] loadNibNamed:@"LEDSelectColorView" owner:self options:nil][0];
+
+       [tostView showViewWithSupview:self.view blowView:sender selectColor:^(UIColor *color){
+           
+       }];
+        
         
     }else if (sender.tag == 2){
         [self anmiationWithView:_xingxing fromPosion:_xingxing.center toPosion:_button.center totolTime:2 delay:0 isRotation:YES];

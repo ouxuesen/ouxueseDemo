@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "ReplacingImageURLProtocol.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +18,9 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    //    //网络协议 用于替换htm5下载 图片用本地替换
+    [NSURLProtocol registerClass:[ReplacingImageURLProtocol class]];
+   
     return YES;
 }
 

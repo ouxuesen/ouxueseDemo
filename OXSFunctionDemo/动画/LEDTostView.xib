@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="LEDTostView">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="yPv-Rk-rKi">
+                    <rect key="frame" x="-104" y="279" width="583.5" height="109"/>
+                    <subviews>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_toast.png" translatesAutoresizingMaskIntoConstraints="NO" id="hy4-wL-tCn">
+                            <rect key="frame" x="0.0" y="0.0" width="583.5" height="109"/>
+                        </imageView>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="我们都是我们" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TJ6-AC-Edh">
+                            <rect key="frame" x="103.5" y="10" width="480" height="89"/>
+                            <constraints>
+                                <constraint firstAttribute="width" constant="480" id="H3u-fE-nFf"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                            <color key="textColor" red="0.63137254901960782" green="0.61960784313725492" blue="0.54509803921568623" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="icon_dui.png" translatesAutoresizingMaskIntoConstraints="NO" id="Lml-Og-EN4">
+                            <rect key="frame" x="24" y="22" width="65" height="65"/>
+                        </imageView>
+                    </subviews>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstItem="TJ6-AC-Edh" firstAttribute="leading" secondItem="yPv-Rk-rKi" secondAttribute="leading" constant="103" id="2bs-Ob-lbx"/>
+                        <constraint firstItem="Lml-Og-EN4" firstAttribute="leading" secondItem="yPv-Rk-rKi" secondAttribute="leading" constant="24" id="9Nm-tq-RA1"/>
+                        <constraint firstAttribute="bottom" secondItem="TJ6-AC-Edh" secondAttribute="bottom" constant="10" id="Aqt-lX-npO"/>
+                        <constraint firstItem="hy4-wL-tCn" firstAttribute="leading" secondItem="yPv-Rk-rKi" secondAttribute="leading" id="B9K-56-Ef3"/>
+                        <constraint firstItem="TJ6-AC-Edh" firstAttribute="top" secondItem="yPv-Rk-rKi" secondAttribute="top" constant="10" id="J45-6B-tgJ"/>
+                        <constraint firstItem="hy4-wL-tCn" firstAttribute="top" secondItem="yPv-Rk-rKi" secondAttribute="top" id="TYS-gI-9so"/>
+                        <constraint firstItem="Lml-Og-EN4" firstAttribute="centerY" secondItem="yPv-Rk-rKi" secondAttribute="centerY" id="V3f-yr-xuf"/>
+                        <constraint firstAttribute="bottom" secondItem="hy4-wL-tCn" secondAttribute="bottom" id="XVI-nu-8pn"/>
+                        <constraint firstAttribute="trailing" secondItem="hy4-wL-tCn" secondAttribute="trailing" id="a3b-Mb-0YV"/>
+                        <constraint firstAttribute="trailing" secondItem="TJ6-AC-Edh" secondAttribute="trailing" id="ha1-AK-E3v"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="yPv-Rk-rKi" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="OQU-8W-Fs7"/>
+                <constraint firstItem="yPv-Rk-rKi" firstAttribute="centerX" secondItem="iN0-l3-epB" secondAttribute="centerX" id="SMX-ZR-gSy"/>
+            </constraints>
+            <connections>
+                <outlet property="backImageVIew" destination="hy4-wL-tCn" id="Xk4-Zd-I0F"/>
+                <outlet property="iconImageView" destination="Lml-Og-EN4" id="oAc-2S-XQR"/>
+                <outlet property="messageView" destination="yPv-Rk-rKi" id="SMg-3b-0UR"/>
+                <outlet property="tostLable" destination="TJ6-AC-Edh" id="zud-vH-Cd0"/>
+            </connections>
+            <point key="canvasLocation" x="34.5" y="53.5"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="bg_toast.png" width="139" height="109"/>
+        <image name="icon_dui.png" width="65" height="65"/>
+    </resources>
+</document>
