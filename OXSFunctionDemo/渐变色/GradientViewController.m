@@ -173,6 +173,7 @@
 - (void)addAnimationTwoOnLayer:(CALayer *)layer duration:(CFTimeInterval)duration rectStar:(CGRect)rectStar rectEnd:(CGRect)rectEnd
 {
 //layer.bounds.size.width
+#pragma  -- er3
     CABasicAnimation *animation = [CABasicAnimation animationWithKeyPath:@"position.x"];//strokeStart ,strokeEnd
     animation.fromValue = @(200);
     animation.toValue =@(200);
