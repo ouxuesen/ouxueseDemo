@@ -10,6 +10,7 @@
 #import "MenuViewController.h"
 #import "NSObject_Ouxuesen.h"
 #import "RecordDateManager.h"
+#import "ReplayKitViewController.h"
 @interface ViewController ()
 {
 
@@ -19,6 +20,7 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [RecordDateManager sharRecordDateManager];
     [super viewDidLoad];
     NSString *bananas = @"123.321abc137d efg hij kl";
