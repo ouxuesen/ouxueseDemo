@@ -258,5 +258,13 @@
 		<key>type</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>线程</string>
+		<key>vc</key>
+		<string>ThreadDemoViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
 </array>
 </plist>

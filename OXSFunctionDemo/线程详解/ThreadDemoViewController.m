@@ -7,6 +7,7 @@
 //
 
 #import "ThreadDemoViewController.h"
+#import "GCDViewController.h"
 
 @interface ThreadDemoViewController ()
 
