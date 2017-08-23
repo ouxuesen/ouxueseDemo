@@ -72,7 +72,7 @@
                     </connections>
                 </button>
                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m9Z-b5-4iz" customClass="WaterRippleLable">
-                    <rect key="frame" x="157" y="100" width="100" height="21"/>
+                    <rect key="frame" x="157" y="64" width="100" height="21"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="100" id="2Q7-IX-koD"/>
                         <constraint firstAttribute="height" constant="21" id="tQn-pw-8a1"/>
@@ -81,22 +81,22 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo_shu_yingwen.png" translatesAutoresizingMaskIntoConstraints="NO" id="PG4-ro-GeY">
-                    <rect key="frame" x="177" y="142" width="60" height="60"/>
+                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d1_loading.png" translatesAutoresizingMaskIntoConstraints="NO" id="PG4-ro-GeY">
+                    <rect key="frame" x="177" y="106" width="60" height="60"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="60" id="Vhl-f2-H99"/>
                         <constraint firstAttribute="height" constant="60" id="snf-d9-Xpe"/>
                     </constraints>
                 </imageView>
                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="d2_xingxing.png" translatesAutoresizingMaskIntoConstraints="NO" id="Wzm-B3-3Df">
-                    <rect key="frame" x="183" y="222" width="48" height="48"/>
+                    <rect key="frame" x="183" y="186" width="48" height="48"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="48" id="2vA-d1-41H"/>
                         <constraint firstAttribute="height" constant="48" id="enB-4b-Np6"/>
                     </constraints>
                 </imageView>
                 <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kFx-s4-onE">
-                    <rect key="frame" x="87" y="335" width="240" height="128"/>
+                    <rect key="frame" x="87" y="299" width="240" height="128"/>
                     <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="height" constant="128" id="05e-cf-ATZ"/>
@@ -110,12 +110,6 @@
                         <constraint firstAttribute="height" constant="48" id="XSa-SK-vG4"/>
                     </constraints>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="bg_zhuce2" translatesAutoresizingMaskIntoConstraints="NO" id="W1j-89-oF3">
-                    <rect key="frame" x="0.0" y="100" width="414" height="128"/>
-                    <constraints>
-                        <constraint firstAttribute="height" constant="128" id="1gJ-sf-fuH"/>
-                    </constraints>
-                </imageView>
             </subviews>
             <color key="backgroundColor" red="1" green="0.36862745099999999" blue="0.30196078430000001" alpha="1" colorSpace="calibratedRGB"/>
             <constraints>
@@ -125,13 +119,10 @@
                 <constraint firstItem="LNA-Yy-0lL" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="262" id="8fX-eE-ahK"/>
                 <constraint firstItem="Wzm-B3-3Df" firstAttribute="top" secondItem="PG4-ro-GeY" secondAttribute="bottom" constant="20" id="AUI-Nj-7Kr"/>
                 <constraint firstItem="PG4-ro-GeY" firstAttribute="top" secondItem="m9Z-b5-4iz" secondAttribute="bottom" constant="21" id="Fah-4q-ZGf"/>
-                <constraint firstAttribute="trailing" secondItem="W1j-89-oF3" secondAttribute="trailing" id="M1M-go-CpW"/>
-                <constraint firstItem="m9Z-b5-4iz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="OGg-HO-Rph"/>
+                <constraint firstItem="m9Z-b5-4iz" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="64" id="OGg-HO-Rph"/>
                 <constraint firstItem="kFx-s4-onE" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="S7M-xg-qsP"/>
-                <constraint firstItem="W1j-89-oF3" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="100" id="T38-30-cqw"/>
                 <constraint firstItem="Sj0-gj-ruh" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="ZV0-ZU-PKp"/>
                 <constraint firstAttribute="trailing" secondItem="LNA-Yy-0lL" secondAttribute="trailing" constant="46" id="cvu-SP-IqY"/>
-                <constraint firstItem="W1j-89-oF3" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="h0h-OE-g4E"/>
                 <constraint firstItem="kFx-s4-onE" firstAttribute="top" secondItem="Wzm-B3-3Df" secondAttribute="bottom" constant="65" id="ir2-wJ-VUN"/>
                 <constraint firstAttribute="bottom" secondItem="zOe-uR-MRX" secondAttribute="bottom" id="jgm-Ib-DjP"/>
                 <constraint firstAttribute="bottom" secondItem="Xo5-cD-VYG" secondAttribute="bottom" id="rw6-W0-q2V"/>
@@ -143,8 +134,7 @@
         </view>
     </objects>
     <resources>
-        <image name="bg_zhuce2" width="30" height="30"/>
+        <image name="d1_loading.png" width="100" height="100"/>
         <image name="d2_xingxing.png" width="48" height="48"/>
-        <image name="logo_shu_yingwen.png" width="370" height="351"/>
     </resources>
 </document>

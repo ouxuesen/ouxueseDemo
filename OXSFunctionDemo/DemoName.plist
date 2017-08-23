@@ -164,7 +164,7 @@
 	</dict>
 	<dict>
 		<key>name</key>
-		<string>短连接</string>
+		<string>相册</string>
 		<key>vc</key>
 		<string>PhotoViewController</string>
 		<key>type</key>
@@ -247,6 +247,22 @@
 		<string>webView+NSURLProtocol</string>
 		<key>vc</key>
 		<string>NSURLProtocolWebViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>通知测试</string>
+		<key>vc</key>
+		<string>NotictionTestViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
+	<dict>
+		<key>name</key>
+		<string>字体绘画</string>
+		<key>vc</key>
+		<string>GraphicsAnimationViewController</string>
 		<key>type</key>
 		<string>1</string>
 	</dict>

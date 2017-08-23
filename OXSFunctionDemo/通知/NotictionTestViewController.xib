@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="NotictionTestViewController">
+            <connections>
+                <outlet property="titlelable" destination="Qwk-B3-8pt" id="wju-tj-8LD"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cmJ-Kd-kQt">
+                    <rect key="frame" x="137" y="202" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.95686274510000002" green="0.36470588240000001" blue="0.2901960784" alpha="1" colorSpace="calibratedRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="30" id="Dca-mB-e2m"/>
+                        <constraint firstAttribute="width" constant="100" id="ppA-at-6rm"/>
+                    </constraints>
+                    <state key="normal" title="主线程"/>
+                    <connections>
+                        <action selector="touchButton:" destination="-1" eventType="touchUpInside" id="S8q-VP-eAf"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Lik-IX-92C">
+                    <rect key="frame" x="137" y="279" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="648-Er-yfD"/>
+                        <constraint firstAttribute="height" constant="30" id="EMj-no-Alx"/>
+                    </constraints>
+                    <state key="normal" title="线程1"/>
+                    <connections>
+                        <action selector="touchButton:" destination="-1" eventType="touchUpInside" id="LS6-06-Tr3"/>
+                    </connections>
+                </button>
+                <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="tFq-RQ-QlW">
+                    <rect key="frame" x="137" y="361" width="100" height="30"/>
+                    <color key="backgroundColor" red="0.90980392160000001" green="0.086274509799999996" blue="0.086274509799999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="100" id="bc5-l0-8kz"/>
+                        <constraint firstAttribute="height" constant="30" id="rHy-IU-o6H"/>
+                    </constraints>
+                    <state key="normal" title="线程2"/>
+                    <connections>
+                        <action selector="touchButton:" destination="-1" eventType="touchUpInside" id="TB9-mO-gOA"/>
+                    </connections>
+                </button>
+                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qwk-B3-8pt">
+                    <rect key="frame" x="166.5" y="128" width="42" height="21"/>
+                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <nil key="textColor"/>
+                    <nil key="highlightedColor"/>
+                </label>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="tFq-RQ-QlW" firstAttribute="top" secondItem="Lik-IX-92C" secondAttribute="bottom" constant="52" id="0Yp-gz-hVf"/>
+                <constraint firstItem="cmJ-Kd-kQt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="2FV-xQ-YlQ"/>
+                <constraint firstItem="Qwk-B3-8pt" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="AX4-1y-6mc"/>
+                <constraint firstItem="tFq-RQ-QlW" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="R1b-ib-DUB"/>
+                <constraint firstItem="Lik-IX-92C" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="TVC-8M-cml"/>
+                <constraint firstItem="Qwk-B3-8pt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="128" id="lnq-Hz-O9z"/>
+                <constraint firstItem="Lik-IX-92C" firstAttribute="top" secondItem="cmJ-Kd-kQt" secondAttribute="bottom" constant="47" id="mFi-LI-UPY"/>
+                <constraint firstItem="cmJ-Kd-kQt" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="202" id="pPD-si-KUo"/>
+            </constraints>
+            <point key="canvasLocation" x="33.5" y="53.5"/>
+        </view>
+    </objects>
+</document>

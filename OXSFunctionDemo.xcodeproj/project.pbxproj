@@ -145,6 +145,12 @@
 		D7556B171EA89B5E00A31E44 /* WFCaptureUtilities.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556B121EA89B5E00A31E44 /* WFCaptureUtilities.m */; };
 		D7556B1D1EA89BB900A31E44 /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556B1A1EA89BB900A31E44 /* CGContextCreator.m */; };
 		D7556B1E1EA89BB900A31E44 /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7556B1C1EA89BB900A31E44 /* CGImageContainer.m */; };
+		D75682921F063D740092BD36 /* NotictionTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75682901F063D740092BD36 /* NotictionTestViewController.m */; };
+		D75682931F063D740092BD36 /* NotictionTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D75682911F063D740092BD36 /* NotictionTestViewController.xib */; };
+		D756829C1F09E95F0092BD36 /* GraphicsAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D756829A1F09E95F0092BD36 /* GraphicsAnimationViewController.m */; };
+		D756829D1F09E95F0092BD36 /* GraphicsAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D756829B1F09E95F0092BD36 /* GraphicsAnimationViewController.xib */; };
+		D75682A01F09E9A40092BD36 /* GraphicsAnimationLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D756829F1F09E9A40092BD36 /* GraphicsAnimationLable.m */; };
+		D75682A21F09F66B0092BD36 /* noun_project_347_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75682A11F09F66B0092BD36 /* noun_project_347_2@2x.png */; };
 		D78BFA431E978D3A005853D0 /* WebSoctetTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */; };
 		D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */; };
 		D793D6571E80FCB5008CA4E5 /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D6551E80FCB5008CA4E5 /* MenuListViewController.m */; };
@@ -422,6 +428,15 @@
 		D7556B1A1EA89BB900A31E44 /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
 		D7556B1B1EA89BB900A31E44 /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
 		D7556B1C1EA89BB900A31E44 /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		D756828F1F063D740092BD36 /* NotictionTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NotictionTestViewController.h; sourceTree = "<group>"; };
+		D75682901F063D740092BD36 /* NotictionTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NotictionTestViewController.m; sourceTree = "<group>"; };
+		D75682911F063D740092BD36 /* NotictionTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NotictionTestViewController.xib; sourceTree = "<group>"; };
+		D75682991F09E95F0092BD36 /* GraphicsAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAnimationViewController.h; sourceTree = "<group>"; };
+		D756829A1F09E95F0092BD36 /* GraphicsAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsAnimationViewController.m; sourceTree = "<group>"; };
+		D756829B1F09E95F0092BD36 /* GraphicsAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GraphicsAnimationViewController.xib; sourceTree = "<group>"; };
+		D756829E1F09E9A40092BD36 /* GraphicsAnimationLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAnimationLable.h; sourceTree = "<group>"; };
+		D756829F1F09E9A40092BD36 /* GraphicsAnimationLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsAnimationLable.m; sourceTree = "<group>"; };
+		D75682A11F09F66B0092BD36 /* noun_project_347_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun_project_347_2@2x.png"; sourceTree = "<group>"; };
 		D78BFA401E978D3A005853D0 /* WebSoctetTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSoctetTestViewController.h; sourceTree = "<group>"; };
 		D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSoctetTestViewController.m; sourceTree = "<group>"; };
 		D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebSoctetTestViewController.xib; sourceTree = "<group>"; };
@@ -600,6 +615,8 @@
 				D7C0B1341EA8B4A300D459CA /* ReplayKit */,
 				D713B51F1E66CB7800C93ADC /* 渐变色 */,
 				D7A6FB751EAD9C96006EB894 /* PPT */,
+				D756828E1F063D540092BD36 /* 通知 */,
+				D75682981F09E9330092BD36 /* 文字会话动画 */,
 				D713B42B1E66CA2500C93ADC /* AppDelegate.h */,
 				D713B42C1E66CA2500C93ADC /* AppDelegate.m */,
 				D713B42E1E66CA2500C93ADC /* ViewController.h */,
@@ -1015,6 +1032,29 @@
 			path = CoreGraphics;
 			sourceTree = "<group>";
 		};
+		D756828E1F063D540092BD36 /* 通知 */ = {
+			isa = PBXGroup;
+			children = (
+				D756828F1F063D740092BD36 /* NotictionTestViewController.h */,
+				D75682901F063D740092BD36 /* NotictionTestViewController.m */,
+				D75682911F063D740092BD36 /* NotictionTestViewController.xib */,
+			);
+			path = "通知";
+			sourceTree = "<group>";
+		};
+		D75682981F09E9330092BD36 /* 文字会话动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D75682991F09E95F0092BD36 /* GraphicsAnimationViewController.h */,
+				D756829A1F09E95F0092BD36 /* GraphicsAnimationViewController.m */,
+				D756829B1F09E95F0092BD36 /* GraphicsAnimationViewController.xib */,
+				D756829E1F09E9A40092BD36 /* GraphicsAnimationLable.h */,
+				D756829F1F09E9A40092BD36 /* GraphicsAnimationLable.m */,
+				D75682A11F09F66B0092BD36 /* noun_project_347_2@2x.png */,
+			);
+			path = "文字会话动画";
+			sourceTree = "<group>";
+		};
 		D78376AF1EA7743A004D0FE0 /* 录屏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1282,6 +1322,7 @@
 				D7551DC51EF231F900FDA42B /* bg_bai@2x.png in Resources */,
 				D7A9EC861EE8EC41008BFCD9 /* d2_xingxing@2x.png in Resources */,
 				D713B56E1E66CB7800C93ADC /* 翻新重写！WWDC 后苹果最新 App Store 审核条款！「内附最新开发者指南」.html in Resources */,
+				D75682931F063D740092BD36 /* NotictionTestViewController.xib in Resources */,
 				D713B53C1E66CB7800C93ADC /* CAbasicAbunatuinViewController.xib in Resources */,
 				D7A6FB7C1EAD9D4A006EB894 /* PPTPreviewController.xib in Resources */,
 				D713B4381E66CA2500C93ADC /* LaunchScreen.storyboard in Resources */,
@@ -1316,6 +1357,7 @@
 				D713B5921E66CB7800C93ADC /* LFDWFirstTransitionView.xib in Resources */,
 				D713B5431E66CB7800C93ADC /* DemoName.plist in Resources */,
 				D713B5411E66CB7800C93ADC /* CoreTextViewController.xib in Resources */,
+				D75682A21F09F66B0092BD36 /* noun_project_347_2@2x.png in Resources */,
 				D713B5351E66CB7800C93ADC /* ShowPhotosViewController.xib in Resources */,
 				D713B5701E66CB7800C93ADC /* KeyWindowLevelViewController.xib in Resources */,
 				D713B5611E66CB7800C93ADC /* ShowMBprogressViewController.xib in Resources */,
@@ -1361,6 +1403,7 @@
 				D7556B031EA8931600A31E44 /* BaiBanViewController.xib in Resources */,
 				D713B4331E66CA2500C93ADC /* Main.storyboard in Resources */,
 				D7551DCC1EF236A700FDA42B /* LEDSelectColorView.xib in Resources */,
+				D756829D1F09E95F0092BD36 /* GraphicsAnimationViewController.xib in Resources */,
 				D7551DB81EF222BC00FDA42B /* LEDTostView.xib in Resources */,
 				D713B5631E66CB7800C93ADC /* MenuViewController.xib in Resources */,
 				D7551DBE1EF224EC00FDA42B /* icon_dui@2x.png in Resources */,
@@ -1509,6 +1552,7 @@
 				D7556B1E1EA89BB900A31E44 /* CGImageContainer.m in Sources */,
 				D713B4301E66CA2500C93ADC /* ViewController.m in Sources */,
 				D713B59B1E66CB7800C93ADC /* GradientViewController.m in Sources */,
+				D756829C1F09E95F0092BD36 /* GraphicsAnimationViewController.m in Sources */,
 				D713B42D1E66CA2500C93ADC /* AppDelegate.m in Sources */,
 				D713B5771E66CB7800C93ADC /* ScanCaptureQRViewController.m in Sources */,
 				D713B5871E66CB7800C93ADC /* LFDCoordinateView.m in Sources */,
@@ -1517,6 +1561,7 @@
 				D7556AFF1EA88FDF00A31E44 /* UIColor+hex.m in Sources */,
 				D793D6571E80FCB5008CA4E5 /* MenuListViewController.m in Sources */,
 				D7556AF61EA88F3900A31E44 /* BaibanView.m in Sources */,
+				D75682A01F09E9A40092BD36 /* GraphicsAnimationLable.m in Sources */,
 				D713B5691E66CB7800C93ADC /* PhotoViewController.m in Sources */,
 				D713B5371E66CB7800C93ADC /* AutolayoutViewController.m in Sources */,
 				D7551DC11EF2314400FDA42B /* LEDERRORView.m in Sources */,
@@ -1542,6 +1587,7 @@
 				D713B57E1E66CB7800C93ADC /* JumpAppstoreViewController.m in Sources */,
 				D7551DB61EF222B200FDA42B /* LEDTostView.m in Sources */,
 				D713B53D1E66CB7800C93ADC /* WebViewController.m in Sources */,
+				D75682921F063D740092BD36 /* NotictionTestViewController.m in Sources */,
 				D713B58A1E66CB7800C93ADC /* GameConrierView.m in Sources */,
 				D713B5791E66CB7800C93ADC /* SystemQRViewController.m in Sources */,
 				D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */,
@@ -1756,6 +1802,7 @@
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1773,6 +1820,7 @@
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_GENERATE_MAP_FILE = YES;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.letv.aa;
 				PRODUCT_NAME = "$(TARGET_NAME)";

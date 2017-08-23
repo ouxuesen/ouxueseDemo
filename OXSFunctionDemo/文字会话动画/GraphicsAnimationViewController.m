@@ -1,23 +1,24 @@
 //
-//  CAbasicAbunatuinViewController.m
-//  仿京东 月份选择
+//  GraphicsAnimationViewController.m
+//  OXSFunctionDemo
 //
-//  Created by 欧学森 on 16/4/7.
-//  Copyright © 2016年 ouxuesen. All rights reserved.
+//  Created by ouxuesen on 2017/7/3.
+//  Copyright © 2017年 ouxuesen. All rights reserved.
 //
 
-#import "CAbasicAbunatuinViewController.h"
-
-@interface CAbasicAbunatuinViewController ()
+#import "GraphicsAnimationViewController.h"
+#import "GraphicsAnimationLable.h"
+@interface GraphicsAnimationViewController ()
+@property (weak, nonatomic) IBOutlet GraphicsAnimationLable *animationLable;
+- (IBAction)test:(id)sender;
 
 @end
 
-@implementation CAbasicAbunatuinViewController
+@implementation GraphicsAnimationViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-      dispatch_queue_t globalQueue = dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0);
 }
 
 - (void)didReceiveMemoryWarning {
@@ -35,4 +36,7 @@
 }
 */
 
+- (IBAction)test:(id)sender {
+    [_animationLable startAnimation];
+}
 @end

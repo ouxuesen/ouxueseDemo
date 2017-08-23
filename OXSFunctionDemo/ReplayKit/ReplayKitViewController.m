@@ -245,7 +245,7 @@
     
     NSLog(@"%@ 录制", StartRecord);
     [self showTipWithText:@"录制初始化" activity:YES];
-    
+
     [RPScreenRecorder sharedRecorder].delegate =self;
     [[RPScreenRecorder sharedRecorder] startRecordingWithMicrophoneEnabled:YES handler:^(NSError *error){
         NSLog(@"录制开始...");
