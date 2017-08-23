@@ -35,7 +35,7 @@
 - (IBAction)serialAsync:(id)sender {
     // 创建一个串行队列
     //其中第一个参数是标识符。第二个参数传DISPATCH_QUEUE_SERIAL 或 NULL 表示创建串行队列，传入 DISPATCH_QUEUE_CONCURRENT 表示创建并行队列。
-    dispatch_queue_t myQueue = dispatch_queue_create("myQueue", NULL);
+    dispatch_queue_t myQueue = dispatch_queue_create("myQueue", DISPATCH_QUEUE_SERIAL);
     //通过一个for循环将10个很耗时的异步任务加到串行队列
     for (NSInteger n = 0; n < 3; n++) {
         dispatch_async(myQueue, ^{

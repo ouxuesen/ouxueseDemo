@@ -197,7 +197,14 @@
 
 //显示视频预览页面，animation=是否要动画显示
 - (void)showVideoPreviewController:(RPPreviewViewController *)previewController withAnimation:(BOOL)animation {
-    [self.navigationController pushViewController:previewController animated:animation];
+    // for iPAD support:
+    UIPopoverPresentationController *popover = [previewController popoverPresentationController];
+    if (!popover.sourceView) {
+        popover.sourceView = self.view;
+        popover.sourceRect = CGRectMake(self.view.center.x, self.view.center.y, 1.0, 1.0); // 显示在中心位置
+        popover.permittedArrowDirections = 0;
+    }
+    [self  presentViewController:previewController animated:YES completion:nil];
 }
 
 
@@ -307,7 +314,7 @@
 //关闭的回调
 -(void)previewControllerDidFinish:(RPPreviewViewController *)previewController
 {
-    
+    [self.previewViewController dismissViewControllerAnimated:YES completion:nil];
 }
 
 
@@ -365,4 +372,7 @@
 {
     
 }
+
+#pragma --打开直播软件
+
 @end

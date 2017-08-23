@@ -75,6 +75,13 @@
     }
     ShowRuntimeObjc* tempObjc =   [[ShowRuntimeObjc alloc]init];
     [tempObjc performSelector:@selector(resolveAdd:) withObject:@"test"];
+    
+//    objc_property_t *property_Pro = protocol_copyPropertyList([ShowRuntimeObjc class], &count);
+//    
+//    for (unsigned int i = 0; i<count; i++) {
+//        const char * propertyname = property_getName(property_Pro[i]);
+//        NSLog(@"protocol-->%@",[NSString stringWithUTF8String:propertyname]);
+//    }
 }
 
 - (void)didReceiveMemoryWarning {
