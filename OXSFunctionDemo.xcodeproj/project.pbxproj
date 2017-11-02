@@ -110,6 +110,12 @@
 		D713B59B1E66CB7800C93ADC /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5231E66CB7800C93ADC /* GradientViewController.m */; };
 		D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B5241E66CB7800C93ADC /* GradientViewController.xib */; };
 		D713B59E1E66D14E00C93ADC /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D713B59D1E66D14E00C93ADC /* update.json */; };
+		D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1881F9DEE630021605F /* PageScrollViewController.m */; };
+		D738F18E1F9DEE9A0021605F /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F18D1F9DEE9A0021605F /* BookCell.m */; };
+		D738F1911F9DEED10021605F /* BookLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1901F9DEED10021605F /* BookLayout.m */; };
+		D738F1941F9DEF5E0021605F /* BookView.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1931F9DEF5E0021605F /* BookView.m */; };
+		D738F1991F9F15090021605F /* LEDBookView.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1981F9F15090021605F /* LEDBookView.m */; };
+		D738F19C1F9F1A870021605F /* LEDPageViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F19B1F9F1A870021605F /* LEDPageViewCell.m */; };
 		D73937E21E8101BF0014FEE6 /* ThiredTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E01E8101BF0014FEE6 /* ThiredTableViewCell.m */; };
 		D73937E31E8101BF0014FEE6 /* ThiredTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */; };
 		D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D73937E51E8115D50014FEE6 /* MenuModel.m */; };
@@ -375,6 +381,20 @@
 		D713B5231E66CB7800C93ADC /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		D713B5241E66CB7800C93ADC /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
 		D713B59D1E66D14E00C93ADC /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
+		D738F1871F9DEE630021605F /* PageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageScrollViewController.h; sourceTree = "<group>"; };
+		D738F1881F9DEE630021605F /* PageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageScrollViewController.m; sourceTree = "<group>"; };
+		D738F18C1F9DEE9A0021605F /* BookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
+		D738F18D1F9DEE9A0021605F /* BookCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookCell.m; sourceTree = "<group>"; };
+		D738F18F1F9DEED10021605F /* BookLayout.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookLayout.h; sourceTree = "<group>"; };
+		D738F1901F9DEED10021605F /* BookLayout.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookLayout.m; sourceTree = "<group>"; };
+		D738F1921F9DEF5E0021605F /* BookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookView.h; sourceTree = "<group>"; };
+		D738F1931F9DEF5E0021605F /* BookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BookView.m; sourceTree = "<group>"; };
+		D738F1951F9DF7460021605F /* 12@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "12@2x.png"; sourceTree = "<group>"; };
+		D738F1961F9DFAEC0021605F /* wild_pig.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = wild_pig.jpg; sourceTree = "<group>"; };
+		D738F1971F9F15090021605F /* LEDBookView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDBookView.h; sourceTree = "<group>"; };
+		D738F1981F9F15090021605F /* LEDBookView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDBookView.m; sourceTree = "<group>"; };
+		D738F19A1F9F1A870021605F /* LEDPageViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LEDPageViewCell.h; sourceTree = "<group>"; };
+		D738F19B1F9F1A870021605F /* LEDPageViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LEDPageViewCell.m; sourceTree = "<group>"; };
 		D73937DF1E8101BF0014FEE6 /* ThiredTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThiredTableViewCell.h; sourceTree = "<group>"; };
 		D73937E01E8101BF0014FEE6 /* ThiredTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThiredTableViewCell.m; sourceTree = "<group>"; };
 		D73937E11E8101BF0014FEE6 /* ThiredTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThiredTableViewCell.xib; sourceTree = "<group>"; };
@@ -572,6 +592,7 @@
 			children = (
 				D7CC81EE1ECAF5C00085BDF9 /* 线程详解 */,
 				D713B45B1E66CB7800C93ADC /* appIcon@2x.png */,
+				D738F1961F9DFAEC0021605F /* wild_pig.jpg */,
 				D7A9EC811EE7B1BF008BFCD9 /* d1_loading@2x.png */,
 				D713B59D1E66D14E00C93ADC /* update.json */,
 				D7551D931EEE432400FDA42B /* logo_shu_1@2x.png */,
@@ -579,6 +600,7 @@
 				D7A9EC871EE8EC45008BFCD9 /* d2_xingxing_weiba@2x.png */,
 				D7A9EC851EE8EC41008BFCD9 /* d2_xingxing@2x.png */,
 				D740F18D1EEA7E2B00A6FA99 /* logo_shu_yingwen@2x.png */,
+				D738F1951F9DF7460021605F /* 12@2x.png */,
 				D713B45C1E66CB7800C93ADC /* AssetPcikerController */,
 				D713B4751E66CB7800C93ADC /* Assets.xcassets */,
 				D713B4761E66CB7800C93ADC /* autolyout */,
@@ -600,17 +622,16 @@
 				D713B4BE1E66CB7800C93ADC /* PrefixHeader.pch */,
 				D7A9EC7B1EE7AABA008BFCD9 /* 动画 */,
 				D7B9FC0A1E71012F00588118 /* runLoop */,
+				D738F1861F9DEE360021605F /* 翻页动画 */,
 				D713B4BF1E66CB7800C93ADC /* runtime */,
 				D713B4C51E66CB7800C93ADC /* test */,
 				D793D6531E80FC89008CA4E5 /* 多级列表 */,
 				D713B4C91E66CB7800C93ADC /* texKit */,
 				D78BFA3F1E978D19005853D0 /* 长连接 */,
-				D713B4CF1E66CB7800C93ADC /* URL Schemes */,
 				D713B4D01E66CB7800C93ADC /* windowLevel */,
 				D713B4D61E66CB7800C93ADC /* zxing */,
 				D7BD7EAC1EC1754200BD174C /* coreDateManager */,
 				D713B4DA1E66CB7800C93ADC /* 原声二维码处理 */,
-				D713B4E91E66CB7800C93ADC /* 导航栏问题 */,
 				D713B4EB1E66CB7800C93ADC /* 应用内弹出appstore */,
 				D713B4EF1E66CB7800C93ADC /* 房京东月份选择 */,
 				D713B4F61E66CB7800C93ADC /* 房京东走势图 */,
@@ -822,13 +843,6 @@
 			path = texKit;
 			sourceTree = "<group>";
 		};
-		D713B4CF1E66CB7800C93ADC /* URL Schemes */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "URL Schemes";
-			sourceTree = "<group>";
-		};
 		D713B4D01E66CB7800C93ADC /* windowLevel */ = {
 			isa = PBXGroup;
 			children = (
@@ -870,13 +884,6 @@
 				D713B4E81E66CB7800C93ADC /* ZR_ScanFrame@3x.png */,
 			);
 			path = "原声二维码处理";
-			sourceTree = "<group>";
-		};
-		D713B4E91E66CB7800C93ADC /* 导航栏问题 */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = "导航栏问题";
 			sourceTree = "<group>";
 		};
 		D713B4EB1E66CB7800C93ADC /* 应用内弹出appstore */ = {
@@ -974,6 +981,25 @@
 				D713B5241E66CB7800C93ADC /* GradientViewController.xib */,
 			);
 			path = "渐变色";
+			sourceTree = "<group>";
+		};
+		D738F1861F9DEE360021605F /* 翻页动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D738F1871F9DEE630021605F /* PageScrollViewController.h */,
+				D738F18C1F9DEE9A0021605F /* BookCell.h */,
+				D738F18D1F9DEE9A0021605F /* BookCell.m */,
+				D738F18F1F9DEED10021605F /* BookLayout.h */,
+				D738F1901F9DEED10021605F /* BookLayout.m */,
+				D738F1921F9DEF5E0021605F /* BookView.h */,
+				D738F1931F9DEF5E0021605F /* BookView.m */,
+				D738F1881F9DEE630021605F /* PageScrollViewController.m */,
+				D738F1971F9F15090021605F /* LEDBookView.h */,
+				D738F1981F9F15090021605F /* LEDBookView.m */,
+				D738F19A1F9F1A870021605F /* LEDPageViewCell.h */,
+				D738F19B1F9F1A870021605F /* LEDPageViewCell.m */,
+			);
+			path = "翻页动画";
 			sourceTree = "<group>";
 		};
 		D7556AE81EA88F3900A31E44 /* whiteboard */ = {
@@ -1561,6 +1587,7 @@
 				D713B5721E66CB7800C93ADC /* ZxingDemoViewController.m in Sources */,
 				D713B53F1E66CB7800C93ADC /* CoreTextLabel.m in Sources */,
 				D7556AF81EA88F3900A31E44 /* YJBezierPath.m in Sources */,
+				D738F18E1F9DEE9A0021605F /* BookCell.m in Sources */,
 				D713B5711E66CB7800C93ADC /* MCAlertController.m in Sources */,
 				D7556B1E1EA89BB900A31E44 /* CGImageContainer.m in Sources */,
 				D713B4301E66CA2500C93ADC /* ViewController.m in Sources */,
@@ -1569,6 +1596,7 @@
 				D713B42D1E66CA2500C93ADC /* AppDelegate.m in Sources */,
 				D713B5771E66CB7800C93ADC /* ScanCaptureQRViewController.m in Sources */,
 				D713B5871E66CB7800C93ADC /* LFDCoordinateView.m in Sources */,
+				D738F1911F9DEED10021605F /* BookLayout.m in Sources */,
 				D713B5801E66CB7800C93ADC /* LFDMonthSelectViewController.m in Sources */,
 				D713B5661E66CB7800C93ADC /* RuntimeDemoViewController.m in Sources */,
 				D7556AFF1EA88FDF00A31E44 /* UIColor+hex.m in Sources */,
@@ -1584,6 +1612,7 @@
 				D713B5311E66CB7800C93ADC /* MCImageGridCell.m in Sources */,
 				D7A9EC7F1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m in Sources */,
 				D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */,
+				D738F19C1F9F1A870021605F /* LEDPageViewCell.m in Sources */,
 				D79EF2F01EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */,
@@ -1606,8 +1635,10 @@
 				D752981E1F21EF5100955D02 /* LiveThirdReplayKitViewController.m in Sources */,
 				D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */,
 				D713B53B1E66CB7800C93ADC /* CAbasicAbunatuinViewController.m in Sources */,
+				D738F1991F9F15090021605F /* LEDBookView.m in Sources */,
 				D713B5401E66CB7800C93ADC /* CoreTextViewController.m in Sources */,
 				D713B52E1E66CB7800C93ADC /* PhotoCollectionViewCell.m in Sources */,
+				D738F1941F9DEF5E0021605F /* BookView.m in Sources */,
 				D713B5851E66CB7800C93ADC /* ContinerViewController.m in Sources */,
 				D713B5951E66CB7800C93ADC /* LFDWTransitionContainerViewController.m in Sources */,
 				D713B58E1E66CB7800C93ADC /* PictureHeardPullViewControll.m in Sources */,
@@ -1620,6 +1651,7 @@
 				D713B5341E66CB7800C93ADC /* ShowPhotosViewController.m in Sources */,
 				D713B58B1E66CB7800C93ADC /* GaMeViewController.m in Sources */,
 				D713B5931E66CB7800C93ADC /* LFDWSecondTransitionView.m in Sources */,
+				D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */,
 				D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */,
 				D7551DCA1EF2369F00FDA42B /* LEDSelectColorView.m in Sources */,
 				D7556B161EA89B5E00A31E44 /* WFCapture.m in Sources */,

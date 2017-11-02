@@ -218,6 +218,7 @@
     
     gradientLayer.mask = testLabel.layer;
     testLabel.frame = gradientLayer.bounds;
+    
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
