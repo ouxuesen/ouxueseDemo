@@ -12,7 +12,6 @@
 		D713B42D1E66CA2500C93ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B42C1E66CA2500C93ADC /* AppDelegate.m */; };
 		D713B4301E66CA2500C93ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B42F1E66CA2500C93ADC /* ViewController.m */; };
 		D713B4331E66CA2500C93ADC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D713B4311E66CA2500C93ADC /* Main.storyboard */; };
-		D713B4351E66CA2500C93ADC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D713B4341E66CA2500C93ADC /* Assets.xcassets */; };
 		D713B4381E66CA2500C93ADC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D713B4361E66CA2500C93ADC /* LaunchScreen.storyboard */; };
 		D713B4431E66CA2600C93ADC /* OXSFunctionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4421E66CA2600C93ADC /* OXSFunctionDemoTests.m */; };
 		D713B44E1E66CA2600C93ADC /* OXSFunctionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B44D1E66CA2600C93ADC /* OXSFunctionDemoUITests.m */; };
@@ -110,6 +109,8 @@
 		D713B59B1E66CB7800C93ADC /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5231E66CB7800C93ADC /* GradientViewController.m */; };
 		D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B5241E66CB7800C93ADC /* GradientViewController.xib */; };
 		D713B59E1E66D14E00C93ADC /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D713B59D1E66D14E00C93ADC /* update.json */; };
+		D731883B1FC2F48B00CD95BB /* vedioPath.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */; };
+		D731883E1FC2F84000CD95BB /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D731883C1FC2F83F00CD95BB /* NSString+Common.m */; };
 		D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1881F9DEE630021605F /* PageScrollViewController.m */; };
 		D738F18E1F9DEE9A0021605F /* BookCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F18D1F9DEE9A0021605F /* BookCell.m */; };
 		D738F1911F9DEED10021605F /* BookLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1901F9DEED10021605F /* BookLayout.m */; };
@@ -160,12 +161,14 @@
 		D756829D1F09E95F0092BD36 /* GraphicsAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D756829B1F09E95F0092BD36 /* GraphicsAnimationViewController.xib */; };
 		D75682A01F09E9A40092BD36 /* GraphicsAnimationLable.m in Sources */ = {isa = PBXBuildFile; fileRef = D756829F1F09E9A40092BD36 /* GraphicsAnimationLable.m */; };
 		D75682A21F09F66B0092BD36 /* noun_project_347_2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D75682A11F09F66B0092BD36 /* noun_project_347_2@2x.png */; };
+		D783550F1FB03D8F00E3A764 /* SystemFontViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D783550D1FB03D8F00E3A764 /* SystemFontViewController.m */; };
 		D78BFA431E978D3A005853D0 /* WebSoctetTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */; };
 		D78BFA441E978D3A005853D0 /* WebSoctetTestViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */; };
 		D793D6571E80FCB5008CA4E5 /* MenuListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D6551E80FCB5008CA4E5 /* MenuListViewController.m */; };
 		D793D6581E80FCB5008CA4E5 /* MenuListViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D793D6561E80FCB5008CA4E5 /* MenuListViewController.xib */; };
 		D793D65C1E80FCD7008CA4E5 /* MenuTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D793D65A1E80FCD7008CA4E5 /* MenuTableViewCell.m */; };
 		D793D65D1E80FCD7008CA4E5 /* MenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D793D65B1E80FCD7008CA4E5 /* MenuTableViewCell.xib */; };
+		D79928351FC6AB270043E9CE /* videoplay.html in Resources */ = {isa = PBXBuildFile; fileRef = D79928341FC6AB270043E9CE /* videoplay.html */; };
 		D79EF2F01EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D79EF2EE1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m */; };
 		D79EF2F11EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D79EF2EF1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib */; };
 		D79EF2F41EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m in Sources */ = {isa = PBXBuildFile; fileRef = D79EF2F31EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m */; };
@@ -381,6 +384,9 @@
 		D713B5231E66CB7800C93ADC /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		D713B5241E66CB7800C93ADC /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
 		D713B59D1E66D14E00C93ADC /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
+		D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedioPath.mp4; sourceTree = "<group>"; };
+		D731883C1FC2F83F00CD95BB /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
+		D731883D1FC2F84000CD95BB /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
 		D738F1871F9DEE630021605F /* PageScrollViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PageScrollViewController.h; sourceTree = "<group>"; };
 		D738F1881F9DEE630021605F /* PageScrollViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PageScrollViewController.m; sourceTree = "<group>"; };
 		D738F18C1F9DEE9A0021605F /* BookCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BookCell.h; sourceTree = "<group>"; };
@@ -464,6 +470,8 @@
 		D756829E1F09E9A40092BD36 /* GraphicsAnimationLable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GraphicsAnimationLable.h; sourceTree = "<group>"; };
 		D756829F1F09E9A40092BD36 /* GraphicsAnimationLable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GraphicsAnimationLable.m; sourceTree = "<group>"; };
 		D75682A11F09F66B0092BD36 /* noun_project_347_2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "noun_project_347_2@2x.png"; sourceTree = "<group>"; };
+		D783550C1FB03D8F00E3A764 /* SystemFontViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SystemFontViewController.h; sourceTree = "<group>"; };
+		D783550D1FB03D8F00E3A764 /* SystemFontViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SystemFontViewController.m; sourceTree = "<group>"; };
 		D78BFA401E978D3A005853D0 /* WebSoctetTestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebSoctetTestViewController.h; sourceTree = "<group>"; };
 		D78BFA411E978D3A005853D0 /* WebSoctetTestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebSoctetTestViewController.m; sourceTree = "<group>"; };
 		D78BFA421E978D3A005853D0 /* WebSoctetTestViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WebSoctetTestViewController.xib; sourceTree = "<group>"; };
@@ -473,6 +481,7 @@
 		D793D6591E80FCD7008CA4E5 /* MenuTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MenuTableViewCell.h; sourceTree = "<group>"; };
 		D793D65A1E80FCD7008CA4E5 /* MenuTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MenuTableViewCell.m; sourceTree = "<group>"; };
 		D793D65B1E80FCD7008CA4E5 /* MenuTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MenuTableViewCell.xib; sourceTree = "<group>"; };
+		D79928341FC6AB270043E9CE /* videoplay.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = videoplay.html; sourceTree = "<group>"; };
 		D79EF2ED1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLProtocolWebViewController.h; sourceTree = "<group>"; };
 		D79EF2EE1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLProtocolWebViewController.m; sourceTree = "<group>"; };
 		D79EF2EF1EF7DD1300ABFE31 /* NSURLProtocolWebViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NSURLProtocolWebViewController.xib; sourceTree = "<group>"; };
@@ -609,6 +618,7 @@
 				D713B4801E66CB7800C93ADC /* CAbasicAbunatuinViewController.m */,
 				D713B4811E66CB7800C93ADC /* CAbasicAbunatuinViewController.xib */,
 				D713B4821E66CB7800C93ADC /* cookie */,
+				D783550B1FB03D6E00E3A764 /* theFont */,
 				D713B4861E66CB7800C93ADC /* CoreText */,
 				D713B48C1E66CB7800C93ADC /* country_code.json */,
 				D713B48D1E66CB7800C93ADC /* DemoName.plist */,
@@ -1088,6 +1098,19 @@
 			path = "文字会话动画";
 			sourceTree = "<group>";
 		};
+		D783550B1FB03D6E00E3A764 /* theFont */ = {
+			isa = PBXGroup;
+			children = (
+				D79928341FC6AB270043E9CE /* videoplay.html */,
+				D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */,
+				D731883D1FC2F84000CD95BB /* NSString+Common.h */,
+				D731883C1FC2F83F00CD95BB /* NSString+Common.m */,
+				D783550C1FB03D8F00E3A764 /* SystemFontViewController.h */,
+				D783550D1FB03D8F00E3A764 /* SystemFontViewController.m */,
+			);
+			path = theFont;
+			sourceTree = "<group>";
+		};
 		D78376AF1EA7743A004D0FE0 /* 录屏 */ = {
 			isa = PBXGroup;
 			children = (
@@ -1306,7 +1329,7 @@
 		D713B41D1E66CA2500C93ADC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0820;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = ouxuesen;
 				TargetAttributes = {
 					D713B4241E66CA2500C93ADC = {
@@ -1413,6 +1436,7 @@
 				D7551DA71EEE658000FDA42B /* LaunchScreen_Han.storyboard in Resources */,
 				D7B9FC0F1E71335000588118 /* RunLoopViewController.xib in Resources */,
 				D7551DBA1EF224D900FDA42B /* bg_toast@2x.png in Resources */,
+				D79928351FC6AB270043E9CE /* videoplay.html in Resources */,
 				D713B52B1E66CB7800C93ADC /* image_picker_send_light@2x.png in Resources */,
 				D7A9EC821EE7B1BF008BFCD9 /* d1_loading@2x.png in Resources */,
 				D713B57C1E66CB7800C93ADC /* ZR_ScanFrame@3x.png in Resources */,
@@ -1438,9 +1462,9 @@
 				D713B5961E66CB7800C93ADC /* LFDWTransitionContainerViewController.xib in Resources */,
 				D713B56D1E66CB7800C93ADC /* 新浪首页.html in Resources */,
 				D713B59E1E66D14E00C93ADC /* update.json in Resources */,
-				D713B4351E66CA2500C93ADC /* Assets.xcassets in Resources */,
 				D7556B031EA8931600A31E44 /* BaiBanViewController.xib in Resources */,
 				D713B4331E66CA2500C93ADC /* Main.storyboard in Resources */,
+				D731883B1FC2F48B00CD95BB /* vedioPath.mp4 in Resources */,
 				D7551DCC1EF236A700FDA42B /* LEDSelectColorView.xib in Resources */,
 				D756829D1F09E95F0092BD36 /* GraphicsAnimationViewController.xib in Resources */,
 				D7551DB81EF222BC00FDA42B /* LEDTostView.xib in Resources */,
@@ -1649,12 +1673,14 @@
 				D7556B171EA89B5E00A31E44 /* WFCaptureUtilities.m in Sources */,
 				D713B52C1E66CB7800C93ADC /* PhotoAlbumViewController.m in Sources */,
 				D713B5341E66CB7800C93ADC /* ShowPhotosViewController.m in Sources */,
+				D731883E1FC2F84000CD95BB /* NSString+Common.m in Sources */,
 				D713B58B1E66CB7800C93ADC /* GaMeViewController.m in Sources */,
 				D713B5931E66CB7800C93ADC /* LFDWSecondTransitionView.m in Sources */,
 				D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */,
 				D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */,
 				D7551DCA1EF2369F00FDA42B /* LEDSelectColorView.m in Sources */,
 				D7556B161EA89B5E00A31E44 /* WFCapture.m in Sources */,
+				D783550F1FB03D8F00E3A764 /* SystemFontViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1756,7 +1782,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1764,7 +1792,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -1805,7 +1837,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -1813,7 +1847,11 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;

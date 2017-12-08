@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <style>
+      body{
+        width: 100%;
+        background: gray;
+      }
+      #video{
+        width: 100%;
+        height: 100%;
+      }
+      
+    </style>
+    <title></title>
+  </head>
+  <body>
+    <video id="video" autoplay width="100%" height="100%"></video>
+    <audio id="audio" autoplay></audio>
+    <script>
+      /**
+      * 获取url参数值
+      * @param {string} name 需要获取的参数名
+      * @return {string} 返回获取的参数名
+      */
+      var getUrlParam = function(name, url){
+          if(!name){
+              return '';
+          }
+          var url = url || location.search;
+          name = name.replace(/(?=[\\^$*+?.():|{}])/, '\\');
+          var reg = new RegExp('(?:[?&]|^)' + name + '=([^?&#]*)', 'i');
+          var match = url.match(reg);
+          return !match ? '' : match[1];
+      };
+      
+      var play_url = getUrlParam("url");
+      var play_type = getUrlParam("type");
+      var video_ele = document.getElementById("video");
+      var audio_ele = document.getElementById("audio");
+      
+      play_url = decodeURIComponent(play_url);
+      if(play_type == "video"){
+        video_ele.src = play_url
+        audio_ele.style.display = "none";
+      }else if(play_type == "audio"){
+        audio_ele.src = play_url
+        video_ele.style.display = "none";
+      }
+      
+      window.start = function(param) {
+        play_url = decodeURIComponent(param.url);
+        play_type = param.type;
+        if(play_type == "video"){
+          video_ele.src = play_url
+          audio_ele.style.display = "none";
+          audio_ele.play();
+        }else if(play_type == "audio"){
+          audio_ele.src = play_url
+          video_ele.style.display = "none";
+          video_ele.play();
+        }
+      }
+      
+      window.play = function() {
+        if(play_type == "video"){
+          video_ele.play();
+        }else{
+          audio_ele.play();
+        }
+      }
+      window.pause = function() {
+        if(play_type == "video"){
+          video_ele.pause();
+        }else{
+          audio_ele.pause();
+        }
+      }
+    </script>
+  </body>
+</html>

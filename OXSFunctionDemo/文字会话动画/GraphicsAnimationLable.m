@@ -30,6 +30,7 @@
 }
 -(void)creatAnimation
 {
+    
     CGMutablePathRef letters = CGPathCreateMutable();   //创建path
     
     CTFontRef font = CTFontCreateWithName(CFSTR("Helvetica-Bold"), 60.0f, NULL);       //设置字体

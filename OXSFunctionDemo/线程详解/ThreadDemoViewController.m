@@ -11,6 +11,7 @@
 
 @interface ThreadDemoViewController ()
 
+- (IBAction)buttonClick:(UIButton *)sender;
 @end
 
 @implementation ThreadDemoViewController
@@ -36,4 +37,6 @@
 }
 */
 
+- (IBAction)buttonClick:(UIButton *)sender {
+}
 @end

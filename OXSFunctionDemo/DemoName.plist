@@ -274,5 +274,13 @@
 		<key>type</key>
 		<string>1</string>
 	</dict>
+	<dict>
+		<key>name</key>
+		<string>字体</string>
+		<key>vc</key>
+		<string>SystemFontViewController</string>
+		<key>type</key>
+		<string>1</string>
+	</dict>
 </array>
 </plist>
