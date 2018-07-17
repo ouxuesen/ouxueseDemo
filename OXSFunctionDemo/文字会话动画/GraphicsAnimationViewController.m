@@ -11,6 +11,7 @@
 @interface GraphicsAnimationViewController ()
 @property (weak, nonatomic) IBOutlet GraphicsAnimationLable *animationLable;
 - (IBAction)test:(id)sender;
+@property (weak, nonatomic) IBOutlet UILabel *fondText;
 
 @end
 
@@ -19,6 +20,9 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
+    _fondText.font = [UIFont fontWithName:@"Helvetica-Bold" size:60];
+    _fondText.text =  @"我们都是好孩子";
+                                                
 }
 
 - (void)didReceiveMemoryWarning {
@@ -26,15 +30,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 - (IBAction)test:(id)sender {
     [_animationLable startAnimation];

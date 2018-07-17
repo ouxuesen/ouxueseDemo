@@ -121,7 +121,6 @@
             _gameOver(YES);
         }
     }
-    
 }
 -(void)blackSHow:(NSInteger)tag
 {

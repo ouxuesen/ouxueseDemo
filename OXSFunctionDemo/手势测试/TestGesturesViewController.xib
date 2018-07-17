@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14113"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TestGesturesViewController">
+            <connections>
+                <outlet property="firstView" destination="csn-kn-YxW" id="Gak-9b-YQ5"/>
+                <outlet property="secondView" destination="f1i-2l-zeT" id="1uG-dB-aax"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="f1i-2l-zeT" customClass="SecondView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="csn-kn-YxW" customClass="FristView">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                    <color key="backgroundColor" white="1" alpha="0.20000000000000001" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="f1i-2l-zeT" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="EcD-hJ-tey"/>
+                <constraint firstAttribute="bottom" secondItem="f1i-2l-zeT" secondAttribute="bottom" id="Vz8-hb-Hkv"/>
+                <constraint firstAttribute="trailing" secondItem="csn-kn-YxW" secondAttribute="trailing" id="fI7-f4-PhB"/>
+                <constraint firstItem="f1i-2l-zeT" firstAttribute="trailing" secondItem="i5M-Pr-FkT" secondAttribute="trailing" id="gHp-DD-KlX"/>
+                <constraint firstAttribute="bottom" secondItem="csn-kn-YxW" secondAttribute="bottom" id="luO-Gc-9H1"/>
+                <constraint firstItem="f1i-2l-zeT" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="qSV-4U-wv3"/>
+                <constraint firstItem="csn-kn-YxW" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="qTW-cE-F5a"/>
+                <constraint firstItem="csn-kn-YxW" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="yHQ-96-Ww0"/>
+            </constraints>
+        </view>
+    </objects>
+</document>

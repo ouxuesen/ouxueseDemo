@@ -7,7 +7,7 @@
 //
 
 #import "TextKitViewController.h"
-
+#import "ShowMessageButton.h"
 @interface TextKitViewController ()
 
 @end
@@ -19,8 +19,18 @@
     // Do any additional setup after loading the view from its nib.
     [self setAttributeStringLabel];
   
-    [self chageTextView];
-    [self htmlFilelaout];
+//    [self chageTextView];
+//    [self htmlFilelaout];
+    ShowMessageButton *buton = [[ShowMessageButton alloc] init];
+    buton.frame = CGRectMake(0, 100, 100, 30);
+    buton.backgroundColor = [UIColor redColor];
+    [self.view addSubview:buton];
+    
+    buton.beginBlock = ^{
+        
+    };
+    
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -31,12 +41,12 @@
 -(void)htmlFilelaout
 {
 //    NSURL *url = [NSURL fileURLWithPath:[[NSBundle mainBundle]pathForResource:@"新浪首页.html" ofType:nil]];
-    NSURL *url = [NSURL URLWithString:@"http://test.jr.letv.com/leplatform/finance-news-detail-app.html?id=1028"];
+    NSURL *url = [NSURL URLWithString:@"http://www.cocoachina.com/ios/20161021/17808.html"];
 //    http://test.jr.letv.com/leplatform/finance-news-detail-app.html?id=1028
     NSError * error ;
-    UIWebView * webview = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, WINDOW_WIDTH, WINDOW_HEIGHT - 64)];
-    webview.scalesPageToFit = YES;
-    [webview loadRequest:[NSURLRequest requestWithURL:url]];
+//    UIWebView * webview = [[UIWebView alloc]initWithFrame:CGRectMake(0, 64, WINDOW_WIDTH, WINDOW_HEIGHT - 64)];
+//    webview.scalesPageToFit = YES;
+//    [webview loadRequest:[NSURLRequest requestWithURL:url]];
     
     NSTextStorage * strongtext = [[NSTextStorage alloc]initWithData:[NSData dataWithContentsOfURL:url] options:@{NSDocumentTypeDocumentAttribute:NSHTMLTextDocumentType}  documentAttributes:nil error:&error];
     UITextView * hemlTextView = [[UITextView alloc]initWithFrame:CGRectMake(0, 64, WINDOW_WIDTH, WINDOW_HEIGHT - 64) textContainer:nil];
@@ -61,7 +71,7 @@
 }
 -(void)setAttributeStringLabel{
     NSString *str = @"bold，little color，hello";
-    
+    self.label.backgroundColor = [UIColor redColor];
     //NSMutableAttributedString的初始化
     NSDictionary *attrs = @{NSFontAttributeName:[UIFont preferredFontForTextStyle:UIFontTextStyleBody]};
     NSMutableAttributedString *attributedString = [[NSMutableAttributedString alloc]initWithString:str attributes:attrs];
@@ -74,15 +84,16 @@
     [attributedString addAttribute:NSFontAttributeName value:[UIFont fontWithName:@"Papyrus" size:36] range:NSMakeRange(18,5)];
     
     [attributedString addAttribute:NSFontAttributeName value:[UIFont boldSystemFontOfSize:18] range:[str rangeOfString:@"little"]];
-    
+    [attributedString addAttribute:NSUnderlineStyleAttributeName value:
+     [NSNumber numberWithInteger:NSUnderlineStyleNone| NSUnderlinePatternDot] range:[str rangeOfString:@"little"]];
     //NSMutableAttributedString移除属性
     [attributedString removeAttribute:NSFontAttributeName range:[str rangeOfString:@"little"]];
     
     //NSMutableAttributedString设置属性
-    NSDictionary *attrs2 = @{NSStrokeWidthAttributeName:@-5,
-                             NSStrokeColorAttributeName:[UIColor greenColor],
-                             NSFontAttributeName:[UIFont systemFontOfSize:36],
-                             NSUnderlineStyleAttributeName:@(NSUnderlineStyleSingle)};
+    NSDictionary *attrs2 = @{NSStrokeWidthAttributeName:@-3,
+//                             NSStrokeColorAttributeName:[UIColor greenColor],
+//                             NSFontAttributeName:[UIFont systemFontOfSize:36],
+                             NSUnderlineStyleAttributeName:@(NSUnderlineStyleNone|NSUnderlinePatternDot)};
     [attributedString setAttributes:attrs2 range:NSMakeRange(0, 4)];
     
     self.label.attributedText = attributedString;

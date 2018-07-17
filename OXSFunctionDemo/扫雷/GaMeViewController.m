@@ -28,9 +28,10 @@
     [self.view addSubview:button];
    
     button.frame = CGRectMake((windownSize.width -80)/2, 64, 80, 40);
-     continerView = [[GameConrierView alloc]initWithFrame:CGRectMake((windownSize.width -300)/2, 114, 300, 300)];
-    [continerView cretaRowCount:10 lowCount:10 booNumeber:10];
-    stateLable = [[UILabel alloc]initWithFrame:CGRectMake((windownSize.width -300)/2, 114, 300, 300)];
+     continerView = [[GameConrierView alloc]initWithFrame:CGRectMake((windownSize.width -windownSize.width)/2, 114, windownSize.width, windownSize.width )];
+    [continerView cretaRowCount:20 lowCount:20 booNumeber:50];
+    
+    stateLable = [[UILabel alloc]initWithFrame:CGRectMake((windownSize.width -windownSize.width)/2, 114, windownSize.width, windownSize.width)];
     stateLable.backgroundColor = [UIColor clearColor];
     stateLable.userInteractionEnabled = YES;
     stateLable.textAlignment = NSTextAlignmentCenter;

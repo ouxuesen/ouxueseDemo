@@ -20,9 +20,21 @@
 @implementation ViewController
 
 - (void)viewDidLoad {
-    
+        [super viewDidLoad];
+//    double i = 5.2;
+//
+//
+//
+//
+//    int *p ;
+//    double *j ;
+//    p = &i;
+//    *p = 10;
+//    NSLog(@"%@\n",@(i));
+//    NSLog(@"%f\n",i);
+//    return;
     [RecordDateManager sharRecordDateManager];
-    [super viewDidLoad];
+
     NSString *bananas = @"123.321abc137d efg hij kl";
     
     NSString *separatorString = @"fg";

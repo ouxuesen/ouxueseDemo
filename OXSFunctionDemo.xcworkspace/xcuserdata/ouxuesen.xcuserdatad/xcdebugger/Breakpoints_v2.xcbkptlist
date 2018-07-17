@@ -81,13 +81,13 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OXSFunctionDemo/&#x6587;&#x5b57;&#x4f1a;&#x8bdd;&#x52a8;&#x753b;/GraphicsAnimationLable.m"
-            timestampString = "520848463.982438"
+            filePath = "OXSFunctionDemo/&#x624b;&#x52bf;&#x6d4b;&#x8bd5;/SecondView.m"
+            timestampString = "550740730.228713"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "123"
-            endingLineNumber = "123"
-            landmarkName = "-startAnimation"
+            startingLineNumber = "28"
+            endingLineNumber = "28"
+            landmarkName = "-buttonClick:"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -97,13 +97,61 @@
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
-            filePath = "OXSFunctionDemo/&#x6587;&#x5b57;&#x4f1a;&#x8bdd;&#x52a8;&#x753b;/GraphicsAnimationLable.m"
-            timestampString = "520850358.58148"
+            filePath = "OXSFunctionDemo/&#x624b;&#x52bf;&#x6d4b;&#x8bd5;/FristView.m"
+            timestampString = "550740730.2287951"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "128"
-            endingLineNumber = "128"
-            landmarkName = "-animationDidStop:finished:"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "-pressesBegan:withEvent:"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OXSFunctionDemo/texKit/TextKitViewController.m"
+            timestampString = "552470363.2454309"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "30"
+            endingLineNumber = "30"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OXSFunctionDemo/texKit/TextKitViewController.m"
+            timestampString = "552470363.245504"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "-viewDidLoad"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OXSFunctionDemo/texKit/TextKitViewController.m"
+            timestampString = "552470363.245554"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "-viewDidLoad"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

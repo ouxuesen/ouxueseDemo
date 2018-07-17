@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		7B831B5C84EB43EB0CABD846 /* libPods-OXSFunctionDemoUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 21282484E7AE79A266973761 /* libPods-OXSFunctionDemoUITests.a */; };
+		D708C5B920BEBD0D00475A5C /* LEDZoomScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = D708C5B820BEBD0D00475A5C /* LEDZoomScrollView.m */; };
 		D713B42A1E66CA2500C93ADC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4291E66CA2500C93ADC /* main.m */; };
 		D713B42D1E66CA2500C93ADC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B42C1E66CA2500C93ADC /* AppDelegate.m */; };
 		D713B4301E66CA2500C93ADC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B42F1E66CA2500C93ADC /* ViewController.m */; };
@@ -109,6 +110,7 @@
 		D713B59B1E66CB7800C93ADC /* GradientViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5231E66CB7800C93ADC /* GradientViewController.m */; };
 		D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B5241E66CB7800C93ADC /* GradientViewController.xib */; };
 		D713B59E1E66D14E00C93ADC /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D713B59D1E66D14E00C93ADC /* update.json */; };
+		D722384620EE057D00FA8EB9 /* ShowMessageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D722384420EE057C00FA8EB9 /* ShowMessageButton.m */; };
 		D731883B1FC2F48B00CD95BB /* vedioPath.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */; };
 		D731883E1FC2F84000CD95BB /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D731883C1FC2F83F00CD95BB /* NSString+Common.m */; };
 		D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1881F9DEE630021605F /* PageScrollViewController.m */; };
@@ -197,6 +199,10 @@
 		D7CC81FA1ECAF6F00085BDF9 /* GCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F51ECAF6F00085BDF9 /* GCDViewController.m */; };
 		D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F71ECAF6F00085BDF9 /* NSOperationViewController.m */; };
 		D7CC81FC1ECAF6F00085BDF9 /* NSThreadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7CC81F91ECAF6F00085BDF9 /* NSThreadViewController.m */; };
+		D7D6EB2320D36B5A00DC5939 /* TestGesturesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6EB2120D36B5A00DC5939 /* TestGesturesViewController.m */; };
+		D7D6EB2420D36B5A00DC5939 /* TestGesturesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D7D6EB2220D36B5A00DC5939 /* TestGesturesViewController.xib */; };
+		D7D6EB2720D36C7400DC5939 /* FristView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6EB2620D36C7400DC5939 /* FristView.m */; };
+		D7D6EB2A20D36C8100DC5939 /* SecondView.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D6EB2920D36C8100DC5939 /* SecondView.m */; };
 		F67B533BDA9121BE9AF9C135 /* libPods-OXSFunctionDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79B36D9890C21441CF8640D4 /* libPods-OXSFunctionDemo.a */; };
 /* End PBXBuildFile section */
 
@@ -225,6 +231,8 @@
 		79B36D9890C21441CF8640D4 /* libPods-OXSFunctionDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OXSFunctionDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89B939710E065FB4F036DB58 /* Pods-OXSFunctionDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXSFunctionDemoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-OXSFunctionDemoUITests/Pods-OXSFunctionDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		ACD0732BC4859E4FCFBCFBD0 /* Pods-OXSFunctionDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OXSFunctionDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D708C5B720BEBD0D00475A5C /* LEDZoomScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LEDZoomScrollView.h; sourceTree = "<group>"; };
+		D708C5B820BEBD0D00475A5C /* LEDZoomScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LEDZoomScrollView.m; sourceTree = "<group>"; };
 		D713B4251E66CA2500C93ADC /* OXSFunctionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OXSFunctionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D713B4291E66CA2500C93ADC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		D713B42B1E66CA2500C93ADC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -385,6 +393,8 @@
 		D713B5231E66CB7800C93ADC /* GradientViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GradientViewController.m; sourceTree = "<group>"; };
 		D713B5241E66CB7800C93ADC /* GradientViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GradientViewController.xib; sourceTree = "<group>"; };
 		D713B59D1E66D14E00C93ADC /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
+		D722384420EE057C00FA8EB9 /* ShowMessageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMessageButton.m; sourceTree = "<group>"; };
+		D722384520EE057D00FA8EB9 /* ShowMessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMessageButton.h; sourceTree = "<group>"; };
 		D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedioPath.mp4; sourceTree = "<group>"; };
 		D731883C1FC2F83F00CD95BB /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		D731883D1FC2F84000CD95BB /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
@@ -527,6 +537,13 @@
 		D7CC81F71ECAF6F00085BDF9 /* NSOperationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSOperationViewController.m; sourceTree = "<group>"; };
 		D7CC81F81ECAF6F00085BDF9 /* NSThreadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSThreadViewController.h; sourceTree = "<group>"; };
 		D7CC81F91ECAF6F00085BDF9 /* NSThreadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSThreadViewController.m; sourceTree = "<group>"; };
+		D7D6EB2020D36B5A00DC5939 /* TestGesturesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TestGesturesViewController.h; sourceTree = "<group>"; };
+		D7D6EB2120D36B5A00DC5939 /* TestGesturesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGesturesViewController.m; sourceTree = "<group>"; };
+		D7D6EB2220D36B5A00DC5939 /* TestGesturesViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TestGesturesViewController.xib; sourceTree = "<group>"; };
+		D7D6EB2520D36C7400DC5939 /* FristView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FristView.h; sourceTree = "<group>"; };
+		D7D6EB2620D36C7400DC5939 /* FristView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FristView.m; sourceTree = "<group>"; };
+		D7D6EB2820D36C8100DC5939 /* SecondView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondView.h; sourceTree = "<group>"; };
+		D7D6EB2920D36C8100DC5939 /* SecondView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -577,6 +594,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		D708C5B620BEBCBB00475A5C /* 放大 */ = {
+			isa = PBXGroup;
+			children = (
+				D708C5B720BEBD0D00475A5C /* LEDZoomScrollView.h */,
+				D708C5B820BEBD0D00475A5C /* LEDZoomScrollView.m */,
+			);
+			path = "放大";
+			sourceTree = "<group>";
+		};
 		D713B41C1E66CA2500C93ADC = {
 			isa = PBXGroup;
 			children = (
@@ -617,6 +643,8 @@
 				D713B4751E66CB7800C93ADC /* Assets.xcassets */,
 				D713B4761E66CB7800C93ADC /* autolyout */,
 				D713B47A1E66CB7800C93ADC /* Base.lproj */,
+				D722384520EE057D00FA8EB9 /* ShowMessageButton.h */,
+				D722384420EE057C00FA8EB9 /* ShowMessageButton.m */,
 				D713B47F1E66CB7800C93ADC /* CAbasicAbunatuinViewController.h */,
 				D713B4801E66CB7800C93ADC /* CAbasicAbunatuinViewController.m */,
 				D713B4811E66CB7800C93ADC /* CAbasicAbunatuinViewController.xib */,
@@ -657,6 +685,8 @@
 				D713B51F1E66CB7800C93ADC /* 渐变色 */,
 				D7A6FB751EAD9C96006EB894 /* PPT */,
 				D756828E1F063D540092BD36 /* 通知 */,
+				D708C5B620BEBCBB00475A5C /* 放大 */,
+				D7D6EB1F20D36AD700DC5939 /* 手势测试 */,
 				D75682981F09E9330092BD36 /* 文字会话动画 */,
 				D713B42B1E66CA2500C93ADC /* AppDelegate.h */,
 				D713B42C1E66CA2500C93ADC /* AppDelegate.m */,
@@ -1266,6 +1296,20 @@
 			path = "线程详解";
 			sourceTree = "<group>";
 		};
+		D7D6EB1F20D36AD700DC5939 /* 手势测试 */ = {
+			isa = PBXGroup;
+			children = (
+				D7D6EB2020D36B5A00DC5939 /* TestGesturesViewController.h */,
+				D7D6EB2120D36B5A00DC5939 /* TestGesturesViewController.m */,
+				D7D6EB2220D36B5A00DC5939 /* TestGesturesViewController.xib */,
+				D7D6EB2520D36C7400DC5939 /* FristView.h */,
+				D7D6EB2620D36C7400DC5939 /* FristView.m */,
+				D7D6EB2820D36C8100DC5939 /* SecondView.h */,
+				D7D6EB2920D36C8100DC5939 /* SecondView.m */,
+			);
+			path = "手势测试";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1339,7 +1383,7 @@
 				TargetAttributes = {
 					D713B4241E66CA2500C93ADC = {
 						CreatedOnToolsVersion = 8.2.1;
-						DevelopmentTeam = 23Y8ZFVDD6;
+						DevelopmentTeam = 82PK8D967W;
 						LastSwiftMigration = 0820;
 						ProvisioningStyle = Automatic;
 					};
@@ -1471,6 +1515,7 @@
 				D713B4331E66CA2500C93ADC /* Main.storyboard in Resources */,
 				D731883B1FC2F48B00CD95BB /* vedioPath.mp4 in Resources */,
 				D7551DCC1EF236A700FDA42B /* LEDSelectColorView.xib in Resources */,
+				D7D6EB2420D36B5A00DC5939 /* TestGesturesViewController.xib in Resources */,
 				D756829D1F09E95F0092BD36 /* GraphicsAnimationViewController.xib in Resources */,
 				D7551DB81EF222BC00FDA42B /* LEDTostView.xib in Resources */,
 				D713B5631E66CB7800C93ADC /* MenuViewController.xib in Resources */,
@@ -1516,13 +1561,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OXSFunctionDemoUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		47ED45CE759818B7E69845A1 /* [CP] Embed Pods Frameworks */ = {
@@ -1546,13 +1594,16 @@
 			files = (
 			);
 			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OXSFunctionDemo-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
 		9350321FE8A1C43A7E589BA1 /* [CP] Copy Pods Resources */ = {
@@ -1576,9 +1627,12 @@
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-resources.sh",
+				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -1593,6 +1647,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D713B5601E66CB7800C93ADC /* ShowMBprogressViewController.m in Sources */,
+				D7D6EB2720D36C7400DC5939 /* FristView.m in Sources */,
 				D713B5971E66CB7800C93ADC /* LFDWTransitionView.m in Sources */,
 				D7A6FB781EAD9CE1006EB894 /* PPTPreviewController.m in Sources */,
 				D79EF2F41EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m in Sources */,
@@ -1642,6 +1697,7 @@
 				D7A9EC7F1EE7AAF0008BFCD9 /* CombinationAnimationViewController.m in Sources */,
 				D7CC81FB1ECAF6F00085BDF9 /* NSOperationViewController.m in Sources */,
 				D738F19C1F9F1A870021605F /* LEDPageViewCell.m in Sources */,
+				D708C5B920BEBD0D00475A5C /* LEDZoomScrollView.m in Sources */,
 				D79EF2F01EF7DD1300ABFE31 /* NSURLProtocolWebViewController.m in Sources */,
 				D713B5751E66CB7800C93ADC /* LFDCaptureRQView.m in Sources */,
 				D7556AF71EA88F3900A31E44 /* BaiBanViewController.m in Sources */,
@@ -1662,11 +1718,13 @@
 				D713B58A1E66CB7800C93ADC /* GameConrierView.m in Sources */,
 				D713B5791E66CB7800C93ADC /* SystemQRViewController.m in Sources */,
 				D752981E1F21EF5100955D02 /* LiveThirdReplayKitViewController.m in Sources */,
+				D722384620EE057D00FA8EB9 /* ShowMessageButton.m in Sources */,
 				D73937E61E8115D50014FEE6 /* MenuModel.m in Sources */,
 				D713B53B1E66CB7800C93ADC /* CAbasicAbunatuinViewController.m in Sources */,
 				D738F1991F9F15090021605F /* LEDBookView.m in Sources */,
 				D713B5401E66CB7800C93ADC /* CoreTextViewController.m in Sources */,
 				D713B52E1E66CB7800C93ADC /* PhotoCollectionViewCell.m in Sources */,
+				D7D6EB2A20D36C8100DC5939 /* SecondView.m in Sources */,
 				D738F1941F9DEF5E0021605F /* BookView.m in Sources */,
 				D713B5851E66CB7800C93ADC /* ContinerViewController.m in Sources */,
 				D713B5951E66CB7800C93ADC /* LFDWTransitionContainerViewController.m in Sources */,
@@ -1685,6 +1743,7 @@
 				D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */,
 				D7B9FDBE1E724A3400588118 /* DoubleBollViewController.m in Sources */,
 				D7551DCA1EF2369F00FDA42B /* LEDSelectColorView.m in Sources */,
+				D7D6EB2320D36B5A00DC5939 /* TestGesturesViewController.m in Sources */,
 				D7556B161EA89B5E00A31E44 /* WFCapture.m in Sources */,
 				D783550F1FB03D8F00E3A764 /* SystemFontViewController.m in Sources */,
 			);
@@ -1889,7 +1948,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Letv Information Technology(Beijing)Co.,Ltd";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 23Y8ZFVDD6;
+				DEVELOPMENT_TEAM = 82PK8D967W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;
@@ -1912,7 +1971,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Distribution: Letv Information Technology(Beijing)Co.,Ltd";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				DEVELOPMENT_TEAM = 23Y8ZFVDD6;
+				DEVELOPMENT_TEAM = 82PK8D967W;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = /Users/ouxuesen/ouxueseDemo/OXSFunctionDemo/PrefixHeader.pch;
 				INFOPLIST_FILE = OXSFunctionDemo/Info.plist;

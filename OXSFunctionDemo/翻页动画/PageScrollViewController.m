@@ -11,6 +11,7 @@
 #import "BookView.h"
 
 #import "LEDBookView.h"
+#import "LEDZoomScrollView.h"
 
 @interface PageScrollViewController ()
 
@@ -23,10 +24,14 @@
     // Do any additional setup after loading the view from its nib.
     BookLayout *layout = [[BookLayout alloc] init];
     BookView *book = [[BookView alloc] initWithFrame:CGRectMake(10, 100, 600, 270) collectionViewLayout:layout];
-    [self.view addSubview:book];
+//    [self.view addSubview:book];
     
     LEDBookView *bookView= [[LEDBookView alloc]initWithFrame:CGRectMake(10, 140, 120, 60)];
-    [self.view addSubview:bookView];
+//    [self.view addSubview:bookView];
+    
+    LEDZoomScrollView*zoomScrollVIew= [[LEDZoomScrollView alloc]init];
+    zoomScrollVIew.frame = CGRectMake(10, 100, 300, 270);
+    [self.view addSubview:zoomScrollVIew];
 }
 
 - (void)didReceiveMemoryWarning {
