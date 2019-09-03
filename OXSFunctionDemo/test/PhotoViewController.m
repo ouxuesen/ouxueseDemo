@@ -21,7 +21,7 @@
         data = [[MCGetImageAndVideoData alloc]init];
 
     }
-    [data selectMediaType:MediaType_MOREPHOTOALBUM presentVC:self comleteBlock:^(id data) {
+    [data selectMediaType:MediaType_PHOTOALBUM presentVC:self comleteBlock:^(id data) {
         
     }];
 }

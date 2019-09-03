@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0700"
+   LastUpgradeVersion = "0930"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -13,11 +13,11 @@
             buildForProfiling = "YES"
             buildForArchiving = "YES">
             <BuildableReference
-               BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'C8FE7A6827DCC5EA606751B6BBDBCE7C'
-               BlueprintName = 'ZXingObjC'
-               ReferencedContainer = 'container:Pods.xcodeproj'
-               BuildableName = 'libZXingObjC.a'>
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "4FF8CFC4EF11F4F9AC2859D7D12AA2FC"
+               BuildableName = "libZXingObjC.a"
+               BlueprintName = "ZXingObjC"
+               ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

@@ -86,10 +86,6 @@
 		D713B5811E66CB7800C93ADC /* LFDMonthSelectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B4F21E66CB7800C93ADC /* LFDMonthSelectViewController.xib */; };
 		D713B5821E66CB7800C93ADC /* MouthCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4F41E66CB7800C93ADC /* MouthCollectionViewCell.m */; };
 		D713B5831E66CB7800C93ADC /* MouthCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B4F51E66CB7800C93ADC /* MouthCollectionViewCell.xib */; };
-		D713B5841E66CB7800C93ADC /* CAShapeLayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4F81E66CB7800C93ADC /* CAShapeLayer+Animation.m */; };
-		D713B5851E66CB7800C93ADC /* ContinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4FA1E66CB7800C93ADC /* ContinerViewController.m */; };
-		D713B5861E66CB7800C93ADC /* ContinerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B4FB1E66CB7800C93ADC /* ContinerViewController.xib */; };
-		D713B5871E66CB7800C93ADC /* LFDCoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B4FD1E66CB7800C93ADC /* LFDCoordinateView.m */; };
 		D713B5891E66CB7800C93ADC /* CreatCellView.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5011E66CB7800C93ADC /* CreatCellView.m */; };
 		D713B58A1E66CB7800C93ADC /* GameConrierView.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5031E66CB7800C93ADC /* GameConrierView.m */; };
 		D713B58B1E66CB7800C93ADC /* GaMeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D713B5051E66CB7800C93ADC /* GaMeViewController.m */; };
@@ -111,6 +107,10 @@
 		D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D713B5241E66CB7800C93ADC /* GradientViewController.xib */; };
 		D713B59E1E66D14E00C93ADC /* update.json in Resources */ = {isa = PBXBuildFile; fileRef = D713B59D1E66D14E00C93ADC /* update.json */; };
 		D722384620EE057D00FA8EB9 /* ShowMessageButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D722384420EE057C00FA8EB9 /* ShowMessageButton.m */; };
+		D72709EA230A482900D821AD /* CAShapeLayer+Animation.m in Sources */ = {isa = PBXBuildFile; fileRef = D72709E5230A482800D821AD /* CAShapeLayer+Animation.m */; };
+		D72709EB230A482900D821AD /* LFDCoordinateView.m in Sources */ = {isa = PBXBuildFile; fileRef = D72709E7230A482800D821AD /* LFDCoordinateView.m */; };
+		D72709EC230A482900D821AD /* ContinerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D72709E8230A482900D821AD /* ContinerViewController.xib */; };
+		D72709ED230A482900D821AD /* ContinerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D72709E9230A482900D821AD /* ContinerViewController.m */; };
 		D731883B1FC2F48B00CD95BB /* vedioPath.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */; };
 		D731883E1FC2F84000CD95BB /* NSString+Common.m in Sources */ = {isa = PBXBuildFile; fileRef = D731883C1FC2F83F00CD95BB /* NSString+Common.m */; };
 		D738F18A1F9DEE630021605F /* PageScrollViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D738F1881F9DEE630021605F /* PageScrollViewController.m */; };
@@ -353,13 +353,6 @@
 		D713B4F31E66CB7800C93ADC /* MouthCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MouthCollectionViewCell.h; sourceTree = "<group>"; };
 		D713B4F41E66CB7800C93ADC /* MouthCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MouthCollectionViewCell.m; sourceTree = "<group>"; };
 		D713B4F51E66CB7800C93ADC /* MouthCollectionViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MouthCollectionViewCell.xib; sourceTree = "<group>"; };
-		D713B4F71E66CB7800C93ADC /* CAShapeLayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Animation.h"; sourceTree = "<group>"; };
-		D713B4F81E66CB7800C93ADC /* CAShapeLayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Animation.m"; sourceTree = "<group>"; };
-		D713B4F91E66CB7800C93ADC /* ContinerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinerViewController.h; sourceTree = "<group>"; };
-		D713B4FA1E66CB7800C93ADC /* ContinerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinerViewController.m; sourceTree = "<group>"; };
-		D713B4FB1E66CB7800C93ADC /* ContinerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContinerViewController.xib; sourceTree = "<group>"; };
-		D713B4FC1E66CB7800C93ADC /* LFDCoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCoordinateView.h; sourceTree = "<group>"; };
-		D713B4FD1E66CB7800C93ADC /* LFDCoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCoordinateView.m; sourceTree = "<group>"; };
 		D713B5001E66CB7800C93ADC /* CreatCellView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreatCellView.h; sourceTree = "<group>"; };
 		D713B5011E66CB7800C93ADC /* CreatCellView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreatCellView.m; sourceTree = "<group>"; };
 		D713B5021E66CB7800C93ADC /* GameConrierView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConrierView.h; sourceTree = "<group>"; };
@@ -395,6 +388,13 @@
 		D713B59D1E66D14E00C93ADC /* update.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = update.json; sourceTree = "<group>"; };
 		D722384420EE057C00FA8EB9 /* ShowMessageButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShowMessageButton.m; sourceTree = "<group>"; };
 		D722384520EE057D00FA8EB9 /* ShowMessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShowMessageButton.h; sourceTree = "<group>"; };
+		D72709E3230A482800D821AD /* LFDCoordinateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LFDCoordinateView.h; sourceTree = "<group>"; };
+		D72709E4230A482800D821AD /* CAShapeLayer+Animation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CAShapeLayer+Animation.h"; sourceTree = "<group>"; };
+		D72709E5230A482800D821AD /* CAShapeLayer+Animation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CAShapeLayer+Animation.m"; sourceTree = "<group>"; };
+		D72709E6230A482800D821AD /* ContinerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContinerViewController.h; sourceTree = "<group>"; };
+		D72709E7230A482800D821AD /* LFDCoordinateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LFDCoordinateView.m; sourceTree = "<group>"; };
+		D72709E8230A482900D821AD /* ContinerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContinerViewController.xib; sourceTree = "<group>"; };
+		D72709E9230A482900D821AD /* ContinerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContinerViewController.m; sourceTree = "<group>"; };
 		D731883A1FC2F48B00CD95BB /* vedioPath.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = vedioPath.mp4; sourceTree = "<group>"; };
 		D731883C1FC2F83F00CD95BB /* NSString+Common.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Common.m"; sourceTree = "<group>"; };
 		D731883D1FC2F84000CD95BB /* NSString+Common.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Common.h"; sourceTree = "<group>"; };
@@ -955,13 +955,13 @@
 		D713B4F61E66CB7800C93ADC /* 房京东走势图 */ = {
 			isa = PBXGroup;
 			children = (
-				D713B4F71E66CB7800C93ADC /* CAShapeLayer+Animation.h */,
-				D713B4F81E66CB7800C93ADC /* CAShapeLayer+Animation.m */,
-				D713B4F91E66CB7800C93ADC /* ContinerViewController.h */,
-				D713B4FA1E66CB7800C93ADC /* ContinerViewController.m */,
-				D713B4FB1E66CB7800C93ADC /* ContinerViewController.xib */,
-				D713B4FC1E66CB7800C93ADC /* LFDCoordinateView.h */,
-				D713B4FD1E66CB7800C93ADC /* LFDCoordinateView.m */,
+				D72709E4230A482800D821AD /* CAShapeLayer+Animation.h */,
+				D72709E5230A482800D821AD /* CAShapeLayer+Animation.m */,
+				D72709E6230A482800D821AD /* ContinerViewController.h */,
+				D72709E9230A482900D821AD /* ContinerViewController.m */,
+				D72709E8230A482900D821AD /* ContinerViewController.xib */,
+				D72709E3230A482800D821AD /* LFDCoordinateView.h */,
+				D72709E7230A482800D821AD /* LFDCoordinateView.m */,
 			);
 			path = "房京东走势图";
 			sourceTree = "<group>";
@@ -1321,7 +1321,6 @@
 				D713B4211E66CA2500C93ADC /* Sources */,
 				D713B4221E66CA2500C93ADC /* Frameworks */,
 				D713B4231E66CA2500C93ADC /* Resources */,
-				2C8393B10DEAE167EF948415 /* [CP] Embed Pods Frameworks */,
 				B1B9DDA02A65AAB084FB998B /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
@@ -1359,8 +1358,6 @@
 				D713B4451E66CA2600C93ADC /* Sources */,
 				D713B4461E66CA2600C93ADC /* Frameworks */,
 				D713B4471E66CA2600C93ADC /* Resources */,
-				47ED45CE759818B7E69845A1 /* [CP] Embed Pods Frameworks */,
-				9350321FE8A1C43A7E589BA1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -1378,7 +1375,7 @@
 		D713B41D1E66CA2500C93ADC /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0900;
+				LastUpgradeCheck = 1020;
 				ORGANIZATIONNAME = ouxuesen;
 				TargetAttributes = {
 					D713B4241E66CA2500C93ADC = {
@@ -1406,6 +1403,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 				"zh-Hans",
@@ -1463,6 +1461,7 @@
 				D7A9EC881EE8EC46008BFCD9 /* d2_xingxing_weiba@2x.png in Resources */,
 				D713B5391E66CB7800C93ADC /* LaunchScreen.storyboard in Resources */,
 				D7A6FB811EADA0A8006EB894 /* 教师APP.pdf in Resources */,
+				D72709EC230A482900D821AD /* ContinerViewController.xib in Resources */,
 				D713B59C1E66CB7800C93ADC /* GradientViewController.xib in Resources */,
 				D713B5251E66CB7800C93ADC /* appIcon@2x.png in Resources */,
 				D713B5921E66CB7800C93ADC /* LFDWFirstTransitionView.xib in Resources */,
@@ -1506,7 +1505,6 @@
 				D713B53A1E66CB7800C93ADC /* Main.storyboard in Resources */,
 				D7551D941EEE432400FDA42B /* logo_shu_1@2x.png in Resources */,
 				D713B57F1E66CB7800C93ADC /* JumpAppstoreViewController.xib in Resources */,
-				D713B5861E66CB7800C93ADC /* ContinerViewController.xib in Resources */,
 				D7551D961EEE432D00FDA42B /* logo_shu_2@2x.png in Resources */,
 				D713B5961E66CB7800C93ADC /* LFDWTransitionContainerViewController.xib in Resources */,
 				D713B56D1E66CB7800C93ADC /* 新浪首页.html in Resources */,
@@ -1540,21 +1538,6 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		2C8393B10DEAE167EF948415 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		449769A4084EA280EBB2611D /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -1571,21 +1554,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		47ED45CE759818B7E69845A1 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemoUITests/Pods-OXSFunctionDemoUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5251C037E15700CF934EF14A /* [CP] Check Pods Manifest.lock */ = {
@@ -1606,37 +1574,22 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		9350321FE8A1C43A7E589BA1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemoUITests/Pods-OXSFunctionDemoUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		B1B9DDA02A65AAB084FB998B /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-resources.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-resources.sh",
 				"${PODS_ROOT}/SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SVProgressHUD.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-OXSFunctionDemo/Pods-OXSFunctionDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1650,6 +1603,7 @@
 				D7D6EB2720D36C7400DC5939 /* FristView.m in Sources */,
 				D713B5971E66CB7800C93ADC /* LFDWTransitionView.m in Sources */,
 				D7A6FB781EAD9CE1006EB894 /* PPTPreviewController.m in Sources */,
+				D72709EB230A482900D821AD /* LFDCoordinateView.m in Sources */,
 				D79EF2F41EF7DD5F00ABFE31 /* ReplacingImageURLProtocol.m in Sources */,
 				D713B56F1E66CB7800C93ADC /* KeyWindowLevelViewController.m in Sources */,
 				D713B5621E66CB7800C93ADC /* MenuViewController.m in Sources */,
@@ -1657,6 +1611,7 @@
 				D713B5641E66CB7800C93ADC /* LFDWPickSheetView.m in Sources */,
 				D7556AFB1EA88F3900A31E44 /* SelectColorEasyView.m in Sources */,
 				D713B5891E66CB7800C93ADC /* CreatCellView.m in Sources */,
+				D72709ED230A482900D821AD /* ContinerViewController.m in Sources */,
 				D713B5911E66CB7800C93ADC /* LFDWFirstTransitionView.m in Sources */,
 				D78BFA431E978D3A005853D0 /* WebSoctetTestViewController.m in Sources */,
 				D713B5321E66CB7800C93ADC /* MCPhotoShowViewController.m in Sources */,
@@ -1664,9 +1619,9 @@
 				D713B5741E66CB7800C93ADC /* LFDCaptureRQImage.m in Sources */,
 				D7BD7EB11EC1754200BD174C /* RecordDateManager.m in Sources */,
 				D713B59A1E66CB7800C93ADC /* CFGradientLabel.m in Sources */,
+				D72709EA230A482900D821AD /* CAShapeLayer+Animation.m in Sources */,
 				D713B5651E66CB7800C93ADC /* UIView+AutoLayout.m in Sources */,
 				D7CC81F21ECAF62E0085BDF9 /* ThreadDemoViewController.m in Sources */,
-				D713B5841E66CB7800C93ADC /* CAShapeLayer+Animation.m in Sources */,
 				D793D65C1E80FCD7008CA4E5 /* MenuTableViewCell.m in Sources */,
 				D713B5721E66CB7800C93ADC /* ZxingDemoViewController.m in Sources */,
 				D713B53F1E66CB7800C93ADC /* CoreTextLabel.m in Sources */,
@@ -1679,7 +1634,6 @@
 				D756829C1F09E95F0092BD36 /* GraphicsAnimationViewController.m in Sources */,
 				D713B42D1E66CA2500C93ADC /* AppDelegate.m in Sources */,
 				D713B5771E66CB7800C93ADC /* ScanCaptureQRViewController.m in Sources */,
-				D713B5871E66CB7800C93ADC /* LFDCoordinateView.m in Sources */,
 				D738F1911F9DEED10021605F /* BookLayout.m in Sources */,
 				D713B5801E66CB7800C93ADC /* LFDMonthSelectViewController.m in Sources */,
 				D713B5661E66CB7800C93ADC /* RuntimeDemoViewController.m in Sources */,
@@ -1726,7 +1680,6 @@
 				D713B52E1E66CB7800C93ADC /* PhotoCollectionViewCell.m in Sources */,
 				D7D6EB2A20D36C8100DC5939 /* SecondView.m in Sources */,
 				D738F1941F9DEF5E0021605F /* BookView.m in Sources */,
-				D713B5851E66CB7800C93ADC /* ContinerViewController.m in Sources */,
 				D713B5951E66CB7800C93ADC /* LFDWTransitionContainerViewController.m in Sources */,
 				D7A021E81FE130540058F886 /* LEDReplayKitRecordScreen.m in Sources */,
 				D713B58E1E66CB7800C93ADC /* PictureHeardPullViewControll.m in Sources */,
@@ -1851,6 +1804,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1858,6 +1812,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -1906,6 +1861,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -1913,6 +1869,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
